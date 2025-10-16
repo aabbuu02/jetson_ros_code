@@ -320,6 +320,10 @@ void ModbusController::readCommands(readParameters &readParam) {
     m_mission_completed_ = missionFeedback[9];
     m_buffer_feedback_ = m_modbus_device_.m_registerData[m_buffer_feedback_pin_].to_ulong();
     
+    // Log confirmation feedback like ROS1
+    RCLCPP_INFO_STREAM(node_->get_logger(), "Confirmation f/b :  " << m_mission_updated_ << 
+        "  Mission status :  " << m_mission_completed_ << "   Top_module :" << m_top_module_initiated_);
+    
     RCLCPP_DEBUG_STREAM(node_->get_logger(), "Left Encoder: " << readParam.m_leftMotorEncoder <<
         " Right Encoder: " << readParam.m_rightMotorEncoder);
 }

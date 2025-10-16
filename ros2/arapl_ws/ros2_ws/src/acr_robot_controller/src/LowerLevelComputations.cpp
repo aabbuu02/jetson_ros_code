@@ -153,6 +153,9 @@ void LowerLevelComputations::computeOdometry(uint32_t deltaTime, const readParam
     double linearVel = (deltaTimeSec > 0) ? deltaDistance / deltaTimeSec : 0.0;
     double angularVel = (deltaTimeSec > 0) ? deltaTheta / deltaTimeSec : 0.0;
     
+    // Log velocity like ROS1
+    RCLCPP_WARN(node_->get_logger(), "v : %f w: %f", linearVel, angularVel);
+    
     // Create quaternion from yaw
     tf2::Quaternion q;
     q.setRPY(0, 0, m_theta);

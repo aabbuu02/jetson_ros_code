@@ -105,6 +105,9 @@ void LowerLevelInterface::controlFlow()
     
     diagnoseMotorControllerHealth(readParam, cmdVel);
     
+    // Log velocity like ROS1
+    RCLCPP_WARN(node_->get_logger(), "Linear : %f   Angular : %f", cmdVel.linear.x, cmdVel.angular.z);
+    
     p_lowerLevelComputation->updateOdometry(static_cast<uint32_t>(m_deltaTime), 
                                            readParam, m_odom);
     
