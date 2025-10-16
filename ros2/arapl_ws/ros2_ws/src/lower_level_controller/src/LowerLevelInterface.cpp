@@ -29,12 +29,12 @@ void LowerLevelInterface::initializeParameters() {
     // Robot parameters
     node_->declare_parameter("robot.wheel_seperation", 0.90);
     node_->declare_parameter("robot.wheel_radius", 0.101);
-    node_->declare_parameter("robot.TPR", 16384);
+    node_->declare_parameter("robot.TPR", 16384.0);  // Declare as double
     node_->declare_parameter("robot.linear_vel_limit", 1.0);
     node_->declare_parameter("robot.angular_vel_limit", 1.0);
     node_->declare_parameter("robot.linear_acc_limit", 100.2);
     node_->declare_parameter("robot.linear_decc_limit", 100.2);
-    node_->declare_parameter("robot.gearRatio", 9);
+    node_->declare_parameter("robot.gearRatio", 9.0);  // Declare as double
     
     // Get parameter values
     m_controller_type_ = node_->get_parameter("controller_type").as_int();
