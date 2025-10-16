@@ -25,31 +25,27 @@ LowerLevelInterface::~LowerLevelInterface()
 
 void LowerLevelInterface::initializeParameters()
 {
-    // Declare parameters with default values
-    node_->declare_parameter("controller_type", 1);
-    node_->declare_parameter("publish_tf", true);
-    node_->declare_parameter("odom_frame", std::string("odom_frame"));
-    node_->declare_parameter("base_frame", std::string("base_footprint"));
-    node_->declare_parameter("cmd_topic", std::string("cmd_vel"));
-    node_->declare_parameter("odom_topic", std::string("odom"));
-    node_->declare_parameter("barcode_global_topic", std::string("barcode/global"));
-    node_->declare_parameter("emergency_stop_topic", std::string("e_stop"));
-    node_->declare_parameter("battery_topic", std::string("bms_data/battery_state"));
-    node_->declare_parameter("debug_cmd_topic", std::string("debug/cmd_vel"));
-    node_->declare_parameter("cmd_vel_timeout", 0.5);
-    node_->declare_parameter("roboteq_port", std::string("/dev/roboteq"));
-    
-    // Robot parameters
-    node_->declare_parameter("robot.wheel_seperation", 0.90);
-    node_->declare_parameter("robot.wheel_radius", 0.101);
-    node_->declare_parameter("robot.TPR", 16384);
-    node_->declare_parameter("robot.linear_vel_limit", 3.0);
-    node_->declare_parameter("robot.angular_vel_limit", 1.0);
-    node_->declare_parameter("robot.gearRatio", 9);
-    
-    // Get parameter values
+    // Only get parameter values, don't declare them (they're already declared in RosClass)
     m_controllerType = node_->get_parameter("controller_type").as_int();
     m_publishTF = node_->get_parameter("publish_tf").as_bool();
+    m_odomFrame = node_->get_parameter("odom_frame").as_string();
+    m_baseFrame = node_->get_parameter("base_frame").as_string();
+    m_cmdVelTopic = node_->get_parameter("cmd_topic").as_string();
+    m_odomTopic = node_->get_parameter("odom_topic").as_string();
+    m_barcodeGlobalTopic = node_->get_parameter("barcode_global_topic").as_string();
+    m_emergencyStopTopic = node_->get_parameter("emergency_stop_topic").as_string();
+    m_batteryTopic = node_->get_parameter("battery_topic").as_string();
+    m_debugCmdVelTopic = node_->get_parameter("debug_cmd_topic").as_string();
+    m_cmdVelTimeout = node_->get_parameter("cmd_vel_timeout").as_double();
+    m_roboteqPort = node_->get_parameter("roboteq_port").as_string();
+    
+    // Robot parameters
+    m_wheelSeperation = node_->get_parameter("robot.wheel_seperation").as_double();
+    m_wheelRadius = node_->get_parameter("robot.wheel_radius").as_double();
+    m_TPR = node_->get_parameter("robot.TPR").as_int();
+    m_linearVelocityLimit = node_->get_parameter("robot.linear_vel_limit").as_double();
+    m_angularVelocityLimit = node_->get_parameter("robot.angular_vel_limit").as_double();
+    m_gearRatio = node_->get_parameter("robot.gearRatio").as_int();
     
     m_odom.pose.pose.orientation.z = 0.0;
     m_odom.pose.pose.orientation.w = 1.0;
