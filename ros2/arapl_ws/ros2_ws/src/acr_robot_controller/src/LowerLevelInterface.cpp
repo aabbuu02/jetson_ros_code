@@ -25,9 +25,29 @@ LowerLevelInterface::~LowerLevelInterface()
 
 void LowerLevelInterface::initializeParameters()
 {
-    //node_->declare_parameter("controller_type", 1);
-    //node_->declare_parameter("publish_tf", true);
+    // Declare parameters with default values
+    node_->declare_parameter("controller_type", 1);
+    node_->declare_parameter("publish_tf", true);
+    node_->declare_parameter("odom_frame", std::string("odom_frame"));
+    node_->declare_parameter("base_frame", std::string("base_footprint"));
+    node_->declare_parameter("cmd_topic", std::string("cmd_vel"));
+    node_->declare_parameter("odom_topic", std::string("odom"));
+    node_->declare_parameter("barcode_global_topic", std::string("barcode/global"));
+    node_->declare_parameter("emergency_stop_topic", std::string("e_stop"));
+    node_->declare_parameter("battery_topic", std::string("bms_data/battery_state"));
+    node_->declare_parameter("debug_cmd_topic", std::string("debug/cmd_vel"));
+    node_->declare_parameter("cmd_vel_timeout", 0.5);
+    node_->declare_parameter("roboteq_port", std::string("/dev/roboteq"));
     
+    // Robot parameters
+    node_->declare_parameter("robot.wheel_seperation", 0.90);
+    node_->declare_parameter("robot.wheel_radius", 0.101);
+    node_->declare_parameter("robot.TPR", 16384);
+    node_->declare_parameter("robot.linear_vel_limit", 3.0);
+    node_->declare_parameter("robot.angular_vel_limit", 1.0);
+    node_->declare_parameter("robot.gearRatio", 9);
+    
+    // Get parameter values
     m_controllerType = node_->get_parameter("controller_type").as_int();
     m_publishTF = node_->get_parameter("publish_tf").as_bool();
     
