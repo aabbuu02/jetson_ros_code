@@ -1,0 +1,2 @@
+string original_map_name
+string cropped_map_index

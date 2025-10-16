@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fee906807bf547e3b134.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "qr_navigation__py",
+					"jsonFile" : "directory-qr_navigation__py-5e3e1e0791e95debb082.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/ros2_ws/build/qr_navigation/qr_navigation__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "qr_navigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_qr_navigation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_qr_navigation_egg-7d6b9df838fca98002a1.json",
+					"name" : "ament_cmake_python_build_qr_navigation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_qr_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_qr_navigation-149b8945021bfd2d8e26.json",
+					"name" : "ament_cmake_python_copy_qr_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_node-d771f540996d00c28bef.json",
+					"name" : "battery_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation-59260dabc225c14b41d3.json",
+					"name" : "qr_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__cpp-636c84674f5d02647746.json",
+					"name" : "qr_navigation__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qr_navigation__py::@87e8128028c7de793541",
+					"jsonFile" : "target-qr_navigation__py-3c4624c8d4daf245dc56.json",
+					"name" : "qr_navigation__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_generator_c-94fdc53866d4bc39a294.json",
+					"name" : "qr_navigation__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_generator_py-ace05f33636af725ad6b.json",
+					"name" : "qr_navigation__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_c-50db6ee09ee379225735.json",
+					"name" : "qr_navigation__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_c__pyext-9e57231af0b083583c8b.json",
+					"name" : "qr_navigation__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_cpp-62f5f6a3524753aff251.json",
+					"name" : "qr_navigation__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_fastrtps_c-2517bbf31bde3b74444d.json",
+					"name" : "qr_navigation__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_fastrtps_c__pyext-b9ced390799951ce58b1.json",
+					"name" : "qr_navigation__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_fastrtps_cpp-6f8015d96d1f9da809a0.json",
+					"name" : "qr_navigation__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_introspection_c-a760e3b5825796fa184f.json",
+					"name" : "qr_navigation__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_introspection_c__pyext-18d1b11c7ec8d13f612b.json",
+					"name" : "qr_navigation__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation__rosidl_typesupport_introspection_cpp-7d5b2429689e0ffb6a4b.json",
+					"name" : "qr_navigation__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation_node-00d0a8137c25a960d53e.json",
+					"name" : "qr_navigation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_navigation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_navigation_uninstall-f450197e86f54e5d4f63.json",
+					"name" : "qr_navigation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cc5626e23154bd481886.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/qr_navigation",
+		"source" : "/ros2_ws/src/qr_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

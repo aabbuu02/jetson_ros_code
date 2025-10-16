@@ -1,0 +1,4 @@
+source;share/anscer_teleop/local_setup.bash
+source;share/anscer_teleop/local_setup.dsv
+source;share/anscer_teleop/local_setup.sh
+source;share/anscer_teleop/local_setup.zsh

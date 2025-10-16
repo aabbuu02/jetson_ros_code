@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/devel
+
+Name: lower_level_controller
+Description: Description of lower_level_controller
+Version: 0.0.0
+Cflags: -I/home/nvidia/Desktop/arapl_ws/devel/include -I/home/nvidia/Desktop/arapl_ws/src/lower_level_controller/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy std_msgs actionlib lift_action

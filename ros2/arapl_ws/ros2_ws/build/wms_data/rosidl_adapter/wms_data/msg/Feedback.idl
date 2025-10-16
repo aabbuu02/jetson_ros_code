@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wms_data/msg/Feedback.msg
+// generated code does not contain a copyright notice
+
+
+module wms_data {
+  module msg {
+    struct Feedback {
+      string unique_id;
+
+      int16 acr_shelf;
+
+      int16 action;
+
+      boolean status;
+
+      boolean fail_status;
+    };
+  };
+};

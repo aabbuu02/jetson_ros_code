@@ -1,0 +1,2 @@
+string mission_id
+string task_id

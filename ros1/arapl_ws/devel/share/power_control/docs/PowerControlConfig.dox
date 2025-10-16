@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~enable_system_power_control" : \b [bool] Enable/Disable sytem power control for testing min: False, default: False, max: True
+- \b "~enable_slave_power_control" : \b [bool] Enable/Disable slave system power control for testing min: False, default: False, max: True
+

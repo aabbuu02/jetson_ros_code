@@ -1,0 +1,2 @@
+set(graph_creator_msgs_MESSAGE_FILES "msg/GraphCreatorMode.msg;msg/EdgeCreationType.msg;msg/EdgeDirectionCreationType.msg;msg/GraphCreatorState.msg;msg/GraphGeneratorConfig.msg;msg/SelectedGraphElements.msg;msg/SnapPoseConfig.msg")
+set(graph_creator_msgs_SERVICE_FILES "srv/SetGraphCreatorMode.srv;srv/SetEdgeCreationType.srv;srv/SetEdgeDirectionCreationType.srv;srv/GetGraphCreatorState.srv;srv/GenerateGraph.srv;srv/SetSnapPose.srv")

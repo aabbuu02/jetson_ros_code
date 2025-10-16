@@ -1,0 +1,9 @@
+bool lifterFault
+bool extractorFault
+bool turnTableFault
+bool swingArmFault
+bool emergencyPBfault
+bool swingArmSensorZeroFault
+bool swingArmSensorNinetyFault
+bool turntableSensorZeroFault
+bool extractorSensorLaserFault

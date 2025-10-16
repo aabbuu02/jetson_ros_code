@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from graph_msgs/srv/LoadGraph.srv
+// generated code does not contain a copyright notice
+
+#include "graph_msgs/msg/Graph.idl"
+
+module graph_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Either use absolute path to the graph file like /path/to/graph.graphml or" "\n"
+      "use a relative path to a package. For example, package_name/graphs/graph.graphml." "\n"
+      "In case of graph file being relative to a package, use of '/' is not required.")
+    struct LoadGraph_Request {
+      @verbatim (language="comment", text=
+        "URL of graph resource")
+      string graph_url;
+    };
+    module LoadGraph_Response_Constants {
+      const uint8 RESULT_SUCCESS = 0;
+      const uint8 RESULT_GRAPH_DOES_NOT_EXIST = 1;
+      const uint8 RESULT_INVALID_GRAPH_FILE_PATH = 2;
+      const uint8 RESULT_UNDEFINED_FAILURE = 255;
+    };
+    @verbatim (language="comment", text=
+      "Result code definitions")
+    struct LoadGraph_Response {
+      @verbatim (language="comment", text=
+        "Returned graph is only valid if result equals RESULT_SUCCESS")
+      graph_msgs::msg::Graph graph;
+
+      uint8 result;
+    };
+  };
+};

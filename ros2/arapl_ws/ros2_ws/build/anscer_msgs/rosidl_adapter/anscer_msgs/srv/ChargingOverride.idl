@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/ChargingOverride.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct ChargingOverride_Request {
+      boolean charge_override;
+    };
+    struct ChargingOverride_Response {
+      boolean status;
+    };
+  };
+};

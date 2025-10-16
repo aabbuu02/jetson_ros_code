@@ -1,0 +1,210 @@
+[0.044s] Invoking command in '/ros2_ws/build/graph_creator': CMAKE_PREFIX_PATH=/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /ros2_ws/src/graph_creator -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/graph_creator
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.250s] -- Detecting C compiler ABI info
+[0.374s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.549s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.800s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.979s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.054s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.064s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.079s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.214s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.221s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.356s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.396s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.460s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.478s] -- Looking for pthread.h
+[1.598s] -- Looking for pthread.h - found
+[1.599s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.722s] -- Found Threads: TRUE  
+[1.820s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.873s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.894s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.955s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[1.973s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.082s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.107s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.109s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.109s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.111s] -- Found graph_msgs: 1.0.0 (/ros2_ws/install/graph_msgs/share/graph_msgs/cmake)
+[2.166s] -- Found graph_creator_msgs: 1.0.0 (/ros2_ws/install/graph_creator_msgs/share/graph_creator_msgs/cmake)
+[2.196s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.197s] -- Checking for module 'dxflib'
+[2.228s] --   Found dxflib, version 3.26.4
+[2.274s] -- Checking for module 'tinyxml'
+[2.303s] --   Found tinyxml, version 2.6.2
+[2.489s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.659s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.663s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.664s] -- Configured cppcheck include dirs: /ros2_ws/src/graph_creator/include
+[2.664s] -- Configured cppcheck exclude dirs and/or files: 
+[2.668s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.668s] -- Configured cpplint exclude dirs and/or files: 
+[2.669s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.671s] -- Added test 'lint_cmake' to check CMake code style
+[2.673s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.677s] -- Added test 'uncrustify' to check C / C++ code style
+[2.677s] -- Configured uncrustify additional arguments: 
+[2.678s] -- Added test 'xmllint' to check XML markup files
+[2.684s] -- Configuring done
+[2.813s] -- Generating done
+[2.862s] -- Build files have been written to: /ros2_ws/build/graph_creator
+[2.892s] Invoked command in '/ros2_ws/build/graph_creator' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /ros2_ws/src/graph_creator -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/graph_creator
+[2.896s] Invoking command in '/ros2_ws/build/graph_creator': CMAKE_PREFIX_PATH=/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/graph_creator -- -j12 -l12
+[2.982s] [  9%] [32mBuilding CXX object CMakeFiles/graph_file_utils.dir/src/graph_file_utils.cpp.o[0m
+[2.982s] [  9%] [32mBuilding CXX object CMakeFiles/directed_graph.dir/src/directed_graph.cpp.o[0m
+[8.513s] [ 13%] [32m[1mLinking CXX shared library libgraph_file_utils.so[0m
+[8.742s] [ 13%] Built target graph_file_utils
+[9.849s] [ 18%] [32m[1mLinking CXX shared library libdirected_graph.so[0m
+[10.128s] [ 18%] Built target directed_graph
+[10.165s] [ 22%] [32mBuilding CXX object CMakeFiles/graph_utils.dir/src/graph_utils.cpp.o[0m
+[17.290s] [ 27%] [32m[1mLinking CXX shared library libgraph_utils.so[0m
+[17.724s] [ 27%] Built target graph_utils
+[17.854s] [ 31%] [32mBuilding CXX object CMakeFiles/graph_saver.dir/src/graph_saver.cpp.o[0m
+[17.860s] [ 36%] [32mBuilding CXX object CMakeFiles/graph_curves.dir/src/graph_curves.cpp.o[0m
+[24.604s] [ 40%] [32m[1mLinking CXX shared library libgraph_curves.so[0m
+[24.858s] [ 45%] [32m[1mLinking CXX shared library libgraph_saver.so[0m
+[25.079s] [ 45%] Built target graph_saver
+[25.476s] [ 45%] Built target graph_curves
+[25.516s] [ 50%] [32mBuilding CXX object CMakeFiles/graph_transformers.dir/src/graph_transformers.cpp.o[0m
+[32.133s] [ 54%] [32m[1mLinking CXX shared library libgraph_transformers.so[0m
+[33.270s] [ 54%] Built target graph_transformers
+[33.397s] [ 59%] [32mBuilding CXX object CMakeFiles/dxf_graph_generator.dir/src/dxf_graph_generator.cpp.o[0m
+[33.412s] [ 63%] [32mBuilding CXX object CMakeFiles/graph_visuals.dir/src/graph_visuals.cpp.o[0m
+[41.238s] [ 68%] [32m[1mLinking CXX shared library libgraph_visuals.so[0m
+[41.530s] [ 68%] Built target graph_visuals
+[41.573s] [ 77%] [32mBuilding CXX object CMakeFiles/graph_loader.dir/src/graph_loader.cpp.o[0m
+[41.574s] [ 77%] [32mBuilding CXX object CMakeFiles/graph_generators.dir/src/graph_generators.cpp.o[0m
+[41.788s] In file included from [01m[K/usr/include/boost/math/tools/cxx03_warn.hpp:9[m[K,
+[41.788s]                  from [01m[K/usr/include/boost/math/constants/constants.hpp:11[m[K,
+[41.788s]                  from [01m[K/usr/include/boost/geometry/util/math.hpp:29[m[K,
+[41.788s]                  from [01m[K/usr/include/boost/geometry/core/radian_access.hpp:33[m[K,
+[41.788s]                  from [01m[K/usr/include/boost/geometry/geometry.hpp:51[m[K,
+[41.788s]                  from [01m[K/usr/include/boost/geometry.hpp:17[m[K,
+[41.788s]                  from [01m[K/ros2_ws/src/graph_creator/include/graph_creator/dxf_graph_generator.hpp:12[m[K,
+[41.788s]                  from [01m[K/ros2_ws/src/graph_creator/src/dxf_graph_generator.cpp:1[m[K:
+[41.789s] [01m[K/usr/include/boost/detail/no_exceptions_support.hpp:17:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <boost/core/no_exceptions_support.hpp> instead.[m[K’
+[41.789s]    17 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<boost/core/no_exceptions_support.hpp>")
+[41.789s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.478s] In file included from [01m[K/usr/include/boost/math/tools/cxx03_warn.hpp:9[m[K,
+[47.479s]                  from [01m[K/usr/include/boost/math/constants/constants.hpp:11[m[K,
+[47.479s]                  from [01m[K/usr/include/boost/geometry/util/math.hpp:29[m[K,
+[47.479s]                  from [01m[K/usr/include/boost/geometry/core/radian_access.hpp:33[m[K,
+[47.479s]                  from [01m[K/usr/include/boost/geometry/geometry.hpp:51[m[K,
+[47.479s]                  from [01m[K/usr/include/boost/geometry.hpp:17[m[K,
+[47.479s]                  from [01m[K/ros2_ws/src/graph_creator/include/graph_creator/dxf_graph_generator.hpp:12[m[K,
+[47.479s]                  from [01m[K/ros2_ws/src/graph_creator/include/graph_creator/graph_generators.hpp:9[m[K,
+[47.479s]                  from [01m[K/ros2_ws/src/graph_creator/src/graph_generators.cpp:1[m[K:
+[47.479s] [01m[K/usr/include/boost/detail/no_exceptions_support.hpp:17:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <boost/core/no_exceptions_support.hpp> instead.[m[K’
+[47.479s]    17 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<boost/core/no_exceptions_support.hpp>")
+[47.479s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.133s] [ 81%] [32m[1mLinking CXX shared library libgraph_loader.so[0m
+[48.390s] [ 81%] Built target graph_loader
+[49.607s] [ 86%] [32m[1mLinking CXX shared library libdxf_graph_generator.so[0m
+[49.940s] [ 86%] Built target dxf_graph_generator
+[52.956s] [ 90%] [32m[1mLinking CXX shared library libgraph_generators.so[0m
+[53.172s] [ 90%] Built target graph_generators
+[53.208s] [ 95%] [32mBuilding CXX object CMakeFiles/graph_creator.dir/src/graph_creator.cpp.o[0m
+[62.247s] In file included from [01m[K/usr/include/boost/math/tools/cxx03_warn.hpp:9[m[K,
+[62.248s]                  from [01m[K/usr/include/boost/math/constants/constants.hpp:11[m[K,
+[62.248s]                  from [01m[K/usr/include/boost/geometry/util/math.hpp:29[m[K,
+[62.248s]                  from [01m[K/usr/include/boost/geometry/core/radian_access.hpp:33[m[K,
+[62.248s]                  from [01m[K/usr/include/boost/geometry/geometry.hpp:51[m[K,
+[62.248s]                  from [01m[K/usr/include/boost/geometry.hpp:17[m[K,
+[62.248s]                  from [01m[K/ros2_ws/src/graph_creator/include/graph_creator/dxf_graph_generator.hpp:12[m[K,
+[62.248s]                  from [01m[K/ros2_ws/src/graph_creator/include/graph_creator/graph_generators.hpp:9[m[K,
+[62.248s]                  from [01m[K/ros2_ws/src/graph_creator/include/graph_creator/graph_creator.hpp:69[m[K,
+[62.248s]                  from [01m[K/ros2_ws/src/graph_creator/src/graph_creator.cpp:1[m[K:
+[62.248s] [01m[K/usr/include/boost/detail/no_exceptions_support.hpp:17:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <boost/core/no_exceptions_support.hpp> instead.[m[K’
+[62.248s]    17 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<boost/core/no_exceptions_support.hpp>")
+[62.248s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.907s] [100%] [32m[1mLinking CXX executable graph_creator[0m
+[125.263s] [100%] Built target graph_creator
+[125.286s] Invoked command in '/ros2_ws/build/graph_creator' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/graph_creator -- -j12 -l12
+[125.289s] Invoking command in '/ros2_ws/build/graph_creator': CMAKE_PREFIX_PATH=/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/graph_creator
+[125.301s] -- Install configuration: ""
+[125.301s] -- Installing: /ros2_ws/install/graph_creator/lib/libdirected_graph.so
+[125.303s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libdirected_graph.so" to ""
+[125.303s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_utils.so
+[125.304s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_utils.so" to ""
+[125.304s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_curves.so
+[125.305s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_curves.so" to ""
+[125.305s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_file_utils.so
+[125.305s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_file_utils.so" to ""
+[125.305s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_saver.so
+[125.306s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_saver.so" to ""
+[125.306s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_loader.so
+[125.307s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_loader.so" to ""
+[125.307s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_visuals.so
+[125.308s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_visuals.so" to ""
+[125.308s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_generators.so
+[125.308s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_generators.so" to ""
+[125.309s] -- Installing: /ros2_ws/install/graph_creator/lib/libdxf_graph_generator.so
+[125.311s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libdxf_graph_generator.so" to ""
+[125.311s] -- Installing: /ros2_ws/install/graph_creator/lib/libgraph_transformers.so
+[125.311s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/libgraph_transformers.so" to ""
+[125.312s] -- Installing: /ros2_ws/install/graph_creator/lib/graph_creator/graph_creator
+[125.339s] -- Set runtime path of "/ros2_ws/install/graph_creator/lib/graph_creator/graph_creator" to ""
+[125.339s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator
+[125.339s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator
+[125.340s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_generators.hpp
+[125.340s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_utils.hpp
+[125.340s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_creator.hpp
+[125.341s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_file_utils.hpp
+[125.341s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_colors.hpp
+[125.341s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_transformers.hpp
+[125.341s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/directed_graph.hpp
+[125.342s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_loader.hpp
+[125.342s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_saver.hpp
+[125.342s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_visuals.hpp
+[125.342s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/dxf_graph_generator.hpp
+[125.343s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_data_types.hpp
+[125.343s] -- Installing: /ros2_ws/install/graph_creator/include/graph_creator/graph_creator/graph_curves.hpp
+[125.343s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/launch
+[125.343s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/launch/graph_creator_rviz.launch.py
+[125.349s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/launch/graph_creator_planner.launch.py
+[125.350s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/launch/graph_creator_map.launch.py
+[125.350s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/launch/graph_creator.launch.py
+[125.351s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/config
+[125.351s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/config/costmap_common_params.yaml
+[125.351s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/config/global_costmap_params.yaml
+[125.352s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/rviz
+[125.352s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/rviz/graph_creator.rviz
+[125.352s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/maps
+[125.352s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/maps/test_map.pgm
+[125.354s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/maps/willow_garage.yaml
+[125.355s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/maps/test_map.yaml
+[125.355s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/maps/willow_garage.pgm
+[125.381s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/environment/library_path.sh
+[125.381s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/environment/library_path.dsv
+[125.381s] -- Installing: /ros2_ws/install/graph_creator/share/ament_index/resource_index/package_run_dependencies/graph_creator
+[125.382s] -- Installing: /ros2_ws/install/graph_creator/share/ament_index/resource_index/parent_prefix_path/graph_creator
+[125.382s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/environment/ament_prefix_path.sh
+[125.382s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/environment/ament_prefix_path.dsv
+[125.382s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/environment/path.sh
+[125.383s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/environment/path.dsv
+[125.383s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/local_setup.bash
+[125.383s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/local_setup.sh
+[125.384s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/local_setup.zsh
+[125.384s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/local_setup.dsv
+[125.384s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/package.dsv
+[125.384s] -- Installing: /ros2_ws/install/graph_creator/share/ament_index/resource_index/packages/graph_creator
+[125.385s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/cmake/ament_cmake_export_include_directories-extras.cmake
+[125.385s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/cmake/ament_cmake_export_libraries-extras.cmake
+[125.385s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/cmake/ament_cmake_export_dependencies-extras.cmake
+[125.385s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/cmake/graph_creatorConfig.cmake
+[125.385s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/cmake/graph_creatorConfig-version.cmake
+[125.386s] -- Installing: /ros2_ws/install/graph_creator/share/graph_creator/package.xml
+[125.390s] Invoked command in '/ros2_ws/build/graph_creator' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/graph_creator

@@ -1,0 +1,70 @@
+[0.019s] Invoking command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/graph_visual_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/src/graph_visual_control/install/graph_visual_control
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.362s] -- Detecting C compiler ABI info - done
+[0.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.395s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.580s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.848s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.959s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.075s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.163s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.177s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.194s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.342s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.350s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.517s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.555s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.640s] -- Looking for pthread.h
+[1.785s] -- Looking for pthread.h - found
+[1.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.961s] -- Found Threads: TRUE  
+[2.054s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.112s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.162s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.182s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.208s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.263s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[2.281s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.315s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.366s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.396s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.398s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.398s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.402s] -- Found graph_msgs: 1.0.0 (/ros2_ws/install/graph_msgs/share/graph_msgs/cmake)
+[2.434s] -- Found anscer_msgs: 0.0.0 (/ros2_ws/install/anscer_msgs/share/anscer_msgs/cmake)
+[2.478s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake:43 (_install):
+[2.479s]   _install DIRECTORY given unknown argument
+[2.479s]   "$<BUILD_INTERFACE:/opt/ros/humble/include/std_msgs".
+[2.479s] Call Stack (most recent call first):
+[2.479s]   /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:28 (ament_cmake_symlink_install_directory)
+[2.480s]   CMakeLists.txt:68 (install)
+[2.480s] 
+[2.480s] [0m
+[2.483s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.648s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.654s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.655s] -- Configured cppcheck include dirs: /ros2_ws/src/graph_visual_control/include
+[2.655s] -- Configured cppcheck exclude dirs and/or files: 
+[2.661s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.662s] -- Configured cpplint exclude dirs and/or files: 
+[2.664s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.666s] -- Added test 'lint_cmake' to check CMake code style
+[2.668s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.674s] -- Added test 'uncrustify' to check C / C++ code style
+[2.674s] -- Configured uncrustify additional arguments: 
+[2.676s] -- Added test 'xmllint' to check XML markup files
+[2.679s] -- Configuring incomplete, errors occurred!
+[2.679s] See also "/ros2_ws/src/graph_visual_control/build/graph_visual_control/CMakeFiles/CMakeOutput.log".
+[2.701s] Invoked command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/graph_visual_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/src/graph_visual_control/install/graph_visual_control

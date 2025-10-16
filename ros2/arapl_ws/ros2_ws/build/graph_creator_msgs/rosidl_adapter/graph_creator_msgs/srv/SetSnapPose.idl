@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from graph_creator_msgs/srv/SetSnapPose.srv
+// generated code does not contain a copyright notice
+
+
+module graph_creator_msgs {
+  module srv {
+    struct SetSnapPose_Request {
+      boolean enable_vertex_snap_mode;
+
+      boolean enable_edge_snap_mode;
+
+      boolean enable_position_snap_mode;
+
+      boolean enable_orientation_snap_mode;
+
+      double position_grid_size;
+
+      double orientation_angle;
+    };
+    struct SetSnapPose_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_creator_msgs/msg/GraphGeneratorConfig.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "graph_creator_msgs/msg/EdgeCreationType.idl"
+#include "graph_creator_msgs/msg/EdgeDirectionCreationType.idl"
+
+module graph_creator_msgs {
+  module msg {
+    module GraphGeneratorConfig_Constants {
+      const uint8 GRAPH_GENERATION_TYPE_GRID = 0;
+      const uint8 GRAPH_GENERATION_TYPE_DXF = 1;
+    };
+    struct GraphGeneratorConfig {
+      uint8 generation_type;
+
+      graph_creator_msgs::msg::EdgeCreationType edge_creation_type;
+
+      graph_creator_msgs::msg::EdgeDirectionCreationType edge_direction_type;
+
+      boolean ignore_vertex_orientation;
+
+      boolean use_edge_count_threshold;
+
+      uint32 edge_count_threshold;
+
+      @verbatim (language="comment", text=
+        "For generating graph from DXF files")
+      string dxf_file_path;
+
+      float scale_x;
+
+      float scale_y;
+
+      @verbatim (language="comment", text=
+        "For generating grid graphs")
+      geometry_msgs::msg::Pose start_pose;
+
+      uint32 rows;
+
+      uint32 columns;
+
+      float row_spacing;
+
+      float column_spacing;
+    };
+  };
+};

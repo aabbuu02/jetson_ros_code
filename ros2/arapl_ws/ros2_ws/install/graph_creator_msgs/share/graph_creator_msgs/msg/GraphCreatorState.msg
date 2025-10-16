@@ -1,0 +1,5 @@
+uint8 graph_mode
+uint8 current_edge_type
+bool edge_is_bidirectional
+bool all_vertices_locked
+bool all_edges_locked

@@ -1,0 +1,380 @@
+[0.053s] Invoking command in '/ros2_ws/build/qr_mission_scheduler': CMAKE_PREFIX_PATH=/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/lift_action:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /ros2_ws/src/qr_mission_scheduler -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/qr_mission_scheduler
+[0.164s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.440s] -- Detecting CXX compiler ABI info
+[0.596s] -- Detecting CXX compiler ABI info - done
+[0.617s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.618s] -- Detecting CXX compile features
+[0.619s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.886s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.105s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.194s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.206s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.224s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.370s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.378s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.551s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.590s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.675s] -- Looking for pthread.h
+[1.795s] -- Looking for pthread.h - found
+[1.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.917s] -- Found Threads: TRUE  
+[2.018s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.078s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.128s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.145s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.192s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.218s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.227s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.279s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.309s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.311s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.311s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.318s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.337s] -- Found graph_msgs: 1.0.0 (/ros2_ws/install/graph_msgs/share/graph_msgs/cmake)
+[2.365s] -- Found global_path_graph_planner: 2.0.0 (/ros2_ws/install/global_path_graph_planner/share/global_path_graph_planner/cmake)
+[2.462s] -- Found lift_action: 0.2.0 (/ros2_ws/install/lift_action/share/lift_action/cmake)
+[2.959s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.909s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.915s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.975s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.975s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.976s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.976s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.011s] -- Found PythonExtra: .so  
+[4.184s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.241s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.243s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.245s] -- Configured cppcheck include dirs: /ros2_ws/src/qr_mission_scheduler/include;/ros2_ws/src/qr_mission_scheduler/include/mission_scheduler
+[4.245s] -- Configured cppcheck exclude dirs and/or files: 
+[4.247s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.247s] -- Configured cpplint exclude dirs and/or files: 
+[4.248s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.250s] -- Added test 'lint_cmake' to check CMake code style
+[4.251s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.253s] -- Added test 'uncrustify' to check C / C++ code style
+[4.253s] -- Configured uncrustify additional arguments: 
+[4.255s] -- Added test 'xmllint' to check XML markup files
+[4.259s] -- Configuring done
+[4.372s] -- Generating done
+[4.407s] -- Build files have been written to: /ros2_ws/build/qr_mission_scheduler
+[4.437s] Invoked command in '/ros2_ws/build/qr_mission_scheduler' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/lift_action:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /ros2_ws/src/qr_mission_scheduler -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/qr_mission_scheduler
+[4.440s] Invoking command in '/ros2_ws/build/qr_mission_scheduler': CMAKE_PREFIX_PATH=/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/lift_action:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/qr_mission_scheduler -- -j12 -l12
+[4.530s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.546s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.563s] [  3%] Built target ament_cmake_python_copy_qr_mission_scheduler
+[4.918s] running egg_info
+[4.918s] creating qr_mission_scheduler.egg-info
+[4.919s] writing qr_mission_scheduler.egg-info/PKG-INFO
+[4.919s] writing dependency_links to qr_mission_scheduler.egg-info/dependency_links.txt
+[4.919s] writing top-level names to qr_mission_scheduler.egg-info/top_level.txt
+[4.919s] writing manifest file 'qr_mission_scheduler.egg-info/SOURCES.txt'
+[4.922s] reading manifest file 'qr_mission_scheduler.egg-info/SOURCES.txt'
+[4.923s] writing manifest file 'qr_mission_scheduler.egg-info/SOURCES.txt'
+[4.985s] [  3%] Built target ament_cmake_python_build_qr_mission_scheduler_egg
+[5.353s] [  9%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_generator_c.dir/rosidl_generator_c/qr_mission_scheduler/srv/detail/get_goal__functions.c.o[0m
+[5.354s] [  9%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_generator_c.dir/rosidl_generator_c/qr_mission_scheduler/msg/detail/goal_msg__functions.c.o[0m
+[5.354s] [  9%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_generator_c.dir/rosidl_generator_c/qr_mission_scheduler/action/detail/mission_scheduler__functions.c.o[0m
+[5.354s] [  9%] Built target qr_mission_scheduler__cpp
+[5.375s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.375s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.375s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.587s] [ 17%] [32m[1mLinking C shared library libqr_mission_scheduler__rosidl_generator_c.so[0m
+[5.640s] [ 17%] Built target qr_mission_scheduler__rosidl_generator_c
+[5.659s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.659s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.659s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.923s] [ 29%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qr_mission_scheduler/srv/get_goal__type_support.cpp.o[0m
+[5.923s] [ 29%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qr_mission_scheduler/msg/goal_msg__type_support.cpp.o[0m
+[5.923s] [ 29%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qr_mission_scheduler/action/mission_scheduler__type_support.cpp.o[0m
+[6.033s] [ 35%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qr_mission_scheduler/action/detail/mission_scheduler__type_support.cpp.o[0m
+[6.034s] [ 35%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qr_mission_scheduler/srv/detail/get_goal__type_support.cpp.o[0m
+[6.034s] [ 35%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qr_mission_scheduler/msg/detail/goal_msg__type_support.cpp.o[0m
+[6.160s] [ 39%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qr_mission_scheduler/srv/detail/dds_fastrtps/get_goal__type_support.cpp.o[0m
+[6.161s] [ 39%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qr_mission_scheduler/msg/detail/dds_fastrtps/goal_msg__type_support.cpp.o[0m
+[6.165s] [ 41%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qr_mission_scheduler/action/detail/dds_fastrtps/mission_scheduler__type_support.cpp.o[0m
+[6.239s] [ 43%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_c.dir/rosidl_typesupport_c/qr_mission_scheduler/msg/goal_msg__type_support.cpp.o[0m
+[6.307s] [ 45%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_c.dir/rosidl_typesupport_c/qr_mission_scheduler/srv/get_goal__type_support.cpp.o[0m
+[6.392s] [ 47%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_c.dir/rosidl_typesupport_c/qr_mission_scheduler/action/mission_scheduler__type_support.cpp.o[0m
+[6.450s] [ 49%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qr_mission_scheduler/srv/detail/get_goal__type_support.c.o[0m
+[6.451s] [ 50%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qr_mission_scheduler/msg/detail/goal_msg__type_support.c.o[0m
+[6.467s] [ 52%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qr_mission_scheduler/action/detail/mission_scheduler__type_support.c.o[0m
+[6.490s] [ 54%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/msg/detail/goal_msg__type_support_c.cpp.o[0m
+[6.494s] [ 56%] [32m[1mLinking CXX shared library libqr_mission_scheduler__rosidl_typesupport_c.so[0m
+[6.535s] [ 60%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/srv/detail/get_goal__type_support_c.cpp.o[0m
+[6.535s] [ 60%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/action/detail/mission_scheduler__type_support_c.cpp.o[0m
+[6.579s] [ 62%] [32m[1mLinking C shared library libqr_mission_scheduler__rosidl_typesupport_introspection_c.so[0m
+[6.579s] [ 62%] Built target qr_mission_scheduler__rosidl_typesupport_c
+[6.652s] [ 62%] Built target qr_mission_scheduler__rosidl_typesupport_introspection_c
+[6.770s] [ 64%] [32m[1mLinking CXX shared library libqr_mission_scheduler__rosidl_typesupport_cpp.so[0m
+[6.836s] [ 64%] Built target qr_mission_scheduler__rosidl_typesupport_cpp
+[6.877s] [ 68%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler_server.dir/src/mission_scheduler.cpp.o[0m
+[6.877s] [ 68%] [32mBuilding CXX object CMakeFiles/qr_mission_scheduler_client.dir/src/qr_mission_client.cpp.o[0m
+[7.184s] [ 70%] [32m[1mLinking CXX shared library libqr_mission_scheduler__rosidl_typesupport_introspection_cpp.so[0m
+[7.244s] [ 72%] [32m[1mLinking CXX shared library libqr_mission_scheduler__rosidl_typesupport_fastrtps_c.so[0m
+[7.270s] [ 74%] [32m[1mLinking CXX shared library libqr_mission_scheduler__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.311s] [ 74%] Built target qr_mission_scheduler__rosidl_typesupport_introspection_cpp
+[7.376s] [ 74%] Built target qr_mission_scheduler__rosidl_typesupport_fastrtps_c
+[7.404s] [ 74%] Built target qr_mission_scheduler__rosidl_typesupport_fastrtps_cpp
+[7.443s] [ 74%] Built target qr_mission_scheduler
+[7.478s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.837s] [ 76%] Built target qr_mission_scheduler__py
+[8.870s] [ 82%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_generator_py.dir/rosidl_generator_py/qr_mission_scheduler/msg/_goal_msg_s.c.o[0m
+[8.870s] [ 82%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_generator_py.dir/rosidl_generator_py/qr_mission_scheduler/srv/_get_goal_s.c.o[0m
+[8.870s] [ 82%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_generator_py.dir/rosidl_generator_py/qr_mission_scheduler/action/_mission_scheduler_s.c.o[0m
+[9.141s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/qr_mission_scheduler/libqr_mission_scheduler__rosidl_generator_py.so[0m
+[9.205s] [ 84%] Built target qr_mission_scheduler__rosidl_generator_py
+[9.246s] [ 90%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/qr_mission_scheduler/_qr_mission_scheduler_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.246s] [ 90%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/qr_mission_scheduler/_qr_mission_scheduler_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.246s] [ 90%] [32mBuilding C object CMakeFiles/qr_mission_scheduler__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/qr_mission_scheduler/_qr_mission_scheduler_s.ep.rosidl_typesupport_c.c.o[0m
+[9.477s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[9.490s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[9.490s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[9.550s] [ 96%] Built target qr_mission_scheduler__rosidl_typesupport_c__pyext
+[9.566s] [ 96%] Built target qr_mission_scheduler__rosidl_typesupport_fastrtps_c__pyext
+[9.566s] [ 96%] Built target qr_mission_scheduler__rosidl_typesupport_introspection_c__pyext
+[30.620s] [ 98%] [32m[1mLinking CXX executable qr_mission_scheduler_server[0m
+[32.545s] [ 98%] Built target qr_mission_scheduler_server
+[34.753s] [100%] [32m[1mLinking CXX executable qr_mission_scheduler_client[0m
+[36.412s] [100%] Built target qr_mission_scheduler_client
+[36.441s] Invoked command in '/ros2_ws/build/qr_mission_scheduler' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/lift_action:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/qr_mission_scheduler -- -j12 -l12
+[36.446s] Invoking command in '/ros2_ws/build/qr_mission_scheduler': CMAKE_PREFIX_PATH=/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/lift_action:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/qr_mission_scheduler
+[36.477s] -- Install configuration: ""
+[36.478s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/ament_index/resource_index/rosidl_interfaces/qr_mission_scheduler
+[36.479s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler
+[36.479s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg
+[36.479s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail
+[36.480s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__functions.c
+[36.480s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__struct.h
+[36.480s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__type_support.h
+[36.481s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__functions.h
+[36.481s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/rosidl_generator_c__visibility_control.h
+[36.481s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/goal_msg.h
+[36.482s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action
+[36.482s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/mission_scheduler.h
+[36.482s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail
+[36.482s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__struct.h
+[36.483s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__functions.c
+[36.483s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__type_support.h
+[36.483s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__functions.h
+[36.484s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv
+[36.484s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail
+[36.484s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__struct.h
+[36.484s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__functions.c
+[36.485s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__functions.h
+[36.485s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__type_support.h
+[36.485s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/get_goal.h
+[36.486s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/library_path.sh
+[36.486s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/library_path.dsv
+[36.486s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_generator_c.so
+[36.487s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_generator_c.so" to ""
+[36.487s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler
+[36.487s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg
+[36.488s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail
+[36.488s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__rosidl_typesupport_fastrtps_c.h
+[36.488s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.489s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action
+[36.489s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail
+[36.489s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__rosidl_typesupport_fastrtps_c.h
+[36.490s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv
+[36.490s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail
+[36.490s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__rosidl_typesupport_fastrtps_c.h
+[36.490s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_fastrtps_c.so
+[36.491s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_fastrtps_c.so" to ""
+[36.491s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler
+[36.491s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg
+[36.492s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/rosidl_generator_cpp__visibility_control.hpp
+[36.492s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail
+[36.492s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__traits.hpp
+[36.492s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__type_support.hpp
+[36.493s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__struct.hpp
+[36.493s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__builder.hpp
+[36.493s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/goal_msg.hpp
+[36.493s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action
+[36.494s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail
+[36.494s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__type_support.hpp
+[36.495s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__struct.hpp
+[36.495s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__traits.hpp
+[36.495s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__builder.hpp
+[36.495s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/mission_scheduler.hpp
+[36.495s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv
+[36.496s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail
+[36.496s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__type_support.hpp
+[36.496s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__struct.hpp
+[36.496s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__traits.hpp
+[36.497s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__builder.hpp
+[36.497s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/get_goal.hpp
+[36.497s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler
+[36.498s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg
+[36.498s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail
+[36.498s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/dds_fastrtps
+[36.498s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[36.499s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.499s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action
+[36.499s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail
+[36.499s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/dds_fastrtps
+[36.499s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__rosidl_typesupport_fastrtps_cpp.hpp
+[36.500s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv
+[36.500s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail
+[36.500s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[36.500s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/dds_fastrtps
+[36.501s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_fastrtps_cpp.so
+[36.501s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.501s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler
+[36.501s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg
+[36.502s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.502s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail
+[36.502s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__rosidl_typesupport_introspection_c.h
+[36.503s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__type_support.c
+[36.503s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action
+[36.503s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail
+[36.504s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__type_support.c
+[36.504s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__rosidl_typesupport_introspection_c.h
+[36.504s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv
+[36.504s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail
+[36.505s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__rosidl_typesupport_introspection_c.h
+[36.505s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__type_support.c
+[36.505s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_introspection_c.so
+[36.505s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_introspection_c.so" to ""
+[36.505s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_c.so
+[36.506s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_c.so" to ""
+[36.506s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler
+[36.506s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg
+[36.506s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail
+[36.506s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__rosidl_typesupport_introspection_cpp.hpp
+[36.507s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/msg/detail/goal_msg__type_support.cpp
+[36.507s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action
+[36.507s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail
+[36.507s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__type_support.cpp
+[36.507s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/action/detail/mission_scheduler__rosidl_typesupport_introspection_cpp.hpp
+[36.508s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv
+[36.508s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail
+[36.508s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__type_support.cpp
+[36.508s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/qr_mission_scheduler/qr_mission_scheduler/srv/detail/get_goal__rosidl_typesupport_introspection_cpp.hpp
+[36.508s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_introspection_cpp.so
+[36.509s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_introspection_cpp.so" to ""
+[36.509s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_cpp.so
+[36.509s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_typesupport_cpp.so" to ""
+[36.509s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/pythonpath.sh
+[36.509s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/pythonpath.dsv
+[36.510s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler-2.0.0-py3.10.egg-info
+[36.510s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler-2.0.0-py3.10.egg-info/dependency_links.txt
+[36.510s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler-2.0.0-py3.10.egg-info/PKG-INFO
+[36.510s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler-2.0.0-py3.10.egg-info/SOURCES.txt
+[36.510s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler-2.0.0-py3.10.egg-info/top_level.txt
+[36.511s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler
+[36.511s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[36.511s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/_qr_mission_scheduler_s.ep.rosidl_typesupport_c.c
+[36.511s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/_qr_mission_scheduler_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.511s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/_qr_mission_scheduler_s.ep.rosidl_typesupport_introspection_c.c
+[36.511s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/msg
+[36.512s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/msg/_goal_msg.py
+[36.512s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/msg/__init__.py
+[36.512s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/msg/_goal_msg_s.c
+[36.512s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/action
+[36.512s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/action/_mission_scheduler.py
+[36.512s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/action/_mission_scheduler_s.c
+[36.513s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/action/__init__.py
+[36.513s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/__init__.py
+[36.513s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/libqr_mission_scheduler__rosidl_generator_py.so
+[36.513s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/srv
+[36.513s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/srv/_get_goal_s.c
+[36.513s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/srv/_get_goal.py
+[36.514s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/srv/__init__.py
+[36.514s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[36.514s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[36.572s] Listing '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler'...
+[36.572s] Compiling '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/__init__.py'...
+[36.572s] Listing '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/action'...
+[36.572s] Compiling '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/action/__init__.py'...
+[36.572s] Compiling '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/action/_mission_scheduler.py'...
+[36.572s] Listing '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/msg'...
+[36.572s] Compiling '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/msg/__init__.py'...
+[36.572s] Compiling '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/msg/_goal_msg.py'...
+[36.572s] Listing '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/srv'...
+[36.572s] Compiling '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/srv/__init__.py'...
+[36.573s] Compiling '/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/srv/_get_goal.py'...
+[36.582s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[36.583s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[36.583s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[36.583s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[36.584s] -- Installing: /ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[36.584s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages/qr_mission_scheduler/qr_mission_scheduler_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[36.584s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_generator_py.so
+[36.585s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/libqr_mission_scheduler__rosidl_generator_py.so" to ""
+[36.585s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/msg/GoalMsg.idl
+[36.585s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/srv/GetGoal.idl
+[36.585s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/action/MissionScheduler.idl
+[36.585s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/msg/GoalMsg.msg
+[36.586s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/srv/GetGoal.srv
+[36.586s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/srv/GetGoal_Request.msg
+[36.586s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/srv/GetGoal_Response.msg
+[36.586s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/action/MissionScheduler.action
+[36.586s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/qr_mission_scheduler/qr_mission_scheduler_server
+[36.600s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/qr_mission_scheduler/qr_mission_scheduler_server" to ""
+[36.600s] -- Installing: /ros2_ws/install/qr_mission_scheduler/lib/qr_mission_scheduler/qr_mission_scheduler_client
+[36.618s] -- Set runtime path of "/ros2_ws/install/qr_mission_scheduler/lib/qr_mission_scheduler/qr_mission_scheduler_client" to ""
+[36.618s] -- Up-to-date: /ros2_ws/install/qr_mission_scheduler/include
+[36.619s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/mission_scheduler
+[36.619s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/mission_scheduler/mission_scheduler.h
+[36.619s] -- Installing: /ros2_ws/install/qr_mission_scheduler/include/mission_scheduler/qr_mission_client.h
+[36.619s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/launch
+[36.620s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/launch/qr_mission_scheduler.launch.py
+[36.627s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config
+[36.627s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/default.graphml
+[36.628s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/rack_data.txt
+[36.628s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/data.yaml
+[36.628s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/.data.yaml.swp
+[36.629s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/conveyer_data.txt
+[36.629s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/ament_index/resource_index/package_run_dependencies/qr_mission_scheduler
+[36.630s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/ament_index/resource_index/parent_prefix_path/qr_mission_scheduler
+[36.630s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/ament_prefix_path.sh
+[36.630s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/ament_prefix_path.dsv
+[36.631s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/path.sh
+[36.631s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/environment/path.dsv
+[36.631s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/local_setup.bash
+[36.631s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/local_setup.sh
+[36.632s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/local_setup.zsh
+[36.632s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/local_setup.dsv
+[36.632s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/package.dsv
+[36.633s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/ament_index/resource_index/packages/qr_mission_scheduler
+[36.633s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_generator_cExport.cmake
+[36.633s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_generator_cExport-noconfig.cmake
+[36.633s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_typesupport_fastrtps_cExport.cmake
+[36.634s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[36.634s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_generator_cppExport.cmake
+[36.634s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.635s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[36.635s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_introspection_cExport.cmake
+[36.635s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.635s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_cExport.cmake
+[36.636s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_cExport-noconfig.cmake
+[36.636s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_introspection_cppExport.cmake
+[36.636s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.637s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_cppExport.cmake
+[36.637s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_scheduler__rosidl_typesupport_cppExport-noconfig.cmake
+[36.637s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_generator_pyExport.cmake
+[36.637s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/export_qr_mission_scheduler__rosidl_generator_pyExport-noconfig.cmake
+[36.637s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/rosidl_cmake-extras.cmake
+[36.638s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.638s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.638s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/ament_cmake_export_libraries-extras.cmake
+[36.638s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/ament_cmake_export_targets-extras.cmake
+[36.638s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.639s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.639s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_schedulerConfig.cmake
+[36.639s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/cmake/qr_mission_schedulerConfig-version.cmake
+[36.640s] -- Installing: /ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/package.xml
+[36.643s] Invoked command in '/ros2_ws/build/qr_mission_scheduler' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/lift_action:/ros2_ws/install/graph_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/graph_control:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/qr_mission_scheduler

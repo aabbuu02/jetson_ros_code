@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgraph_curves.so -o /home/nvidia/Desktop/arapl_ws/devel/lib/libgraph_curves.so CMakeFiles/graph_curves.dir/src/graph_curves.cpp.o 

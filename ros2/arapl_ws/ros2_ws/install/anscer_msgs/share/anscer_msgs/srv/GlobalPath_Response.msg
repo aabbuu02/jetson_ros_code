@@ -1,0 +1,2 @@
+
+anscer_msgs/Paths global_path

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f4469cba0db7a7ef3c50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "global_path_graph_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "global_path_graph_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-global_path_graph_planner-5242bc912f0445b5ed76.json",
+					"name" : "global_path_graph_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "global_path_graph_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-global_path_graph_planner_uninstall-488cd2742da2a6c4b337.json",
+					"name" : "global_path_graph_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_graph_planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_graph_planner_node-d3b14f2fd8c2739cf555.json",
+					"name" : "path_graph_planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-21452837b1273da1e184.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/global_path_graph_planner",
+		"source" : "/ros2_ws/src/global_path_graph_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

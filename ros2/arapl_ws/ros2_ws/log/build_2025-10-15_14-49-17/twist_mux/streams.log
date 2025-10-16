@@ -1,0 +1,112 @@
+[0.055s] Invoking command in '/ros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/twist_mux -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/twist_mux
+[1.758s] -- The C compiler identification is GNU 11.4.0
+[1.758s] -- The CXX compiler identification is GNU 11.4.0
+[1.758s] -- Detecting C compiler ABI info
+[1.758s] -- Detecting C compiler ABI info - done
+[1.758s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.758s] -- Detecting C compile features
+[1.759s] -- Detecting C compile features - done
+[1.759s] -- Detecting CXX compiler ABI info
+[1.759s] -- Detecting CXX compiler ABI info - done
+[1.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.759s] -- Detecting CXX compile features
+[1.759s] -- Detecting CXX compile features - done
+[1.759s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.759s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.759s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.759s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.759s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.760s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.863s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.873s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.114s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.170s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.282s] -- Looking for pthread.h
+[2.440s] -- Looking for pthread.h - found
+[2.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.588s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.588s] -- Found Threads: TRUE  
+[2.691s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.755s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.776s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.855s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.921s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.073s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.112s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.122s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.122s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.122s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.122s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.176s] -- Found PythonExtra: .so  
+[3.177s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.177s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.177s] -- Configured cppcheck include dirs: /ros2_ws/src/twist_mux/include
+[3.177s] -- Configured cppcheck exclude dirs and/or files: 
+[3.178s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.178s] -- Configured cpplint exclude dirs and/or files: 
+[3.178s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.180s] -- Added test 'lint_cmake' to check CMake code style
+[3.182s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.185s] -- Added test 'uncrustify' to check C / C++ code style
+[3.185s] -- Configured uncrustify additional arguments: 
+[3.188s] -- Added test 'xmllint' to check XML markup files
+[3.196s] -- Configuring done
+[3.234s] -- Generating done
+[3.250s] -- Build files have been written to: /ros2_ws/build/twist_mux
+[3.280s] Invoked command in '/ros2_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/twist_mux -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/twist_mux
+[3.283s] Invoking command in '/ros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/twist_mux -- -j12 -l12
+[5.588s] [ 14%] [32mBuilding CXX object CMakeFiles/twist_mux_lib.dir/src/twist_mux.cpp.o[0m
+[5.589s] [ 28%] [32mBuilding CXX object CMakeFiles/twist_mux_lib.dir/src/twist_mux_diagnostics.cpp.o[0m
+[5.589s] [ 42%] [32mBuilding CXX object CMakeFiles/twist_marker_node.dir/src/twist_marker.cpp.o[0m
+[42.862s] [ 57%] [32m[1mLinking CXX executable twist_marker_node[0m
+[44.193s] [ 57%] Built target twist_marker_node
+[51.723s] [ 71%] [32m[1mLinking CXX shared library libtwist_mux_lib.so[0m
+[53.214s] [ 71%] Built target twist_mux_lib
+[53.252s] [ 85%] [32mBuilding CXX object CMakeFiles/twist_mux_node.dir/src/twist_mux_node.cpp.o[0m
+[59.597s] [100%] [32m[1mLinking CXX executable twist_mux_node[0m
+[60.304s] [100%] Built target twist_mux_node
+[60.327s] Invoked command in '/ros2_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/twist_mux -- -j12 -l12
+[60.370s] Invoking command in '/ros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/twist_mux
+[60.371s] -- Install configuration: ""
+[60.371s] -- Installing: /ros2_ws/install/twist_mux/lib/libtwist_mux_lib.so
+[60.371s] -- Set runtime path of "/ros2_ws/install/twist_mux/lib/libtwist_mux_lib.so" to ""
+[60.371s] -- Installing: /ros2_ws/install/twist_mux/lib/twist_mux/twist_mux_node
+[60.371s] -- Set runtime path of "/ros2_ws/install/twist_mux/lib/twist_mux/twist_mux_node" to ""
+[60.371s] -- Installing: /ros2_ws/install/twist_mux/lib/twist_mux/twist_marker_node
+[60.371s] -- Set runtime path of "/ros2_ws/install/twist_mux/lib/twist_mux/twist_marker_node" to ""
+[60.372s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux//launch
+[60.372s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux//launch/twist_mux.launch.py
+[60.377s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux//config
+[60.378s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux//config/twist_mux.yaml
+[60.378s] -- Installing: /ros2_ws/install/twist_mux/include
+[60.378s] -- Installing: /ros2_ws/install/twist_mux/include/twist_mux
+[60.378s] -- Installing: /ros2_ws/install/twist_mux/include/twist_mux/utils.hpp
+[60.378s] -- Installing: /ros2_ws/install/twist_mux/include/twist_mux/twist_mux.hpp
+[60.379s] -- Installing: /ros2_ws/install/twist_mux/include/twist_mux/topic_handle.hpp
+[60.380s] -- Installing: /ros2_ws/install/twist_mux/include/twist_mux/xmlrpc_helpers.hpp
+[60.381s] -- Installing: /ros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics.hpp
+[60.381s] -- Installing: /ros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics_status.hpp
+[60.381s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/environment/library_path.sh
+[60.381s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/environment/library_path.dsv
+[60.381s] -- Installing: /ros2_ws/install/twist_mux/share/ament_index/resource_index/package_run_dependencies/twist_mux
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/ament_index/resource_index/parent_prefix_path/twist_mux
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.sh
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.dsv
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/environment/path.sh
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/environment/path.dsv
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/local_setup.bash
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/local_setup.sh
+[60.382s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/local_setup.zsh
+[60.383s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/local_setup.dsv
+[60.383s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/package.dsv
+[60.384s] -- Installing: /ros2_ws/install/twist_mux/share/ament_index/resource_index/packages/twist_mux
+[60.384s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.384s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_libraries-extras.cmake
+[60.385s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.385s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig.cmake
+[60.385s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig-version.cmake
+[60.385s] -- Installing: /ros2_ws/install/twist_mux/share/twist_mux/package.xml
+[60.392s] Invoked command in '/ros2_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/twist_mux

@@ -1,0 +1,4 @@
+bool delete_wp
+int16 waypoint_order
+string waypoint_id
+string waypoint_type

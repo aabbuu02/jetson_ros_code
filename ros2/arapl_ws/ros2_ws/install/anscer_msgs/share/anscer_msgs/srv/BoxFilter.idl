@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/BoxFilter.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct BoxFilter_Request {
+      boolean filter_enable;
+
+      boolean restore_default;
+
+      double min_safety_x;
+
+      double max_safety_x;
+
+      double min_safety_y;
+
+      double max_safety_y;
+
+      double min_warn_x;
+
+      double max_warn_x;
+
+      double min_warn_y;
+
+      double max_warn_y;
+
+      int64 debounce_time;
+    };
+    struct BoxFilter_Response {
+      int64 state;
+    };
+  };
+};

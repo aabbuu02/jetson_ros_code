@@ -1,0 +1,6 @@
+setup.py
+wms_data/__init__.py
+wms_data.egg-info/PKG-INFO
+wms_data.egg-info/SOURCES.txt
+wms_data.egg-info/dependency_links.txt
+wms_data.egg-info/top_level.txt

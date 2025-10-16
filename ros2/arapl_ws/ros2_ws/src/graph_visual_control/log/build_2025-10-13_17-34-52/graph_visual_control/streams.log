@@ -1,0 +1,767 @@
+[0.022s] Invoking command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/src/graph_visual_control/build/graph_visual_control -- -j12 -l12
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target graph_viz_ctrl[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o[0m
+[5.051s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__struct.hpp:26[m[K,
+[5.052s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:7[m[K,
+[5.052s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.052s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__struct.hpp:338:7:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kusing Edge = struct graph_msgs::msg::Edge_<std::allocator<void> >[m[K’
+[5.052s]   338 | using [01;31m[KEdge[m[K =
+[5.053s]       |       [01;31m[K^~~~[m[K
+[5.053s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.053s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:224:12:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstruct graph_msgs::msg::Edge[m[K’
+[5.053s]   224 |     struct [01;36m[KEdge[m[K {
+[5.053s]       |            [01;36m[K^~~~[m[K
+[5.053s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:7[m[K,
+[5.053s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.053s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__struct.hpp:177:7:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kusing Graph = struct graph_msgs::msg::Graph_<std::allocator<void> >[m[K’
+[5.054s]   177 | using [01;31m[KGraph[m[K =
+[5.054s]       |       [01;31m[K^~~~~[m[K
+[5.054s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.054s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstruct graph_msgs::msg::Graph[m[K’
+[5.054s]   220 |     struct [01;36m[KGraph[m[K {
+[5.054s]       |            [01;36m[K^~~~~[m[K
+[5.054s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:8[m[K,
+[5.055s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.055s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:30:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kgraph_msgs::msg::Graph::_properties_type[m[K’ has not been declared
+[5.055s]    30 |   ::graph_msgs::msg::Graph properties([01;31m[K::[m[Kgraph_msgs::msg::Graph::_properties_type arg)
+[5.055s]       |                                       [01;31m[K^~[m[K
+[5.055s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:[m[K In member function ‘[01m[Kgraph_msgs::msg::Graph graph_msgs::msg::builder::Init_Graph_properties::properties(int)[m[K’:
+[5.055s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:32:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.055s]    32 |     msg_.[01;31m[Kproperties[m[K = std::move(arg);
+[5.056s]       |          [01;31m[K^~~~~~~~~~[m[K
+[5.057s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:[m[K At global scope:
+[5.057s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[KInit_Graph_properties[m[K’ does not name a type
+[5.057s]    46 |   [01;31m[KInit_Graph_properties[m[K edges(::graph_msgs::msg::Graph::_edges_type arg)
+[5.058s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.059s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[KInit_Graph_edges[m[K’ does not name a type
+[5.059s]    62 |   [01;31m[KInit_Graph_edges[m[K vertices(::graph_msgs::msg::Graph::_vertices_type arg)
+[5.059s]       |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.061s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:78:3:[m[K [01;31m[Kerror: [m[K‘[01m[KInit_Graph_vertices[m[K’ does not name a type
+[5.062s]    78 |   [01;31m[KInit_Graph_vertices[m[K meta_data(::graph_msgs::msg::Graph::_meta_data_type arg)
+[5.062s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.063s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[KInit_Graph_meta_data[m[K’ does not name a type
+[5.064s]    94 |   [01;31m[KInit_Graph_meta_data[m[K header(::graph_msgs::msg::Graph::_header_type arg)
+[5.064s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.064s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:[m[K In constructor ‘[01m[Kgraph_msgs::msg::builder::Init_Graph_header::Init_Graph_header()[m[K’:
+[5.064s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__builder.hpp:92:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgraph_msgs::msg::Graph::Graph(rosidl_runtime_cpp::MessageInitialization)[m[K’
+[5.064s]    92 |   : [01;31m[Kmsg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)[m[K
+[5.065s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.065s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.065s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr graph_msgs::msg::Graph::Graph()[m[K’
+[5.065s]   220 |     struct [01;36m[KGraph[m[K {
+[5.065s]       |            [01;36m[K^~~~~[m[K
+[5.066s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[5.066s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr graph_msgs::msg::Graph::Graph(const graph_msgs::msg::Graph&)[m[K’
+[5.066s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’ to ‘[01m[Kconst graph_msgs::msg::Graph&[m[K’
+[5.066s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr graph_msgs::msg::Graph::Graph(graph_msgs::msg::Graph&&)[m[K’
+[5.066s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’ to ‘[01m[Kgraph_msgs::msg::Graph&&[m[K’
+[5.070s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:21[m[K,
+[5.070s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.070s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.071s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:[m[K In function ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const GraphMetaData&)[m[K’:
+[5.071s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:151:34:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kto_yaml(const GraphMetaData&)[m[K’ is ambiguous
+[5.071s]   151 |   return [01;31m[Kgraph_msgs::msg::to_yaml(msg)[m[K;
+[5.071s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.071s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:122:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const GraphMetaData&, bool)[m[K’
+[5.072s]   122 | inline std::string [01;36m[Kto_yaml[m[K(const GraphMetaData & msg, bool use_flow_style = false)
+[5.072s]       |                    [01;36m[K^~~~~~~[m[K
+[5.073s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:149:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const GraphMetaData&)[m[K’
+[5.073s]   149 | inline std::string [01;36m[Kto_yaml[m[K(const graph_msgs::msg::GraphMetaData & msg)
+[5.073s]       |                    [01;36m[K^~~~~~~[m[K
+[5.073s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:[m[K At global scope:
+[5.074s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:155:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.074s]   155 | inline const char * data_type[01;31m[K<[m[Kgraph_msgs::msg::GraphMetaData>()
+[5.074s]       |                              [01;31m[K^[m[K
+[5.074s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:161:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.074s]   161 | inline const char * name[01;31m[K<[m[Kgraph_msgs::msg::GraphMetaData>()
+[5.075s]       |                         [01;31m[K^[m[K
+[5.075s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:167:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_fixed_size[m[K’ is not a class template
+[5.075s]   167 | struct [01;31m[Khas_fixed_size[m[K<graph_msgs::msg::GraphMetaData>
+[5.075s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.075s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:167:53:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_fixed_size[m[K’
+[5.076s]   167 | struct has_fixed_size<graph_msgs::msg::GraphMetaData[01;31m[K>[m[K
+[5.076s]       |                                                     [01;31m[K^[m[K
+[5.076s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:171:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_bounded_size[m[K’ is not a class template
+[5.076s]   171 | struct [01;31m[Khas_bounded_size[m[K<graph_msgs::msg::GraphMetaData>
+[5.076s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.077s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:171:55:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_bounded_size[m[K’
+[5.077s]   171 | struct has_bounded_size<graph_msgs::msg::GraphMetaData[01;31m[K>[m[K
+[5.077s]       |                                                       [01;31m[K^[m[K
+[5.077s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:175:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_message[m[K’ is not a class template
+[5.077s]   175 | struct [01;31m[Kis_message[m[K<graph_msgs::msg::GraphMetaData>
+[5.078s]       |        [01;31m[K^~~~~~~~~~[m[K
+[5.078s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph_meta_data__traits.hpp:175:49:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::is_message[m[K’
+[5.078s]   175 | struct is_message<graph_msgs::msg::GraphMetaData[01;31m[K>[m[K
+[5.078s]       |                                                 [01;31m[K^[m[K
+[5.078s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:21[m[K,
+[5.079s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:23[m[K,
+[5.079s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.079s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.079s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:[m[K In function ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const Property&)[m[K’:
+[5.080s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:97:34:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kto_yaml(const Property&)[m[K’ is ambiguous
+[5.080s]    97 |   return [01;31m[Kgraph_msgs::msg::to_yaml(msg)[m[K;
+[5.080s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.080s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:68:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const Property&, bool)[m[K’
+[5.080s]    68 | inline std::string [01;36m[Kto_yaml[m[K(const Property & msg, bool use_flow_style = false)
+[5.081s]       |                    [01;36m[K^~~~~~~[m[K
+[5.081s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:95:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const Property&)[m[K’
+[5.081s]    95 | inline std::string [01;36m[Kto_yaml[m[K(const graph_msgs::msg::Property & msg)
+[5.081s]       |                    [01;36m[K^~~~~~~[m[K
+[5.081s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:[m[K At global scope:
+[5.082s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:101:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.082s]   101 | inline const char * data_type[01;31m[K<[m[Kgraph_msgs::msg::Property>()
+[5.082s]       |                              [01;31m[K^[m[K
+[5.082s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:107:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.082s]   107 | inline const char * name[01;31m[K<[m[Kgraph_msgs::msg::Property>()
+[5.083s]       |                         [01;31m[K^[m[K
+[5.083s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:113:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_fixed_size[m[K’ is not a class template
+[5.083s]   113 | struct [01;31m[Khas_fixed_size[m[K<graph_msgs::msg::Property>
+[5.083s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.083s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:113:48:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_fixed_size[m[K’
+[5.084s]   113 | struct has_fixed_size<graph_msgs::msg::Property[01;31m[K>[m[K
+[5.084s]       |                                                [01;31m[K^[m[K
+[5.084s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:117:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_bounded_size[m[K’ is not a class template
+[5.084s]   117 | struct [01;31m[Khas_bounded_size[m[K<graph_msgs::msg::Property>
+[5.084s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.085s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:117:50:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_bounded_size[m[K’
+[5.085s]   117 | struct has_bounded_size<graph_msgs::msg::Property[01;31m[K>[m[K
+[5.085s]       |                                                  [01;31m[K^[m[K
+[5.085s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:121:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_message[m[K’ is not a class template
+[5.086s]   121 | struct [01;31m[Kis_message[m[K<graph_msgs::msg::Property>
+[5.086s]       |        [01;31m[K^~~~~~~~~~[m[K
+[5.086s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/property__traits.hpp:121:44:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::is_message[m[K’
+[5.087s]   121 | struct is_message<graph_msgs::msg::Property[01;31m[K>[m[K
+[5.087s]       |                                            [01;31m[K^[m[K
+[5.087s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:23[m[K,
+[5.087s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.087s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.088s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:[m[K In function ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const Vertex&)[m[K’:
+[5.088s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:207:34:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kto_yaml(const Vertex&)[m[K’ is ambiguous
+[5.088s]   207 |   return [01;31m[Kgraph_msgs::msg::to_yaml(msg)[m[K;
+[5.088s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.088s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:178:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const Vertex&, bool)[m[K’
+[5.089s]   178 | inline std::string [01;36m[Kto_yaml[m[K(const Vertex & msg, bool use_flow_style = false)
+[5.089s]       |                    [01;36m[K^~~~~~~[m[K
+[5.089s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:205:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const Vertex&)[m[K’
+[5.090s]   205 | inline std::string [01;36m[Kto_yaml[m[K(const graph_msgs::msg::Vertex & msg)
+[5.090s]       |                    [01;36m[K^~~~~~~[m[K
+[5.090s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:[m[K At global scope:
+[5.090s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:211:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.090s]   211 | inline const char * data_type[01;31m[K<[m[Kgraph_msgs::msg::Vertex>()
+[5.091s]       |                              [01;31m[K^[m[K
+[5.091s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:217:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.091s]   217 | inline const char * name[01;31m[K<[m[Kgraph_msgs::msg::Vertex>()
+[5.091s]       |                         [01;31m[K^[m[K
+[5.091s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:223:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_fixed_size[m[K’ is not a class template
+[5.092s]   223 | struct [01;31m[Khas_fixed_size[m[K<graph_msgs::msg::Vertex>
+[5.092s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.092s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:223:46:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_fixed_size[m[K’
+[5.093s]   223 | struct has_fixed_size<graph_msgs::msg::Vertex[01;31m[K>[m[K
+[5.093s]       |                                              [01;31m[K^[m[K
+[5.093s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:227:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_bounded_size[m[K’ is not a class template
+[5.093s]   227 | struct [01;31m[Khas_bounded_size[m[K<graph_msgs::msg::Vertex>
+[5.093s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.094s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:227:48:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_bounded_size[m[K’
+[5.094s]   227 | struct has_bounded_size<graph_msgs::msg::Vertex[01;31m[K>[m[K
+[5.094s]       |                                                [01;31m[K^[m[K
+[5.094s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:231:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_message[m[K’ is not a class template
+[5.095s]   231 | struct [01;31m[Kis_message[m[K<graph_msgs::msg::Vertex>
+[5.095s]       |        [01;31m[K^~~~~~~~~~[m[K
+[5.095s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/vertex__traits.hpp:231:42:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::is_message[m[K’
+[5.095s]   231 | struct is_message<graph_msgs::msg::Vertex[01;31m[K>[m[K
+[5.096s]       |                                          [01;31m[K^[m[K
+[5.097s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:22[m[K,
+[5.130s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:25[m[K,
+[5.131s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.132s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.132s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseArray[m[K’ does not name a type
+[5.132s]    30 |   const [01;31m[KPoseArray[m[K & msg,
+[5.132s]       |         [01;31m[K^~~~~~~~~[m[K
+[5.133s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:[m[K In function ‘[01m[Kvoid graph_msgs::msg::to_flow_style_yaml(const int&, std::ostream&)[m[K’:
+[5.133s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:37:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kheader[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[5.133s]    37 |     to_flow_style_yaml(msg.[01;31m[Kheader[m[K, out);
+[5.133s]       |                            [01;31m[K^~~~~~[m[K
+[5.134s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:43:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposes[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[5.134s]    43 |     if (msg.[01;31m[Kposes[m[K.size() == 0) {
+[5.134s]       |             [01;31m[K^~~~~[m[K
+[5.134s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:47:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposes[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[5.135s]    47 |       size_t pending_items = msg.[01;31m[Kposes[m[K.size();
+[5.135s]       |                                  [01;31m[K^~~~~[m[K
+[5.136s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:48:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposes[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[5.136s]    48 |       for (auto item : msg.[01;31m[Kposes[m[K) {
+[5.136s]       |                            [01;31m[K^~~~~[m[K
+[5.137s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:[m[K At global scope:
+[5.137s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseArray[m[K’ does not name a type
+[5.137s]    61 |   const [01;31m[KPoseArray[m[K & msg,
+[5.137s]       |         [01;31m[K^~~~~~~~~[m[K
+[5.138s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:[m[K In function ‘[01m[Kvoid graph_msgs::msg::to_block_style_yaml(const int&, std::ostream&, size_t)[m[K’:
+[5.138s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:70:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kheader[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[5.138s]    70 |     to_block_style_yaml(msg.[01;31m[Kheader[m[K, out, indentation + 2);
+[5.138s]       |                             [01;31m[K^~~~~~[m[K
+[5.139s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:78:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposes[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[5.139s]    78 |     if (msg.[01;31m[Kposes[m[K.size() == 0) {
+[5.139s]       |             [01;31m[K^~~~~[m[K
+[5.140s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:82:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposes[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[5.140s]    82 |       for (auto item : msg.[01;31m[Kposes[m[K) {
+[5.140s]       |                            [01;31m[K^~~~~[m[K
+[5.141s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:[m[K At global scope:
+[5.141s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:93:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseArray[m[K’ does not name a type
+[5.141s]    93 | inline std::string to_yaml(const [01;31m[KPoseArray[m[K & msg, bool use_flow_style = false)
+[5.141s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[5.142s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:[m[K In function ‘[01m[Kvoid graph_msgs::msg::to_yaml(const PoseArray&, std::ostream&, size_t)[m[K’:
+[5.142s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:116:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_block_style_yaml(const PoseArray&, std::ostream&, size_t&)[m[K’
+[5.142s]   116 |   [01;31m[Kgeometry_msgs::msg::to_block_style_yaml(msg, out, indentation)[m[K;
+[5.143s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.143s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:19[m[K,
+[5.143s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:9[m[K,
+[5.143s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:12[m[K,
+[5.143s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.144s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:50:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const Point&, std::ostream&, size_t)[m[K’
+[5.144s]    50 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.144s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.144s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:51:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Point&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >&[m[K’}
+[5.144s]    51 |   [01;36m[Kconst Point & msg[m[K,
+[5.145s]       |   [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[5.145s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:21[m[K,
+[5.145s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:9[m[K,
+[5.145s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:12[m[K,
+[5.146s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.146s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:57:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const Quaternion&, std::ostream&, size_t)[m[K’
+[5.146s]    57 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.146s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.146s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:58:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Quaternion&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Quaternion_<std::allocator<void> >&[m[K’}
+[5.147s]    58 |   [01;36m[Kconst Quaternion & msg[m[K,
+[5.147s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.147s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:9[m[K,
+[5.147s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:12[m[K,
+[5.147s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.148s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:49:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const Pose&, std::ostream&, size_t)[m[K’
+[5.148s]    49 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.148s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.148s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:50:16:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+[5.148s]    50 |   [01;36m[Kconst Pose & msg[m[K,
+[5.149s]       |   [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[5.149s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:9[m[K,
+[5.149s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:13[m[K,
+[5.149s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.149s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:49:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const PoseStamped&, std::ostream&, size_t)[m[K’
+[5.150s]    49 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.150s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.150s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:50:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst PoseStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >&[m[K’}
+[5.150s]    50 |   [01;36m[Kconst PoseStamped & msg[m[K,
+[5.150s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.150s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp:23[m[K,
+[5.151s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp:21[m[K,
+[5.151s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp:25[m[K,
+[5.151s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp:9[m[K,
+[5.151s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:17[m[K,
+[5.151s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.152s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:50:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const Vector3&, std::ostream&, size_t)[m[K’
+[5.152s]    50 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.152s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.152s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:51:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Vector3&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’}
+[5.152s]    51 |   [01;36m[Kconst Vector3 & msg[m[K,
+[5.153s]       |   [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[5.153s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:21[m[K,
+[5.153s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:9[m[K,
+[5.153s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:48[m[K,
+[5.153s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.153s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.154s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.154s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.154s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.154s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:49:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const Transform&, std::ostream&, size_t)[m[K’
+[5.154s]    49 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.154s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.155s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:50:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Transform&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Transform_<std::allocator<void> >&[m[K’}
+[5.155s]    50 |   [01;36m[Kconst Transform & msg[m[K,
+[5.155s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.155s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:9[m[K,
+[5.155s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:48[m[K,
+[5.155s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.156s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.156s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.156s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.156s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.156s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:56:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const TransformStamped&, std::ostream&, size_t)[m[K’
+[5.156s]    56 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.157s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.157s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:57:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst TransformStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::TransformStamped_<std::allocator<void> >&[m[K’}
+[5.157s]    57 |   [01;36m[Kconst TransformStamped & msg[m[K,
+[5.157s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.157s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:21[m[K,
+[5.157s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:9[m[K,
+[5.157s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:49[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.158s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.158s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.158s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:48:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const Twist&, std::ostream&, size_t)[m[K’
+[5.159s]    48 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.159s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.159s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:49:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Twist&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’}
+[5.159s]    49 |   [01;36m[Kconst Twist & msg[m[K,
+[5.159s]       |   [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[5.159s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:9[m[K,
+[5.159s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:49[m[K,
+[5.160s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.160s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.160s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.160s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.160s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.160s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:63:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid geometry_msgs::msg::to_block_style_yaml(const VelocityStamped&, std::ostream&, size_t)[m[K’
+[5.160s]    63 | inline void [01;36m[Kto_block_style_yaml[m[K(
+[5.161s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.161s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:64:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst VelocityStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::VelocityStamped_<std::allocator<void> >&[m[K’}
+[5.161s]    64 |   [01;36m[Kconst VelocityStamped & msg[m[K,
+[5.161s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.161s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:22[m[K,
+[5.161s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:25[m[K,
+[5.161s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.162s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.162s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:[m[K In function ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const PoseArray&)[m[K’:
+[5.162s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:122:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_yaml(const PoseArray&)[m[K’
+[5.162s]   122 |   return [01;31m[Kgeometry_msgs::msg::to_yaml(msg)[m[K;
+[5.162s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.162s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:19[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:9[m[K,
+[5.162s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:12[m[K,
+[5.163s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.163s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:85:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const Point&, bool)[m[K’
+[5.163s]    85 | inline std::string [01;36m[Kto_yaml[m[K(const Point & msg, bool use_flow_style = false)
+[5.163s]       |                    [01;36m[K^~~~~~~[m[K
+[5.163s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:85:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Point&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >&[m[K’}
+[5.163s]    85 | inline std::string to_yaml([01;36m[Kconst Point & msg[m[K, bool use_flow_style = false)
+[5.163s]       |                            [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[5.164s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:21[m[K,
+[5.164s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:9[m[K,
+[5.164s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:12[m[K,
+[5.164s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.164s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:102:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const Quaternion&, bool)[m[K’
+[5.164s]   102 | inline std::string [01;36m[Kto_yaml[m[K(const Quaternion & msg, bool use_flow_style = false)
+[5.164s]       |                    [01;36m[K^~~~~~~[m[K
+[5.165s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:102:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Quaternion&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Quaternion_<std::allocator<void> >&[m[K’}
+[5.165s]   102 | inline std::string to_yaml([01;36m[Kconst Quaternion & msg[m[K, bool use_flow_style = false)
+[5.165s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.165s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:9[m[K,
+[5.165s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:12[m[K,
+[5.165s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.165s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:72:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const Pose&, bool)[m[K’
+[5.165s]    72 | inline std::string [01;36m[Kto_yaml[m[K(const Pose & msg, bool use_flow_style = false)
+[5.166s]       |                    [01;36m[K^~~~~~~[m[K
+[5.166s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:72:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+[5.166s]    72 | inline std::string to_yaml([01;36m[Kconst Pose & msg[m[K, bool use_flow_style = false)
+[5.166s]       |                            [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[5.166s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:9[m[K,
+[5.166s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:13[m[K,
+[5.166s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.166s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:72:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const PoseStamped&, bool)[m[K’
+[5.166s]    72 | inline std::string [01;36m[Kto_yaml[m[K(const PoseStamped & msg, bool use_flow_style = false)
+[5.167s]       |                    [01;36m[K^~~~~~~[m[K
+[5.167s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:72:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst PoseStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >&[m[K’}
+[5.167s]    72 | inline std::string to_yaml([01;36m[Kconst PoseStamped & msg[m[K, bool use_flow_style = false)
+[5.167s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.167s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp:23[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp:21[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp:25[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp:9[m[K,
+[5.168s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:17[m[K,
+[5.168s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.168s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:85:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const Vector3&, bool)[m[K’
+[5.168s]    85 | inline std::string [01;36m[Kto_yaml[m[K(const Vector3 & msg, bool use_flow_style = false)
+[5.168s]       |                    [01;36m[K^~~~~~~[m[K
+[5.168s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:85:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Vector3&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’}
+[5.168s]    85 | inline std::string to_yaml([01;36m[Kconst Vector3 & msg[m[K, bool use_flow_style = false)
+[5.168s]       |                            [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[5.169s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:21[m[K,
+[5.169s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:9[m[K,
+[5.169s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:48[m[K,
+[5.169s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.169s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.169s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.169s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.169s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.169s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:72:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const Transform&, bool)[m[K’
+[5.169s]    72 | inline std::string [01;36m[Kto_yaml[m[K(const Transform & msg, bool use_flow_style = false)
+[5.170s]       |                    [01;36m[K^~~~~~~[m[K
+[5.170s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:72:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Transform&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Transform_<std::allocator<void> >&[m[K’}
+[5.170s]    72 | inline std::string to_yaml([01;36m[Kconst Transform & msg[m[K, bool use_flow_style = false)
+[5.170s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.170s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:9[m[K,
+[5.170s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:48[m[K,
+[5.170s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.170s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.170s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.171s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.171s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.171s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:89:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const TransformStamped&, bool)[m[K’
+[5.171s]    89 | inline std::string [01;36m[Kto_yaml[m[K(const TransformStamped & msg, bool use_flow_style = false)
+[5.171s]       |                    [01;36m[K^~~~~~~[m[K
+[5.171s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:89:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst TransformStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::TransformStamped_<std::allocator<void> >&[m[K’}
+[5.171s]    89 | inline std::string to_yaml([01;36m[Kconst TransformStamped & msg[m[K, bool use_flow_style = false)
+[5.171s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.171s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:21[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:9[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:49[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.172s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.172s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.172s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:71:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const Twist&, bool)[m[K’
+[5.172s]    71 | inline std::string [01;36m[Kto_yaml[m[K(const Twist & msg, bool use_flow_style = false)
+[5.172s]       |                    [01;36m[K^~~~~~~[m[K
+[5.173s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:71:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Twist&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’}
+[5.173s]    71 | inline std::string to_yaml([01;36m[Kconst Twist & msg[m[K, bool use_flow_style = false)
+[5.173s]       |                            [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[5.173s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:9[m[K,
+[5.173s]                  from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:49[m[K,
+[5.173s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[5.174s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:41[m[K,
+[5.174s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.174s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:26[m[K,
+[5.174s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.174s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:106:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string geometry_msgs::msg::to_yaml(const VelocityStamped&, bool)[m[K’
+[5.174s]   106 | inline std::string [01;36m[Kto_yaml[m[K(const VelocityStamped & msg, bool use_flow_style = false)
+[5.174s]       |                    [01;36m[K^~~~~~~[m[K
+[5.174s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:106:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseArray[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst VelocityStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::VelocityStamped_<std::allocator<void> >&[m[K’}
+[5.174s]   106 | inline std::string to_yaml([01;36m[Kconst VelocityStamped & msg[m[K, bool use_flow_style = false)
+[5.174s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.174s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:22[m[K,
+[5.175s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:25[m[K,
+[5.175s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.175s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.175s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:[m[K At global scope:
+[5.175s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:126:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.175s]   126 | inline const char * data_type[01;31m[K<[m[Kgeometry_msgs::msg::PoseArray>()
+[5.175s]       |                              [01;31m[K^[m[K
+[5.175s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:132:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.175s]   132 | inline const char * name[01;31m[K<[m[Kgeometry_msgs::msg::PoseArray>()
+[5.175s]       |                         [01;31m[K^[m[K
+[5.176s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:138:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_fixed_size[m[K’ is not a class template
+[5.176s]   138 | struct [01;31m[Khas_fixed_size[m[K<geometry_msgs::msg::PoseArray>
+[5.176s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.176s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:138:52:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_fixed_size[m[K’
+[5.176s]   138 | struct has_fixed_size<geometry_msgs::msg::PoseArray[01;31m[K>[m[K
+[5.176s]       |                                                    [01;31m[K^[m[K
+[5.176s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:142:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_bounded_size[m[K’ is not a class template
+[5.176s]   142 | struct [01;31m[Khas_bounded_size[m[K<geometry_msgs::msg::PoseArray>
+[5.176s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.176s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:142:54:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_bounded_size[m[K’
+[5.177s]   142 | struct has_bounded_size<geometry_msgs::msg::PoseArray[01;31m[K>[m[K
+[5.177s]       |                                                      [01;31m[K^[m[K
+[5.177s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:146:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_message[m[K’ is not a class template
+[5.177s]   146 | struct [01;31m[Kis_message[m[K<geometry_msgs::msg::PoseArray>
+[5.177s]       |        [01;31m[K^~~~~~~~~~[m[K
+[5.177s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp:146:48:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::is_message[m[K’
+[5.177s]   146 | struct is_message<geometry_msgs::msg::PoseArray[01;31m[K>[m[K
+[5.177s]       |                                                [01;31m[K^[m[K
+[5.177s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:25[m[K,
+[5.177s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.178s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.178s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:[m[K In function ‘[01m[Kvoid graph_msgs::msg::to_flow_style_yaml(const graph_msgs::msg::Edge&, std::ostream&)[m[K’:
+[5.178s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:40:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kname[m[K’
+[5.178s]    40 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kname[m[K, out);
+[5.178s]       |                                                [01;31m[K^~~~[m[K
+[5.178s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:47:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kalias[m[K’
+[5.178s]    47 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kalias[m[K, out);
+[5.178s]       |                                                [01;31m[K^~~~~[m[K
+[5.178s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:54:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Ktype[m[K’
+[5.178s]    54 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ktype[m[K, out);
+[5.179s]       |                                                [01;31m[K^~~~[m[K
+[5.179s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:61:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kedge_direction_type[m[K’
+[5.179s]    61 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kedge_direction_type[m[K, out);
+[5.179s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.179s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:68:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcreation_type[m[K’
+[5.179s]    68 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kcreation_type[m[K, out);
+[5.179s]       |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[5.179s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:75:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Ksource_vertex_id[m[K’
+[5.179s]    75 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ksource_vertex_id[m[K, out);
+[5.179s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.180s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:82:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Ktarget_vertex_id[m[K’
+[5.180s]    82 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ktarget_vertex_id[m[K, out);
+[5.180s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.180s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:89:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Klength[m[K’
+[5.180s]    89 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Klength[m[K, out);
+[5.180s]       |                                                [01;31m[K^~~~~~[m[K
+[5.180s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:96:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcost_factor[m[K’
+[5.180s]    96 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kcost_factor[m[K, out);
+[5.180s]       |                                                [01;31m[K^~~~~~~~~~~[m[K
+[5.180s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:103:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kbidirectional[m[K’
+[5.181s]   103 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kbidirectional[m[K, out);
+[5.181s]       |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[5.181s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:110:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kindependent_orientation[m[K’
+[5.181s]   110 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kindependent_orientation[m[K, out);
+[5.181s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.181s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:116:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcontrol_points[m[K’
+[5.181s]   116 |     if (msg.[01;31m[Kcontrol_points[m[K.size() == 0) {
+[5.181s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.181s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:120:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcontrol_points[m[K’
+[5.181s]   120 |       size_t pending_items = msg.[01;31m[Kcontrol_points[m[K.size();
+[5.182s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.182s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:121:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcontrol_points[m[K’
+[5.182s]   121 |       for (auto item : msg.[01;31m[Kcontrol_points[m[K) {
+[5.182s]       |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.182s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:135:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcontrol_orientation[m[K’
+[5.182s]   135 |     to_flow_style_yaml(msg.[01;31m[Kcontrol_orientation[m[K, out);
+[5.182s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.182s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:142:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kposes[m[K’
+[5.182s]   142 |     to_flow_style_yaml(msg.[01;31m[Kposes[m[K, out);
+[5.182s]       |                            [01;31m[K^~~~~[m[K
+[5.183s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:148:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.183s]   148 |     if (msg.[01;31m[Kproperties[m[K.size() == 0) {
+[5.183s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.183s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:152:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.183s]   152 |       size_t pending_items = msg.[01;31m[Kproperties[m[K.size();
+[5.183s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[5.183s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:153:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.183s]   153 |       for (auto item : msg.[01;31m[Kproperties[m[K) {
+[5.183s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[5.183s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:[m[K In function ‘[01m[Kvoid graph_msgs::msg::to_block_style_yaml(const graph_msgs::msg::Edge&, std::ostream&, size_t)[m[K’:
+[5.183s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:175:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kname[m[K’
+[5.184s]   175 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kname[m[K, out);
+[5.184s]       |                                                [01;31m[K^~~~[m[K
+[5.184s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:185:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kalias[m[K’
+[5.184s]   185 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kalias[m[K, out);
+[5.184s]       |                                                [01;31m[K^~~~~[m[K
+[5.184s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:195:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Ktype[m[K’
+[5.184s]   195 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ktype[m[K, out);
+[5.184s]       |                                                [01;31m[K^~~~[m[K
+[5.184s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:205:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kedge_direction_type[m[K’
+[5.185s]   205 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kedge_direction_type[m[K, out);
+[5.185s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.185s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:215:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcreation_type[m[K’
+[5.185s]   215 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kcreation_type[m[K, out);
+[5.185s]       |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[5.185s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:225:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Ksource_vertex_id[m[K’
+[5.185s]   225 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ksource_vertex_id[m[K, out);
+[5.185s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.185s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:235:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Ktarget_vertex_id[m[K’
+[5.185s]   235 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ktarget_vertex_id[m[K, out);
+[5.185s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:245:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Klength[m[K’
+[5.186s]   245 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Klength[m[K, out);
+[5.186s]       |                                                [01;31m[K^~~~~~[m[K
+[5.186s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:255:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcost_factor[m[K’
+[5.186s]   255 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kcost_factor[m[K, out);
+[5.186s]       |                                                [01;31m[K^~~~~~~~~~~[m[K
+[5.186s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:265:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kbidirectional[m[K’
+[5.186s]   265 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kbidirectional[m[K, out);
+[5.186s]       |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:275:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kindependent_orientation[m[K’
+[5.187s]   275 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kindependent_orientation[m[K, out);
+[5.187s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.187s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:284:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcontrol_points[m[K’
+[5.187s]   284 |     if (msg.[01;31m[Kcontrol_points[m[K.size() == 0) {
+[5.187s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.187s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:288:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcontrol_points[m[K’
+[5.187s]   288 |       for (auto item : msg.[01;31m[Kcontrol_points[m[K) {
+[5.187s]       |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.187s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:304:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kcontrol_orientation[m[K’
+[5.187s]   304 |     to_block_style_yaml(msg.[01;31m[Kcontrol_orientation[m[K, out, indentation + 2);
+[5.187s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.188s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:313:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kposes[m[K’
+[5.188s]   313 |     to_block_style_yaml(msg.[01;31m[Kposes[m[K, out, indentation + 2);
+[5.188s]       |                             [01;31m[K^~~~~[m[K
+[5.188s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:321:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.188s]   321 |     if (msg.[01;31m[Kproperties[m[K.size() == 0) {
+[5.188s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.188s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:325:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Edge[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.188s]   325 |       for (auto item : msg.[01;31m[Kproperties[m[K) {
+[5.188s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[5.188s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:[m[K In function ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const graph_msgs::msg::Edge&)[m[K’:
+[5.189s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:365:34:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kto_yaml(const graph_msgs::msg::Edge&)[m[K’ is ambiguous
+[5.189s]   365 |   return [01;31m[Kgraph_msgs::msg::to_yaml(msg)[m[K;
+[5.189s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.189s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:336:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const graph_msgs::msg::Edge&, bool)[m[K’
+[5.189s]   336 | inline std::string [01;36m[Kto_yaml[m[K(const Edge & msg, bool use_flow_style = false)
+[5.189s]       |                    [01;36m[K^~~~~~~[m[K
+[5.189s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:363:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const graph_msgs::msg::Edge&)[m[K’
+[5.189s]   363 | inline std::string [01;36m[Kto_yaml[m[K(const graph_msgs::msg::Edge & msg)
+[5.189s]       |                    [01;36m[K^~~~~~~[m[K
+[5.189s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:[m[K At global scope:
+[5.189s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:369:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.189s]   369 | inline const char * data_type[01;31m[K<[m[Kgraph_msgs::msg::Edge>()
+[5.190s]       |                              [01;31m[K^[m[K
+[5.190s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:375:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.190s]   375 | inline const char * name[01;31m[K<[m[Kgraph_msgs::msg::Edge>()
+[5.190s]       |                         [01;31m[K^[m[K
+[5.190s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:381:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_fixed_size[m[K’ is not a class template
+[5.190s]   381 | struct [01;31m[Khas_fixed_size[m[K<graph_msgs::msg::Edge>
+[5.190s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.190s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:381:44:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_fixed_size[m[K’
+[5.190s]   381 | struct has_fixed_size<graph_msgs::msg::Edge[01;31m[K>[m[K
+[5.190s]       |                                            [01;31m[K^[m[K
+[5.190s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:385:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_bounded_size[m[K’ is not a class template
+[5.191s]   385 | struct [01;31m[Khas_bounded_size[m[K<graph_msgs::msg::Edge>
+[5.191s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.191s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:385:46:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_bounded_size[m[K’
+[5.191s]   385 | struct has_bounded_size<graph_msgs::msg::Edge[01;31m[K>[m[K
+[5.191s]       |                                              [01;31m[K^[m[K
+[5.191s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:389:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_message[m[K’ is not a class template
+[5.191s]   389 | struct [01;31m[Kis_message[m[K<graph_msgs::msg::Edge>
+[5.191s]       |        [01;31m[K^~~~~~~~~~[m[K
+[5.191s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__traits.hpp:389:40:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::is_message[m[K’
+[5.191s]   389 | struct is_message<graph_msgs::msg::Edge[01;31m[K>[m[K
+[5.191s]       |                                        [01;31m[K^[m[K
+[5.192s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:9[m[K,
+[5.192s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:2[m[K:
+[5.192s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:[m[K In function ‘[01m[Kvoid graph_msgs::msg::to_flow_style_yaml(const graph_msgs::msg::Graph&, std::ostream&)[m[K’:
+[5.192s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:43:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kheader[m[K’
+[5.192s]    43 |     to_flow_style_yaml(msg.[01;31m[Kheader[m[K, out);
+[5.192s]       |                            [01;31m[K^~~~~~[m[K
+[5.192s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:50:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kmeta_data[m[K’
+[5.192s]    50 |     to_flow_style_yaml(msg.[01;31m[Kmeta_data[m[K, out);
+[5.192s]       |                            [01;31m[K^~~~~~~~~[m[K
+[5.193s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kvertices[m[K’
+[5.193s]    56 |     if (msg.[01;31m[Kvertices[m[K.size() == 0) {
+[5.193s]       |             [01;31m[K^~~~~~~~[m[K
+[5.193s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:60:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kvertices[m[K’
+[5.193s]    60 |       size_t pending_items = msg.[01;31m[Kvertices[m[K.size();
+[5.193s]       |                                  [01;31m[K^~~~~~~~[m[K
+[5.193s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:61:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kvertices[m[K’
+[5.193s]    61 |       for (auto item : msg.[01;31m[Kvertices[m[K) {
+[5.193s]       |                            [01;31m[K^~~~~~~~[m[K
+[5.193s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kedges[m[K’
+[5.193s]    74 |     if (msg.[01;31m[Kedges[m[K.size() == 0) {
+[5.193s]       |             [01;31m[K^~~~~[m[K
+[5.194s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:78:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kedges[m[K’
+[5.194s]    78 |       size_t pending_items = msg.[01;31m[Kedges[m[K.size();
+[5.194s]       |                                  [01;31m[K^~~~~[m[K
+[5.194s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:79:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kedges[m[K’
+[5.194s]    79 |       for (auto item : msg.[01;31m[Kedges[m[K) {
+[5.194s]       |                            [01;31m[K^~~~~[m[K
+[5.194s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.194s]    92 |     if (msg.[01;31m[Kproperties[m[K.size() == 0) {
+[5.194s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.194s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:96:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.194s]    96 |       size_t pending_items = msg.[01;31m[Kproperties[m[K.size();
+[5.194s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[5.194s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:97:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.195s]    97 |       for (auto item : msg.[01;31m[Kproperties[m[K) {
+[5.195s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[5.195s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:[m[K In function ‘[01m[Kvoid graph_msgs::msg::to_block_style_yaml(const graph_msgs::msg::Graph&, std::ostream&, size_t)[m[K’:
+[5.195s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:119:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kheader[m[K’
+[5.195s]   119 |     to_block_style_yaml(msg.[01;31m[Kheader[m[K, out, indentation + 2);
+[5.195s]       |                             [01;31m[K^~~~~~[m[K
+[5.195s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:128:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kmeta_data[m[K’
+[5.195s]   128 |     to_block_style_yaml(msg.[01;31m[Kmeta_data[m[K, out, indentation + 2);
+[5.195s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.195s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:136:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kvertices[m[K’
+[5.195s]   136 |     if (msg.[01;31m[Kvertices[m[K.size() == 0) {
+[5.195s]       |             [01;31m[K^~~~~~~~[m[K
+[5.196s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:140:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kvertices[m[K’
+[5.196s]   140 |       for (auto item : msg.[01;31m[Kvertices[m[K) {
+[5.196s]       |                            [01;31m[K^~~~~~~~[m[K
+[5.196s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:155:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kedges[m[K’
+[5.196s]   155 |     if (msg.[01;31m[Kedges[m[K.size() == 0) {
+[5.196s]       |             [01;31m[K^~~~~[m[K
+[5.196s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:159:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kedges[m[K’
+[5.196s]   159 |       for (auto item : msg.[01;31m[Kedges[m[K) {
+[5.196s]       |                            [01;31m[K^~~~~[m[K
+[5.196s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:174:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.196s]   174 |     if (msg.[01;31m[Kproperties[m[K.size() == 0) {
+[5.196s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.197s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:178:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct graph_msgs::msg::Graph[m[K’ has no member named ‘[01m[Kproperties[m[K’
+[5.197s]   178 |       for (auto item : msg.[01;31m[Kproperties[m[K) {
+[5.197s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[5.197s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:[m[K In function ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const graph_msgs::msg::Graph&)[m[K’:
+[5.197s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:218:34:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kto_yaml(const graph_msgs::msg::Graph&)[m[K’ is ambiguous
+[5.197s]   218 |   return [01;31m[Kgraph_msgs::msg::to_yaml(msg)[m[K;
+[5.197s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.197s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:189:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const graph_msgs::msg::Graph&, bool)[m[K’
+[5.197s]   189 | inline std::string [01;36m[Kto_yaml[m[K(const Graph & msg, bool use_flow_style = false)
+[5.197s]       |                    [01;36m[K^~~~~~~[m[K
+[5.197s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:216:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string graph_msgs::msg::to_yaml(const graph_msgs::msg::Graph&)[m[K’
+[5.197s]   216 | inline std::string [01;36m[Kto_yaml[m[K(const graph_msgs::msg::Graph & msg)
+[5.197s]       |                    [01;36m[K^~~~~~~[m[K
+[5.198s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:[m[K At global scope:
+[5.198s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:222:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.198s]   222 | inline const char * data_type[01;31m[K<[m[Kgraph_msgs::msg::Graph>()
+[5.198s]       |                              [01;31m[K^[m[K
+[5.198s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:228:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<[m[K’ token
+[5.198s]   228 | inline const char * name[01;31m[K<[m[Kgraph_msgs::msg::Graph>()
+[5.198s]       |                         [01;31m[K^[m[K
+[5.198s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:234:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_fixed_size[m[K’ is not a class template
+[5.198s]   234 | struct [01;31m[Khas_fixed_size[m[K<graph_msgs::msg::Graph>
+[5.198s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.198s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:234:45:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_fixed_size[m[K’
+[5.198s]   234 | struct has_fixed_size<graph_msgs::msg::Graph[01;31m[K>[m[K
+[5.199s]       |                                             [01;31m[K^[m[K
+[5.199s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:238:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_bounded_size[m[K’ is not a class template
+[5.199s]   238 | struct [01;31m[Khas_bounded_size[m[K<graph_msgs::msg::Graph>
+[5.199s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.199s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:238:47:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::has_bounded_size[m[K’
+[5.199s]   238 | struct has_bounded_size<graph_msgs::msg::Graph[01;31m[K>[m[K
+[5.199s]       |                                               [01;31m[K^[m[K
+[5.199s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:242:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_message[m[K’ is not a class template
+[5.199s]   242 | struct [01;31m[Kis_message[m[K<graph_msgs::msg::Graph>
+[5.199s]       |        [01;31m[K^~~~~~~~~~[m[K
+[5.199s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__traits.hpp:242:41:[m[K [01;31m[Kerror: [m[Ktemplate specifiers not specified in declaration of ‘[01m[Ktemplate<class T> struct rosidl_generator_traits::is_message[m[K’
+[5.199s]   242 | struct is_message<graph_msgs::msg::Graph[01;31m[K>[m[K
+[5.199s]       |                                         [01;31m[K^[m[K
+[5.200s] [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:83:64:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kstruct graph_msgs::msg::Graph[m[K’ does not name a type
+[5.200s]    83 | void GraphVizCtrl::graphCallback(const graph_msgs::msg::Graph::[01;31m[KSharedPtr[m[K graph_msg)
+[5.200s]       |                                                                [01;31m[K^~~~~~~~~[m[K
+[5.200s] [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:83:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid GraphVizCtrl::graphCallback(int)[m[K’
+[5.200s]    83 | void [01;31m[KGraphVizCtrl[m[K::graphCallback(const graph_msgs::msg::Graph::SharedPtr graph_msg)
+[5.200s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[5.200s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.200s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:248:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid GraphVizCtrl::graphCallback(std::shared_ptr<graph_msgs::msg::Graph>)[m[K’
+[5.200s]   248 |   void [01;36m[KgraphCallback[m[K(const std::shared_ptr<graph_msgs::msg::Graph> graph_msg);
+[5.200s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[5.200s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:231:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GraphVizCtrl[m[K’ defined here
+[5.200s]   231 | class [01;36m[KGraphVizCtrl[m[K : public rclcpp::Node
+[5.201s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[5.201s] [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:190:60:[m[K [01;31m[Kerror: [m[K‘[01m[KVertex[m[K’ in ‘[01m[Kstruct graph_msgs::msg::Graph[m[K’ does not name a type
+[5.201s]   190 | bool GraphVizCtrl::addInteractiveVertexMarker(const Graph::[01;31m[KVertex[m[K & v)
+[5.201s]       |                                                            [01;31m[K^~~~~~[m[K
+[5.201s] [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:190:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool GraphVizCtrl::addInteractiveVertexMarker(const int&)[m[K’
+[5.201s]   190 | bool [01;31m[KGraphVizCtrl[m[K::addInteractiveVertexMarker(const Graph::Vertex & v)
+[5.201s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[5.201s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.201s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:289:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool GraphVizCtrl::addInteractiveVertexMarker(const Graph::Vertex&)[m[K’
+[5.201s]   289 |   bool [01;36m[KaddInteractiveVertexMarker[m[K(const Graph::Vertex & v);
+[5.201s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.201s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:231:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GraphVizCtrl[m[K’ defined here
+[5.201s]   231 | class [01;36m[KGraphVizCtrl[m[K : public rclcpp::Node
+[5.202s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[5.202s] [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:218:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool GraphVizCtrl::addInteractiveEdgeMarker[m[K’ is not a static data member of ‘[01m[Kclass GraphVizCtrl[m[K’
+[5.202s]   218 | bool [01;31m[KGraphVizCtrl[m[K::addInteractiveEdgeMarker(Graph::Edge & e)
+[5.202s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[5.202s] [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:218:52:[m[K [01;31m[Kerror: [m[K‘[01m[KEdge[m[K’ is not a member of ‘[01m[Kgraph_msgs::msg::Graph[m[K’
+[5.202s]   218 | bool GraphVizCtrl::addInteractiveEdgeMarker(Graph::[01;31m[KEdge[m[K & e)
+[5.202s]       |                                                    [01;31m[K^~~~[m[K
+[5.204s] [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:218:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[5.204s]   218 | bool GraphVizCtrl::addInteractiveEdgeMarker(Graph::Edge & [01;31m[Ke[m[K)
+[5.204s]       |                                                           [01;31m[K^[m[K
+[5.329s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[5.329s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:174:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid Graph::Curves::calculateEquiDistantPosesBezier(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double&, double, double)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.329s]   174 |     static void [01;35m[KcalculateEquiDistantPosesBezier[m[K(
+[5.329s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.329s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:154:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid Graph::Curves::calculateEquiDistantPosesLine(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double&, double)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.329s]   154 |     static void [01;35m[KcalculateEquiDistantPosesLine[m[K(
+[5.329s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.329s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:141:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid Graph::Visuals::makeButtonControl(visualization_msgs::msg::InteractiveMarker&, const Marker&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.330s]   141 |     static void [01;35m[KmakeButtonControl[m[K(
+[5.330s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[5.330s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:124:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker Graph::Visuals::makeEdgeLineStripMarker(int, const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.330s]   124 |     static visualization_msgs::msg::Marker [01;35m[KmakeEdgeLineStripMarker[m[K(
+[5.330s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.330s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:111:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker Graph::Visuals::makeVertexOrientationArrowMarker()[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.330s]   111 |     static visualization_msgs::msg::Marker [01;35m[KmakeVertexOrientationArrowMarker[m[K() {
+[5.330s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.330s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:98:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker Graph::Visuals::makeVertexSphereMarker()[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.330s]    98 |     static visualization_msgs::msg::Marker [01;35m[KmakeVertexSphereMarker[m[K() {
+[5.330s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.330s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:86:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::InteractiveMarker Graph::Visuals::makeInteractiveEdgeMarker(int, const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.331s]    86 |     static visualization_msgs::msg::InteractiveMarker [01;35m[KmakeInteractiveEdgeMarker[m[K(
+[5.331s]       |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.331s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:76:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::InteractiveMarker Graph::Visuals::makeInteractiveVertexMarker(int, const Pose&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[5.331s]    76 |     static visualization_msgs::msg::InteractiveMarker [01;35m[KmakeInteractiveVertexMarker[m[K(
+[5.331s]       |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.405s] gmake[2]: *** [CMakeFiles/graph_viz_ctrl.dir/build.make:76: CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o] Error 1
+[5.406s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_viz_ctrl.dir/all] Error 2
+[5.407s] gmake: *** [Makefile:146: all] Error 2
+[5.412s] Invoked command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/src/graph_visual_control/build/graph_visual_control -- -j12 -l12

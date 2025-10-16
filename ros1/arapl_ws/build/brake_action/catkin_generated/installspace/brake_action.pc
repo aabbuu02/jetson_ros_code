@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/install
+
+Name: brake_action
+Description: Description of brake_action
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

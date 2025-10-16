@@ -1,0 +1,36 @@
+/**
+\mainpage
+
+\b robot_pose_publisher contains a ROS2 node to publish the robot's position relative to the map using TF2 transforms.
+
+The node publishes the robot's position in a geometry_msgs/msg/Pose or geometry_msgs/msg/PoseStamped message 
+based on the TF2 transform between the specified map frame (default: "map") and base frame (default: "base_link").
+
+\section parameters Parameters
+
+- ~map_frame (string, default: "map"): The reference frame for the published pose
+- ~base_frame (string, default: "base_link"): The robot's base frame
+- ~publish_frequency (double, default: 10.0): Publishing rate in Hz
+- ~is_stamped (bool, default: false): If true, publishes PoseStamped; otherwise publishes Pose
+
+\section topics Published Topics
+
+- robot_pose (geometry_msgs/msg/Pose or geometry_msgs/msg/PoseStamped): The robot's current pose
+
+\section requirements Requirements
+
+Requires active TF2 transforms between map_frame and base_frame.
+
+\section usage Usage
+
+Run the node:
+\code
+ros2 run robot_pose_publisher robot_pose_publisher
+\endcode
+
+With custom parameters:
+\code
+ros2 run robot_pose_publisher robot_pose_publisher --ros-args -p map_frame:=odom -p publish_frequency:=20.0
+\endcode
+
+*/

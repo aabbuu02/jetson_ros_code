@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/error_status__type_support.c.o"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/error_status__type_support.c.o.d"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/home_sensor__type_support.c.o"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/home_sensor__type_support.c.o.d"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/homing_status__type_support.c.o"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/homing_status__type_support.c.o.d"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_action__type_support.c.o"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_action__type_support.c.o.d"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_feedback__type_support.c.o"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_feedback__type_support.c.o.d"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/ui_interface__type_support.c.o"
+  "CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lift_action/msg/detail/ui_interface__type_support.c.o.d"
+  "liblift_action__rosidl_typesupport_introspection_c.pdb"
+  "liblift_action__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/error_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/error_status__type_support.c"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/home_sensor__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/home_sensor__type_support.c"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/homing_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/homing_status__type_support.c"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_action__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_action__type_support.c"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_feedback__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/lift_feedback__type_support.c"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/ui_interface__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/lift_action/msg/detail/ui_interface__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/lift_action__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

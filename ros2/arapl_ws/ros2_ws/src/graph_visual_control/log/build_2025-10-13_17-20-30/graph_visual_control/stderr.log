@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake:43 (_install):
+  _install DIRECTORY given unknown argument
+  "/opt/ros/humble/include/std_msgs".
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:28 (ament_cmake_symlink_install_directory)
+  CMakeLists.txt:68 (install)
+
+[0m

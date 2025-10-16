@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/Mission.action
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/Feedback.idl"
+#include "anscer_msgs/msg/Task.idl"
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Mission_Goal {
+      int16 loop_number;
+
+      string mission_id;
+
+      sequence<anscer_msgs::msg::Task> mission_list;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Mission_Result {
+      boolean is_success;
+
+      string mission_id;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Mission_Feedback {
+      anscer_msgs::msg::Feedback mission_feedback;
+    };
+  };
+};

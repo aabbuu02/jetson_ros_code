@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/Feedback.msg
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/ChargeInfo.idl"
+
+module anscer_msgs {
+  module msg {
+    module Feedback_Constants {
+      const int32 IDLE = 0;
+      const int32 ACTIVE = 1;
+      const int32 SUCCESS = 2;
+      const int32 ABORTED = 3;
+      const int32 PAUSED = 4;
+    };
+    @verbatim (language="comment", text=
+      "mission status")
+    struct Feedback {
+      string index;
+
+      string mission_id;
+
+      int16 number;
+
+      int16 status;
+
+      anscer_msgs::msg::ChargeInfo charge_info;
+
+      float completion_percentage;
+
+      int32 time_elapsed;
+
+      int32 priority_level;
+    };
+  };
+};

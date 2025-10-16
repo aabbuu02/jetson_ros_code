@@ -1,0 +1,1 @@
+int8 safety_switch

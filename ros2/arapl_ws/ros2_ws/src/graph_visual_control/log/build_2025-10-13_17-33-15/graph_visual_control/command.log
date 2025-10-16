@@ -1,0 +1,2 @@
+Invoking command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/src/graph_visual_control/build/graph_visual_control -- -j12 -l12
+Invoked command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/src/graph_visual_control/build/graph_visual_control -- -j12 -l12

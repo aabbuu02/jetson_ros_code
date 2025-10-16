@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/Task.msg
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/ACRControl.idl"
+#include "anscer_msgs/msg/ChargeInfo.idl"
+
+module anscer_msgs {
+  module msg {
+    struct Task {
+      string index;
+
+      int16 waypoint_index;
+
+      int16 number;
+
+      boolean activate;
+
+      anscer_msgs::msg::ACRControl acr_info;
+
+      anscer_msgs::msg::ChargeInfo charge_info;
+    };
+  };
+};

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/SaveStation.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct SaveStation_Request {
+      boolean save;
+
+      string type;
+
+      string station_name;
+    };
+    struct SaveStation_Response {
+      boolean is_saved;
+
+      string name_exist;
+
+      string status;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+bool initiate
+int16 delay
+int16 count

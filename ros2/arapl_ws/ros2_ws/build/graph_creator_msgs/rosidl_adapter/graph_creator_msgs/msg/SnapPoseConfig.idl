@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_creator_msgs/msg/SnapPoseConfig.msg
+// generated code does not contain a copyright notice
+
+
+module graph_creator_msgs {
+  module msg {
+    struct SnapPoseConfig {
+      @verbatim (language="comment", text=
+        "Enable snap position and orientation for vertices")
+      boolean enable_for_vertices;
+
+      @verbatim (language="comment", text=
+        "Enable snap position and orientation for edge elements")
+      boolean enable_for_edges;
+
+      @verbatim (language="comment", text=
+        "Whether to enable position snap")
+      boolean enable_position_snap;
+
+      @verbatim (language="comment", text=
+        "Whether to enable orientation snap")
+      boolean enable_orientation_snap;
+
+      @verbatim (language="comment", text=
+        "Position snap grid size in meters")
+      double position_snap_grid_size;
+
+      @verbatim (language="comment", text=
+        "Orientation snap angle in radians")
+      double orientation_snap_angle;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/devel
+
+Name: acr_robot_controller
+Description: Description of acr_robot_controller
+Version: 0.0.0
+Cflags: -I/home/nvidia/Desktop/arapl_ws/src/acr_robot_controller/include
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs geometry_msgs roscpp rospy std_msgs actionlib

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lift_action/msg/HomeSensor.msg
+// generated code does not contain a copyright notice
+
+
+module lift_action {
+  module msg {
+    struct HomeSensor {
+      string process;
+
+      boolean homing_status;
+    };
+  };
+};

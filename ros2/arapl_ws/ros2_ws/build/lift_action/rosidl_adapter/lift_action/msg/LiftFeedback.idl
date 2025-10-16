@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lift_action/msg/LiftFeedback.msg
+// generated code does not contain a copyright notice
+
+
+module lift_action {
+  module msg {
+    struct LiftFeedback {
+      string unique_id;
+
+      int16 acr_shelf;
+
+      int16 action;
+
+      boolean status;
+
+      boolean fail_status;
+    };
+  };
+};

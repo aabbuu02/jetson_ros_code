@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/EditWaypoint.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module anscer_msgs {
+  module srv {
+    struct EditWaypoint_Request {
+      boolean rename;
+
+      boolean replace_id;
+
+      boolean replace_to_current_pose;
+
+      boolean replace_to_pose;
+
+      int16 waypoint_order;
+
+      string waypoint_id;
+
+      string new_id;
+
+      string waypoint_type;
+
+      string waypoint_name;
+
+      geometry_msgs::msg::PoseStamped waypoint_pose;
+    };
+    struct EditWaypoint_Response {
+      string status;
+
+      boolean edited;
+    };
+  };
+};

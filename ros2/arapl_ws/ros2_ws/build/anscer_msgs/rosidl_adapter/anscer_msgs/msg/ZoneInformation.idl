@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/ZoneInformation.msg
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/Indication.idl"
+
+module anscer_msgs {
+  module msg {
+    struct ZoneInformation {
+      anscer_msgs::msg::Indication indication_info;
+
+      float speed_factor;
+    };
+  };
+};

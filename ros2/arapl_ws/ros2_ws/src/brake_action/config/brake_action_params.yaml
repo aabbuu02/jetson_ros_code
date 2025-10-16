@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    # HigherLevelInterface parameters
+    update_rate: 10.0
+    subscriber_topic: "/brake_command"
+    register_number: 27
+    
+modbus_communicator:
+  ros__parameters:
+    # ModbusCommunicator parameters
+    ip: "192.168.1.125"
+    port: 502

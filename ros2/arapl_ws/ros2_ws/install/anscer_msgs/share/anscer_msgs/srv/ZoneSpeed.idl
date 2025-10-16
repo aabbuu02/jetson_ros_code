@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/ZoneSpeed.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct ZoneSpeed_Request {
+      float speed_factor;
+    };
+    struct ZoneSpeed_Response {
+      boolean status;
+    };
+  };
+};

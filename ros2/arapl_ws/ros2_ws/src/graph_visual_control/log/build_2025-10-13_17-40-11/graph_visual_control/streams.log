@@ -1,0 +1,28 @@
+[0.024s] Invoking command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/src/graph_visual_control/build/graph_visual_control -- -j12 -l12
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target graph_viz_ctrl[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o[0m
+[4.991s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[4.992s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;31m[Kerror: [m[Kusing typedef-name ‘[01m[Kusing Graph = struct graph_msgs::msg::Graph_<std::allocator<void> >[m[K’ after ‘[01m[Kstruct[m[K’
+[4.992s]   220 |     struct [01;31m[KGraph[m[K {
+[4.992s]       |            [01;31m[K^~~~~[m[K
+[4.992s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:7[m[K,
+[4.993s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:8[m[K,
+[4.993s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[4.993s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__struct.hpp:177:7:[m[K [01;36m[Knote: [m[K‘[01m[Kusing Graph = struct graph_msgs::msg::Graph_<std::allocator<void> >[m[K’ has a previous declaration here
+[4.993s]   177 | using [01;36m[KGraph[m[K =
+[4.993s]       |       [01;36m[K^~~~~[m[K
+[4.994s] In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[4.994s] [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:224:12:[m[K [01;31m[Kerror: [m[Kusing typedef-name ‘[01m[Kusing Edge = struct graph_msgs::msg::Edge_<std::allocator<void> >[m[K’ after ‘[01m[Kstruct[m[K’
+[4.994s]   224 |     struct [01;31m[KEdge[m[K {
+[4.994s]       |            [01;31m[K^~~~[m[K
+[4.994s] In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__struct.hpp:26[m[K,
+[4.995s]                  from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:7[m[K,
+[4.995s]                  from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:8[m[K,
+[4.995s]                  from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[4.995s] [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__struct.hpp:338:7:[m[K [01;36m[Knote: [m[K‘[01m[Kusing Edge = struct graph_msgs::msg::Edge_<std::allocator<void> >[m[K’ has a previous declaration here
+[4.996s]   338 | using [01;36m[KEdge[m[K =
+[4.996s]       |       [01;36m[K^~~~[m[K
+[10.603s] gmake[2]: *** [CMakeFiles/graph_viz_ctrl.dir/build.make:76: CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o] Error 1
+[10.604s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_viz_ctrl.dir/all] Error 2
+[10.604s] gmake: *** [Makefile:146: all] Error 2
+[10.609s] Invoked command in '/ros2_ws/src/graph_visual_control/build/graph_visual_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/src/graph_visual_control/build/graph_visual_control -- -j12 -l12

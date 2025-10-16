@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="power_control" pkg="power_control" type="power_control">
+  <param name="enable_system_power_control" type="bool" value="False" />
+  <param name="enable_slave_power_control" type="bool" value="False" />
+</node>
+\endverbatim
+

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_creator_msgs/msg/GraphCreatorState.msg
+// generated code does not contain a copyright notice
+
+
+module graph_creator_msgs {
+  module msg {
+    struct GraphCreatorState {
+      uint8 graph_mode;
+
+      uint8 current_edge_type;
+
+      boolean edge_is_bidirectional;
+
+      boolean all_vertices_locked;
+
+      boolean all_edges_locked;
+    };
+  };
+};

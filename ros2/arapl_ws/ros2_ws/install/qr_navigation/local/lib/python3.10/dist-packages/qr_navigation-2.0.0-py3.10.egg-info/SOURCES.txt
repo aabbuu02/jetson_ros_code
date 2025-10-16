@@ -1,0 +1,6 @@
+setup.py
+qr_navigation/__init__.py
+qr_navigation.egg-info/PKG-INFO
+qr_navigation.egg-info/SOURCES.txt
+qr_navigation.egg-info/dependency_links.txt
+qr_navigation.egg-info/top_level.txt

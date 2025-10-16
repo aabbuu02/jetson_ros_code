@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from graph_msgs/srv/SaveGraph.srv
+// generated code does not contain a copyright notice
+
+#include "graph_msgs/msg/Graph.idl"
+
+module graph_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Either use absolute path to save the graph file like /path/to/save/ or" "\n"
+      "use a relative path to a package. For example, package_name/graphs/." "\n"
+      "In case of graph file save being relative to a package, use of '/' is not required." "\n"
+      "The graph name is used to create the filename, for example, graph_file_name.graphml." "\n"
+      "Finally, the graph will be save at save_graph_url/graph_file_name.graphml. ")
+    struct SaveGraph_Request {
+      string graph_file_name;
+
+      string save_graph_url;
+    };
+    module SaveGraph_Response_Constants {
+      const uint8 RESULT_SUCCESS = 0;
+      const uint8 RESULT_GRAPH_ALREADY_EXISTS = 1;
+      const uint8 RESULT_INVALID_GRAPH_FILE_NAME = 2;
+      const uint8 RESULT_INVALID_GRAPH_FILE_PATH = 3;
+      const uint8 RESULT_UNDEFINED_FAILURE = 255;
+    };
+    @verbatim (language="comment", text=
+      "Result code definitions")
+    struct SaveGraph_Response {
+      graph_msgs::msg::Graph graph;
+
+      uint8 result;
+    };
+  };
+};

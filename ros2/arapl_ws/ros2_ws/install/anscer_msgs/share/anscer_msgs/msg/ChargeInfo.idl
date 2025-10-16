@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/ChargeInfo.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    module ChargeInfo_Constants {
+      const uint8 CONNECTED = 1;
+      const uint8 DISCONNECTED = 2;
+      const uint8 OVERRIDE = 3;
+    };
+    struct ChargeInfo {
+      boolean charger_activate;
+
+      int32 charge_time;
+
+      boolean ignore_time;
+
+      float charge_percentage;
+
+      boolean ignore_percentage;
+    };
+  };
+};

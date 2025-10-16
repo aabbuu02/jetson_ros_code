@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-397156428c0ec492cb7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "graph_creator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "directed_graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-directed_graph-49cb83128cc8afb230d1.json",
+					"name" : "directed_graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dxf_graph_generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dxf_graph_generator-dadee3656f77b7f21939.json",
+					"name" : "dxf_graph_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_creator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_creator-7e33d88f3f48032e85e9.json",
+					"name" : "graph_creator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_creator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_creator_uninstall-11a051055f3142974cdd.json",
+					"name" : "graph_creator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_curves::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_curves-671b61ce6352d9df4b61.json",
+					"name" : "graph_curves",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_file_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_file_utils-0b2d0ae78d6fda5c20a2.json",
+					"name" : "graph_file_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_generators::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_generators-b414f22f9f98a798da87.json",
+					"name" : "graph_generators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_loader-b62fb312c31c84b7b4e2.json",
+					"name" : "graph_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_saver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_saver-1dd70f2b46d8a8b9bfe0.json",
+					"name" : "graph_saver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_transformers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_transformers-0880c2ac01867ebeaa1e.json",
+					"name" : "graph_transformers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_utils-c26383fb7c96f2c16f89.json",
+					"name" : "graph_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_visuals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_visuals-f4bfac6a0b5c15bbf21c.json",
+					"name" : "graph_visuals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-21b366699721fcfd5293.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/graph_creator",
+		"source" : "/ros2_ws/src/graph_creator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,24 @@
+\subsubsection usage Usage
+\verbatim
+<node name="qr_navigation" pkg="qr_navigation" type="qr_navigation">
+  <param name="forward_max_vel" type="double" value="0.7" />
+  <param name="reverse_max_vel" type="double" value="0.7" />
+  <param name="homing_distance" type="double" value="0.8" />
+  <param name="acc_constant" type="double" value="0.1" />
+  <param name="dec_constant" type="double" value="0.1" />
+  <param name="inertia_constant" type="double" value="0.5" />
+  <param name="x_position_tolerance" type="double" value="0.04" />
+  <param name="x_angular_tolerance" type="double" value="0.04" />
+  <param name="acceleration" type="double" value="0.5" />
+  <param name="min_lookahead_dist" type="double" value="0.5" />
+  <param name="max_lookahead" type="double" value="1.0" />
+  <param name="wheel_base" type="double" value="0.5" />
+  <param name="max_angular_vel" type="double" value="0.2" />
+  <param name="kla" type="double" value="1.1" />
+  <param name="charge_vel" type="double" value="0.1" />
+  <param name="dock_vel" type="double" value="0.1" />
+  <param name="inplace_max_rot_vel" type="double" value="0.2" />
+  <param name="control_gain" type="double" value="0.7" />
+</node>
+\endverbatim
+

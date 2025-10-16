@@ -1,0 +1,11 @@
+{
+  "package_name": "lift_action",
+  "non_idl_tuples": [
+    "/ros2_ws/src/lift_action:msg/LiftFeedback.msg",
+    "/ros2_ws/src/lift_action:msg/LiftAction.msg",
+    "/ros2_ws/src/lift_action:msg/UiInterface.msg",
+    "/ros2_ws/src/lift_action:msg/HomingStatus.msg",
+    "/ros2_ws/src/lift_action:msg/HomeSensor.msg",
+    "/ros2_ws/src/lift_action:msg/ErrorStatus.msg"
+  ]
+}

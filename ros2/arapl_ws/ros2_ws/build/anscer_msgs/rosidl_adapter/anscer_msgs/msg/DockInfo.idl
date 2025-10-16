@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/DockInfo.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    module DockInfo_Constants {
+      const uint8 FIDUCIALDOCKING = 1;
+      const uint8 REFLECTORDOCKING = 2;
+      const uint8 TROLLEYDOCKING = 3;
+      const uint8 ICPDOCKING = 4;
+      const uint8 GROUNDMARKERDOCKING = 5;
+      const uint8 SIDEWISEDOCKING = 6;
+      const uint8 DOCKSTATE = 1;
+      const uint8 UNDOCKSTATE = 2;
+    };
+    struct DockInfo {
+      int8 dock_marker;
+
+      int8 dock_mode;
+    };
+  };
+};

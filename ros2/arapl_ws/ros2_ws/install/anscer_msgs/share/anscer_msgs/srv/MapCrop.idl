@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/MapCrop.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct MapCrop_Request {
+      string original_map_name;
+
+      string cropped_map_index;
+    };
+    struct MapCrop_Response {
+      boolean result;
+    };
+  };
+};

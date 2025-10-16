@@ -1,0 +1,25 @@
+<library path="graph_creator_rviz_plugin">
+  <class name="graph_creator_rviz_plugin/GraphCreatorPanel"
+         type="graph_creator_rviz_plugin::GraphCreatorPanel"
+         base_class_type="rviz_common::Panel">
+    <description>
+      Panel for creating and editing graph vertices and edges
+    </description>
+  </class>
+  
+  <class name="graph_creator_rviz_plugin/CreateVertexTool"
+         type="graph_creator_rviz_plugin::CreateVertexTool"
+         base_class_type="rviz_common::Tool">
+    <description>
+      Tool for creating graph vertices by clicking in RViz
+    </description>
+  </class>
+  
+  <class name="graph_creator_rviz_plugin/SelectGraphElementsTool"
+         type="graph_creator_rviz_plugin::SelectGraphElementsTool"
+         base_class_type="rviz_common::Tool">
+    <description>
+      Tool for selecting graph elements (vertices and edges)
+    </description>
+  </class>
+</library>

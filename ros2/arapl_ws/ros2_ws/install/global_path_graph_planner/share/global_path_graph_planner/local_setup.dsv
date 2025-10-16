@@ -1,0 +1,3 @@
+source;share/global_path_graph_planner/environment/ament_prefix_path.sh
+source;share/global_path_graph_planner/environment/library_path.sh
+source;share/global_path_graph_planner/environment/path.sh

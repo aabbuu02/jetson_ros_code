@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/install
+
+Name: anscer_teleop
+Description: Description of anscer_teleop
+Version: 1.2.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy geometry_msgs

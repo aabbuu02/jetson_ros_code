@@ -1,0 +1,3 @@
+string name
+anscer_msgs/MotorFaultFlags fault_flags
+anscer_msgs/MotorStatusFlags status_flags

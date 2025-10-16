@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>anscer_agv_bringup</name>
+  <version>1.0.0</version>
+  <description>The anscer_agv_bringup package for ROS2 - provides launch configuration for ANSCER AGV system</description>
+
+  <maintainer email="nvidia@todo.todo">nvidia</maintainer>
+  <license>TODO</license>
+
+  <!-- Build tool dependency for ROS2 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies for custom packages -->
+  <depend>global_path_graph_planner</depend>
+  <depend>graph_server</depend>
+  <depend>lower_level_controller</depend>
+  <depend>reader_modules</depend>
+  
+  <!-- ROS2 core dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  
+  <!-- Additional runtime dependencies for nodes used in launch file -->
+  <exec_depend>twist_mux</exec_depend>
+  <exec_depend>anscer_description</exec_depend>
+  <exec_depend>robot_pose_publisher</exec_depend>
+  <exec_depend>qr_mission_scheduler</exec_depend>
+  <exec_depend>qr_navigation</exec_depend>
+  <exec_depend>wms_data</exec_depend>
+  <exec_depend>tag_monitor</exec_depend>
+  <exec_depend>power_control</exec_depend>
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

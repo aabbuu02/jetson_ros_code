@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/HomeLocation.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module anscer_msgs {
+  module srv {
+    struct HomeLocation_Request {
+      geometry_msgs::msg::Pose robot_pose;
+    };
+    struct HomeLocation_Response {
+      int32 id;
+
+      boolean is_available;
+    };
+  };
+};

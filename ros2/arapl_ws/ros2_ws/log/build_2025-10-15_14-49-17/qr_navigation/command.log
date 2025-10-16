@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/qr_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/qr_navigation -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/qr_navigation
+Invoked command in '/ros2_ws/build/qr_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/qr_navigation -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/qr_navigation
+Invoking command in '/ros2_ws/build/qr_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/qr_navigation -- -j12 -l12
+Invoked command in '/ros2_ws/build/qr_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/qr_navigation -- -j12 -l12
+Invoking command in '/ros2_ws/build/qr_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/qr_navigation
+Invoked command in '/ros2_ws/build/qr_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/qr_navigation

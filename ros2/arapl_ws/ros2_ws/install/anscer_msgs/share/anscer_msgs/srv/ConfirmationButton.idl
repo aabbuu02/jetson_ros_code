@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/ConfirmationButton.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct ConfirmationButton_Request {
+      boolean confirmation_call;
+    };
+    struct ConfirmationButton_Response {
+      boolean result;
+    };
+  };
+};

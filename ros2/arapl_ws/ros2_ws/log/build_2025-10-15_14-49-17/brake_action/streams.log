@@ -1,0 +1,87 @@
+[0.053s] Invoking command in '/ros2_ws/build/brake_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/brake_action -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/brake_action
+[3.154s] -- The C compiler identification is GNU 11.4.0
+[3.154s] -- The CXX compiler identification is GNU 11.4.0
+[3.154s] -- Detecting C compiler ABI info
+[3.154s] -- Detecting C compiler ABI info - done
+[3.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.157s] -- Detecting C compile features
+[3.158s] -- Detecting C compile features - done
+[3.158s] -- Detecting CXX compiler ABI info
+[3.158s] -- Detecting CXX compiler ABI info - done
+[3.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.158s] -- Detecting CXX compile features
+[3.158s] -- Detecting CXX compile features - done
+[3.158s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.158s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.158s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.158s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.158s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.159s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.159s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.159s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.159s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.159s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.159s] -- Looking for pthread.h
+[3.159s] -- Looking for pthread.h - found
+[3.159s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.160s] -- Found Threads: TRUE  
+[3.160s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.160s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.160s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.160s] -- Configured cppcheck include dirs: /ros2_ws/src/brake_action/include
+[3.160s] -- Configured cppcheck exclude dirs and/or files: 
+[3.160s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.160s] -- Configured cpplint exclude dirs and/or files: 
+[3.160s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.160s] -- Added test 'lint_cmake' to check CMake code style
+[3.160s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.161s] -- Added test 'uncrustify' to check C / C++ code style
+[3.161s] -- Configured uncrustify additional arguments: 
+[3.161s] -- Added test 'xmllint' to check XML markup files
+[3.161s] -- Configuring done
+[3.161s] -- Generating done
+[3.161s] -- Build files have been written to: /ros2_ws/build/brake_action
+[3.181s] Invoked command in '/ros2_ws/build/brake_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/brake_action -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/brake_action
+[3.181s] Invoking command in '/ros2_ws/build/brake_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/brake_action -- -j12 -l12
+[4.374s] [ 33%] [32mBuilding CXX object CMakeFiles/brake_action_node.dir/src/HigherLevelInterface.cpp.o[0m
+[4.374s] [ 66%] [32mBuilding CXX object CMakeFiles/brake_action_node.dir/src/ModbusCommunicator.cpp.o[0m
+[41.791s] [100%] [32m[1mLinking CXX executable brake_action_node[0m
+[42.902s] [100%] Built target brake_action_node
+[42.966s] Invoked command in '/ros2_ws/build/brake_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/brake_action -- -j12 -l12
+[42.966s] Invoking command in '/ros2_ws/build/brake_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/brake_action
+[43.225s] -- Install configuration: ""
+[43.225s] -- Installing: /ros2_ws/install/brake_action/lib/brake_action/brake_action_node
+[43.226s] -- Set runtime path of "/ros2_ws/install/brake_action/lib/brake_action/brake_action_node" to ""
+[43.226s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/launch
+[43.226s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/launch/brake_action.launch.py
+[43.226s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/config
+[43.226s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/config/brake_action_params.yaml
+[43.226s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/config/HigherLevelInterface.yaml
+[43.226s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/config/ModbusCommunicator.yaml
+[43.226s] -- Installing: /ros2_ws/install/brake_action/include
+[43.226s] -- Installing: /ros2_ws/install/brake_action/include/.vscode
+[43.226s] -- Installing: /ros2_ws/install/brake_action/include/.vscode/c_cpp_properties.json
+[43.226s] -- Installing: /ros2_ws/install/brake_action/include/.vscode/settings.json
+[43.226s] -- Installing: /ros2_ws/install/brake_action/include/brake_action
+[43.227s] -- Installing: /ros2_ws/install/brake_action/include/brake_action/ModbusCommunicator.h
+[43.227s] -- Installing: /ros2_ws/install/brake_action/include/brake_action/HigherLevelInterface.h
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/ament_index/resource_index/package_run_dependencies/brake_action
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/ament_index/resource_index/parent_prefix_path/brake_action
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/environment/ament_prefix_path.sh
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/environment/ament_prefix_path.dsv
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/environment/path.sh
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/environment/path.dsv
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/local_setup.bash
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/local_setup.sh
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/local_setup.zsh
+[43.227s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/local_setup.dsv
+[43.228s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/package.dsv
+[43.228s] -- Installing: /ros2_ws/install/brake_action/share/ament_index/resource_index/packages/brake_action
+[43.228s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/cmake/brake_actionConfig.cmake
+[43.228s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/cmake/brake_actionConfig-version.cmake
+[43.228s] -- Installing: /ros2_ws/install/brake_action/share/brake_action/package.xml
+[43.229s] Invoked command in '/ros2_ws/build/brake_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/brake_action

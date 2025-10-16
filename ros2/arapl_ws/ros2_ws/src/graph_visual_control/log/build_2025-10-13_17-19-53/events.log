@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000731] (graph_visual_control) JobQueued: {'identifier': 'graph_visual_control', 'dependencies': OrderedDict()}
+[0.001182] (graph_visual_control) JobStarted: {'identifier': 'graph_visual_control'}
+[0.018237] (graph_visual_control) JobProgress: {'identifier': 'graph_visual_control', 'progress': 'cmake'}
+[0.018980] (graph_visual_control) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/graph_visual_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/src/graph_visual_control/install/graph_visual_control'], 'cwd': '/ros2_ws/src/graph_visual_control/build/graph_visual_control', 'env': OrderedDict([('HOSTNAME', 'linux'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble'), ('PWD', '/ros2_ws/src/graph_visual_control/build/graph_visual_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/wms_data/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages:/ros2_ws/install/lift_action/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_creator_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/anscer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble')]), 'shell': False}
+[0.099591] (-) TimerEvent: {}
+[0.104424] (graph_visual_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.189978] (graph_visual_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199668] (-) TimerEvent: {}
+[0.202284] (graph_visual_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299976] (-) TimerEvent: {}
+[0.362606] (graph_visual_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.386474] (graph_visual_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.387151] (graph_visual_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.388074] (graph_visual_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.396594] (graph_visual_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400022] (-) TimerEvent: {}
+[0.500898] (-) TimerEvent: {}
+[0.540640] (graph_visual_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.563900] (graph_visual_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.565232] (graph_visual_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.566962] (graph_visual_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.581181] (graph_visual_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600977] (-) TimerEvent: {}
+[0.701921] (-) TimerEvent: {}
+[0.802533] (-) TimerEvent: {}
+[0.848713] (graph_visual_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.902610] (-) TimerEvent: {}
+[0.960357] (graph_visual_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.002728] (-) TimerEvent: {}
+[1.076110] (graph_visual_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.102820] (-) TimerEvent: {}
+[1.164229] (graph_visual_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.178139] (graph_visual_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.195451] (graph_visual_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.202922] (-) TimerEvent: {}
+[1.218992] (graph_visual_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.251415] (graph_visual_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303027] (-) TimerEvent: {}
+[1.342966] (graph_visual_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.351258] (graph_visual_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.403182] (-) TimerEvent: {}
+[1.503769] (-) TimerEvent: {}
+[1.517784] (graph_visual_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.556228] (graph_visual_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.603882] (-) TimerEvent: {}
+[1.620188] (graph_visual_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.641595] (graph_visual_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.703985] (-) TimerEvent: {}
+[1.785931] (graph_visual_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.786690] (graph_visual_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.804133] (-) TimerEvent: {}
+[1.904799] (-) TimerEvent: {}
+[1.958713] (graph_visual_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.962165] (graph_visual_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.004870] (-) TimerEvent: {}
+[2.055094] (graph_visual_control) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.105202] (-) TimerEvent: {}
+[2.113147] (graph_visual_control) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.162668] (graph_visual_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.183118] (graph_visual_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.205286] (-) TimerEvent: {}
+[2.208837] (graph_visual_control) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.264559] (graph_visual_control) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[2.282167] (graph_visual_control) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.305388] (-) TimerEvent: {}
+[2.315930] (graph_visual_control) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.366778] (graph_visual_control) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.397514] (graph_visual_control) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.399131] (graph_visual_control) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.399409] (graph_visual_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.403521] (graph_visual_control) StdoutLine: {'line': b'-- Found graph_msgs: 1.0.0 (/ros2_ws/install/graph_msgs/share/graph_msgs/cmake)\n'}
+[2.405485] (-) TimerEvent: {}
+[2.435386] (graph_visual_control) StdoutLine: {'line': b'-- Found anscer_msgs: 0.0.0 (/ros2_ws/install/anscer_msgs/share/anscer_msgs/cmake)\n'}
+[2.479389] (graph_visual_control) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake:43 (_install):\n'}
+[2.479869] (graph_visual_control) StderrLine: {'line': b'  _install DIRECTORY given unknown argument\n'}
+[2.480147] (graph_visual_control) StderrLine: {'line': b'  "$<BUILD_INTERFACE:/opt/ros/humble/include/std_msgs".\n'}
+[2.480389] (graph_visual_control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.480612] (graph_visual_control) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:28 (ament_cmake_symlink_install_directory)\n'}
+[2.480835] (graph_visual_control) StderrLine: {'line': b'  CMakeLists.txt:68 (install)\n'}
+[2.481105] (graph_visual_control) StderrLine: {'line': b'\n'}
+[2.481349] (graph_visual_control) StderrLine: {'line': b'\x1b[0m\n'}
+[2.484519] (graph_visual_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.505645] (-) TimerEvent: {}
+[2.606452] (-) TimerEvent: {}
+[2.648695] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.655346] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.656103] (graph_visual_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ros2_ws/src/graph_visual_control/include\n'}
+[2.656384] (graph_visual_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.662516] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.662917] (graph_visual_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.664773] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.666932] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.668682] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.675274] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.675558] (graph_visual_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.676830] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.680030] (graph_visual_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.680300] (graph_visual_control) StdoutLine: {'line': b'See also "/ros2_ws/src/graph_visual_control/build/graph_visual_control/CMakeFiles/CMakeOutput.log".\n'}
+[2.702521] (graph_visual_control) CommandEnded: {'returncode': 1}
+[2.706783] (-) TimerEvent: {}
+[2.780676] (graph_visual_control) JobEnded: {'identifier': 'graph_visual_control', 'rc': 1}
+[2.792210] (-) EventReactorShutdown: {}

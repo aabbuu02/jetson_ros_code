@@ -1,0 +1,17 @@
+wms_database_node:
+  ros__parameters:
+    wms_url: "http://0.0.0.0:3333/"
+    log_file_path: "/tmp/wms_data/logs/wms.log"
+    update_rate: 1.0
+    timeout_seconds: 10
+
+wms_database_server_node:
+  ros__parameters:
+    wms_url: "http://192.168.1.127/wms_webservice/Services.asmx"
+    log_file_path: "/tmp/wms_data/logs/wms_server.log"
+    update_rate: 1.0
+    timeout_seconds: 10
+
+wms_logger_node:
+  ros__parameters:
+    log_file_path: "/tmp/wms_data/log.txt"

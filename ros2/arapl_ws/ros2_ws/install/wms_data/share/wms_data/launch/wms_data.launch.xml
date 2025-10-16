@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Arguments -->
+    <arg name="use_soap" default="false" description="Use SOAP/XML communication"/>
+    <arg name="config_file" default="$(find-pkg-share wms_data)/config/wms_config.yaml" description="Configuration file"/>
+    
+    <!-- WMS Database Node (REST API) -->
+    <node pkg="wms_data" exec="wms_database_node" name="wms_database_node" output="screen" unless="$(var use_soap)">
+        <param from="$(var config_file)"/>
+    </node>
+    
+    <!-- WMS Database Server Node (SOAP/XML) -->
+    <node pkg="wms_data" exec="wms_database_server_node" name="wms_database_server_node" output="screen" if="$(var use_soap)">
+        <param from="$(var config_file)"/>
+    </node>
+    
+    <!-- WMS Logger Node -->
+    <node pkg="wms_data" exec="wms_logger_node" name="wms_logger_node" output="screen">
+        <param from="$(var config_file)"/>
+    </node>
+</launch>

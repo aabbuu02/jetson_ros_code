@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/Charge.action
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/ChargeInfo.idl"
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Charge_Goal {
+      anscer_msgs::msg::ChargeInfo charge_info;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Charge_Result {
+      boolean is_success;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Charge_Feedback {
+      int8 charge_feedback;
+
+      int32 time_elapsed;
+    };
+  };
+};

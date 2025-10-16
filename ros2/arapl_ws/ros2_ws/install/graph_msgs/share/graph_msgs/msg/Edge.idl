@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_msgs/msg/Edge.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/PoseArray.idl"
+#include "graph_msgs/msg/Property.idl"
+
+module graph_msgs {
+  module msg {
+    module Edge_Constants {
+      const uint8 STRAIGHT_LINE = 0;
+      const uint8 CUBIC_BEZIER = 1;
+      @verbatim (language="comment", text=
+        "Edge direction types")
+      const uint8 FORWARD = 0;
+      const uint8 REVERSE = 1;
+      const uint8 BIDIRECTIONAL = 2;
+      @verbatim (language="comment", text=
+        "Creation types" "\n"        "The edge is created")
+      const uint8 CREATED = 0;
+      @verbatim (language="comment", text=
+        "The edge is generated")
+      const uint8 GENERATED = 1;
+    };
+    @verbatim (language="comment", text=
+      "Edge types")
+    struct Edge {
+      string name;
+
+      string alias;
+
+      uint8 type;
+
+      uint8 edge_direction_type;
+
+      uint8 creation_type;
+
+      uint32 source_vertex_id;
+
+      uint32 target_vertex_id;
+
+      double length;
+
+      double cost_factor;
+
+      boolean bidirectional;
+
+      boolean independent_orientation;
+
+      sequence<geometry_msgs::msg::Pose> control_points;
+
+      geometry_msgs::msg::Pose control_orientation;
+
+      geometry_msgs::msg::PoseArray poses;
+
+      sequence<graph_msgs::msg::Property> properties;
+    };
+  };
+};

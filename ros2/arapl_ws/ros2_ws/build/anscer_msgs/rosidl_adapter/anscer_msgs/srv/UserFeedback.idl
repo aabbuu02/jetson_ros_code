@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/UserFeedback.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct UserFeedback_Request {
+      boolean user_feedback;
+    };
+    struct UserFeedback_Response {
+      boolean status;
+    };
+  };
+};

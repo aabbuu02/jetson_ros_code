@@ -1,0 +1,10 @@
+/ros2_ws/build/tag_monitor/CMakeFiles/uninstall.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/tag_monitor_uninstall.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/tag_monitor_node.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/test.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/edit_cache.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/rebuild_cache.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/list_install_components.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/install.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/install/local.dir
+/ros2_ws/build/tag_monitor/CMakeFiles/install/strip.dir

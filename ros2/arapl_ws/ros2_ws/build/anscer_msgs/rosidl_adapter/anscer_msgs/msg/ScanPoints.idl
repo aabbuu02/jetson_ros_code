@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/ScanPoints.msg
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/ScanPoint.idl"
+
+module anscer_msgs {
+  module msg {
+    struct ScanPoints {
+      sequence<anscer_msgs::msg::ScanPoint> point;
+    };
+  };
+};

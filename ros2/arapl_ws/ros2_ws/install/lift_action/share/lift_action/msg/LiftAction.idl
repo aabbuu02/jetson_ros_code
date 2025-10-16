@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lift_action/msg/LiftAction.msg
+// generated code does not contain a copyright notice
+
+
+module lift_action {
+  module msg {
+    struct LiftAction {
+      string unique_id;
+
+      boolean reached;
+
+      int16 rack;
+
+      int16 shelf;
+
+      int16 acr_shelf;
+
+      int16 action;
+
+      string whole_bin_no;
+
+      string putaway_barcode;
+    };
+  };
+};

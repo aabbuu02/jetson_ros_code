@@ -1,0 +1,23 @@
+{
+  "package_name": "graph_creator_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/graph_creator_msgs:msg/GraphCreatorMode.msg",
+    "/ros2_ws/src/graph_creator_msgs:msg/EdgeCreationType.msg",
+    "/ros2_ws/src/graph_creator_msgs:msg/EdgeDirectionCreationType.msg",
+    "/ros2_ws/src/graph_creator_msgs:msg/GraphCreatorConfig.msg",
+    "/ros2_ws/src/graph_creator_msgs:msg/GraphCreatorState.msg",
+    "/ros2_ws/src/graph_creator_msgs:msg/GraphGeneratorConfig.msg",
+    "/ros2_ws/src/graph_creator_msgs:msg/SelectedGraphElements.msg",
+    "/ros2_ws/src/graph_creator_msgs:msg/SnapPoseConfig.msg",
+    "/ros2_ws/src/graph_creator_msgs:srv/SetGraphCreatorMode.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/LoadGraph.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/SaveGraph.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/SetBool.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/SetEdgeDirectionType.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/SetEdgeCreationType.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/SetEdgeDirectionCreationType.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/GetGraphCreatorState.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/GenerateGraph.srv",
+    "/ros2_ws/src/graph_creator_msgs:srv/SetSnapPose.srv"
+  ]
+}

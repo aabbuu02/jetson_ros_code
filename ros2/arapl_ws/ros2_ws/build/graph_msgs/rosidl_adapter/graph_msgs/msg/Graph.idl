@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_msgs/msg/Graph.msg
+// generated code does not contain a copyright notice
+
+#include "graph_msgs/msg/Edge.idl"
+#include "graph_msgs/msg/GraphMetaData.idl"
+#include "graph_msgs/msg/Property.idl"
+#include "graph_msgs/msg/Vertex.idl"
+#include "std_msgs/msg/Header.idl"
+
+module graph_msgs {
+  module msg {
+    struct Graph {
+      std_msgs::msg::Header header;
+
+      graph_msgs::msg::GraphMetaData meta_data;
+
+      sequence<graph_msgs::msg::Vertex> vertices;
+
+      sequence<graph_msgs::msg::Edge> edges;
+
+      sequence<graph_msgs::msg::Property> properties;
+    };
+  };
+};

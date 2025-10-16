@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/SafetyFields.msg
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/SafetyField.idl"
+
+module anscer_msgs {
+  module msg {
+    struct SafetyFields {
+      sequence<anscer_msgs::msg::SafetyField> warning;
+
+      sequence<anscer_msgs::msg::SafetyField> safety;
+    };
+  };
+};

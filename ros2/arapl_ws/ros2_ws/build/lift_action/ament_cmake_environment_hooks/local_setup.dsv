@@ -1,0 +1,4 @@
+source;share/lift_action/environment/ament_prefix_path.sh
+source;share/lift_action/environment/library_path.sh
+source;share/lift_action/environment/path.sh
+source;share/lift_action/environment/pythonpath.sh

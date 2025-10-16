@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/ZoneValues.srv
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/ZoneInfo.idl"
+
+module anscer_msgs {
+  module srv {
+    struct ZoneValues_Request {
+      sequence<anscer_msgs::msg::ZoneInfo> zone_values;
+    };
+    struct ZoneValues_Response {
+      boolean status;
+    };
+  };
+};

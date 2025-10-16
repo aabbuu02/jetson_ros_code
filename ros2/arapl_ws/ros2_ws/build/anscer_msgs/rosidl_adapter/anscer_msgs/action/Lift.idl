@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/Lift.action
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Lift_Goal {
+      int8 system_activate;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Lift_Result {
+      boolean is_success;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Lift_Feedback {
+      int8 lifter_feedback;
+
+      string lifter_status;
+    };
+  };
+};

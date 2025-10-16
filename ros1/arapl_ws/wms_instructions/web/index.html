@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WMS - Dashboard</title>
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body onload="main()">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">ARAPL RaaS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <h1>Instructions</h1>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Sl No</th>
+            <th scope="col">Id</th>
+            <th scope="col">Priority</th>
+            <th scope="col">Item Code</th>
+            <th scope="col">Pick Location</th>
+            <th scope="col">Pick Completed</th>
+            <th scope="col">Robot Shelf No</th>
+            <th scope="col">Drop Location</th>
+            <th scope="col">Drop Completed</th>
+          </tr>
+        </thead>
+        <tbody id="instTBody"></tbody>
+      </table>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script>
+      function genTr(data) {
+        let rowColor = "";
+        if (data["pick_completed"] == 1 && data["drop_completed"] == 0) {
+          rowColor = "table-warning";
+        }
+
+        if (data["pick_completed"] == 1 && data["drop_completed"] == 1) {
+          rowColor = "table-success";
+        }
+
+        return `<tr class="${rowColor}">
+            <th scope="row">${data["sl_no"]}</th>
+            <td>${data["id"]}</td>
+            <td>${data["priority"]}</td>
+            <td>${data["item_code"]}</td>
+            <td>${data["pick_location"]}</td>
+            <td>${data["pick_completed"] == 1 ? "Yes" : "No"}</td>
+            <td>${data["robot_shelf_no"]}</td>
+            <td>${data["drop_location"]}</td>
+            <td>${data["drop_completed"] == 1 ? "Yes" : "No"}</td>
+          </tr>`;
+      }
+      function renderTable(inst) {
+        let instTBodyRef = document.getElementById("instTBody");
+        let innerHTML = "";
+        for (let i = 0; i < inst.length; i++) {
+          const element = inst[i];
+          innerHTML = innerHTML + genTr(element);
+        }
+        instTBodyRef.innerHTML = innerHTML;
+      }
+      function getInstructions() {
+        // WARNING: For GET requests, body is set to null by browsers.
+        console.log("Fetching instructions");
+
+        var xhr = new XMLHttpRequest();
+
+        xhr.addEventListener("readystatechange", function () {
+          if (this.readyState === 4) {
+            console.log("Fetched instructions");
+            console.log(JSON.parse(this.responseText));
+            renderTable(JSON.parse(this.responseText));
+          }
+        });
+
+        xhr.open("GET", "http://localhost:3333/getWMSInstructions");
+
+        xhr.send();
+      }
+      function main() {
+        getInstructions();
+        setInterval(function () {
+          getInstructions();
+        }, 1000);
+      }
+    </script>
+  </body>
+</html>

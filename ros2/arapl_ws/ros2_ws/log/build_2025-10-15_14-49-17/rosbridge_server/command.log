@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/rosbridge_server -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosbridge_server
+Invoked command in '/ros2_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/rosbridge_server -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosbridge_server
+Invoking command in '/ros2_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/rosbridge_server -- -j12 -l12
+Invoked command in '/ros2_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/rosbridge_server -- -j12 -l12
+Invoking command in '/ros2_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/rosbridge_server
+Invoked command in '/ros2_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/rosbridge_server

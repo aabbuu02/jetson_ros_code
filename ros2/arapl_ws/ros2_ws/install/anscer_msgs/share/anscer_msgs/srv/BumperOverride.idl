@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/BumperOverride.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct BumperOverride_Request {
+      int8 bumper_override;
+    };
+    struct BumperOverride_Response {
+      boolean status;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/MotorFaultFlags.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    struct MotorFaultFlags {
+      boolean overheat;
+
+      boolean overvoltage;
+
+      boolean undervoltage;
+
+      boolean short_circuit;
+
+      boolean emergency_stop;
+
+      boolean motor_setup_fault;
+
+      boolean mosfet_failure;
+
+      boolean default_configuration;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+shelf_reader:
+  ros__parameters:
+    ip_address: "192.168.1.166"
+    port_number: 23

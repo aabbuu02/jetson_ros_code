@@ -1,0 +1,283 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /ros2_ws/src/qr_navigation/include;/ros2_ws/src/qr_navigation/scripts;/ros2_ws/src/qr_navigation/include/qr_navigation
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros2_ws/build/qr_navigation
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] [32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery_node.cpp.o[0m
+[  7%] Built target ament_cmake_python_copy_qr_navigation
+[  7%] Built target qr_navigation__cpp
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+running egg_info
+creating qr_navigation.egg-info
+writing qr_navigation.egg-info/PKG-INFO
+writing dependency_links to qr_navigation.egg-info/dependency_links.txt
+writing top-level names to qr_navigation.egg-info/top_level.txt
+writing manifest file 'qr_navigation.egg-info/SOURCES.txt'
+reading manifest file 'qr_navigation.egg-info/SOURCES.txt'
+writing manifest file 'qr_navigation.egg-info/SOURCES.txt'
+[ 18%] [32mBuilding C object CMakeFiles/qr_navigation__rosidl_generator_c.dir/rosidl_generator_c/qr_navigation/msg/detail/goal_msg__functions.c.o[0m
+[ 18%] Built target ament_cmake_python_build_qr_navigation_egg
+[ 21%] [32m[1mLinking C shared library libqr_navigation__rosidl_generator_c.so[0m
+[ 21%] Built target qr_navigation__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/qr_navigation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qr_navigation/msg/goal_msg__type_support.cpp.o[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/qr_navigation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qr_navigation/msg/detail/goal_msg__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/qr_navigation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qr_navigation/msg/detail/dds_fastrtps/goal_msg__type_support.cpp.o[0m
+[ 39%] [32m[1mLinking CXX shared library libqr_navigation__rosidl_typesupport_cpp.so[0m
+[ 39%] Built target qr_navigation__rosidl_typesupport_cpp
+[ 42%] [32mBuilding CXX object CMakeFiles/qr_navigation_node.dir/src/qr_navigation_node.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/qr_navigation_node.dir/src/velocity_profile.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/qr_navigation_node.dir/src/pure_pursuit.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/qr_navigation_node.dir/src/rotation_controller.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/qr_navigation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qr_navigation/msg/detail/goal_msg__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/qr_navigation__rosidl_typesupport_c.dir/rosidl_typesupport_c/qr_navigation/msg/goal_msg__type_support.cpp.o[0m
+[ 57%] [32m[1mLinking C shared library libqr_navigation__rosidl_typesupport_introspection_c.so[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/qr_navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_navigation/msg/detail/goal_msg__type_support_c.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libqr_navigation__rosidl_typesupport_c.so[0m
+[ 63%] Built target qr_navigation__rosidl_typesupport_introspection_c
+[ 63%] Built target qr_navigation__rosidl_typesupport_c
+[ 65%] [32m[1mLinking CXX shared library libqr_navigation__rosidl_typesupport_introspection_cpp.so[0m
+[ 68%] [32m[1mLinking CXX shared library libqr_navigation__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] Built target qr_navigation__rosidl_typesupport_introspection_cpp
+[ 71%] [32m[1mLinking CXX shared library libqr_navigation__rosidl_typesupport_fastrtps_c.so[0m
+[ 71%] Built target qr_navigation__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target qr_navigation__rosidl_typesupport_fastrtps_c
+[ 71%] Built target qr_navigation
+[ 73%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 73%] Built target qr_navigation__py
+[ 76%] [32mBuilding C object CMakeFiles/qr_navigation__rosidl_generator_py.dir/rosidl_generator_py/qr_navigation/msg/_goal_msg_s.c.o[0m
+[ 78%] [32m[1mLinking C shared library rosidl_generator_py/qr_navigation/libqr_navigation__rosidl_generator_py.so[0m
+[ 78%] Built target qr_navigation__rosidl_generator_py
+[ 81%] [32mBuilding C object CMakeFiles/qr_navigation__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/qr_navigation/_qr_navigation_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/qr_navigation__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/qr_navigation/_qr_navigation_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/qr_navigation__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/qr_navigation/_qr_navigation_s.ep.rosidl_typesupport_c.c.o[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/qr_navigation/qr_navigation_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/qr_navigation/qr_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 92%] Built target qr_navigation__rosidl_typesupport_fastrtps_c__pyext
+[ 92%] Built target qr_navigation__rosidl_typesupport_introspection_c__pyext
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/qr_navigation/qr_navigation_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 94%] Built target qr_navigation__rosidl_typesupport_c__pyext
+[ 97%] [32m[1mLinking CXX executable battery_node[0m
+[ 97%] Built target battery_node
+[100%] [32m[1mLinking CXX executable qr_navigation_node[0m
+[100%] Built target qr_navigation_node
+-- Install configuration: ""
+-- Installing: /ros2_ws/install/qr_navigation/share/ament_index/resource_index/rosidl_interfaces/qr_navigation
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__functions.c
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__struct.h
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__type_support.h
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__functions.h
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/goal_msg.h
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/library_path.sh
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/library_path.dsv
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_generator_c.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_generator_c.so" to ""
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__rosidl_typesupport_fastrtps_c.h
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__traits.hpp
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__type_support.hpp
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__struct.hpp
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__builder.hpp
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/goal_msg.hpp
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/dds_fastrtps
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__type_support.c
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_c.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /ros2_ws/install/qr_navigation/include/qr_navigation/qr_navigation/msg/detail/goal_msg__type_support.cpp
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_cpp.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_typesupport_cpp.so" to ""
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/pythonpath.sh
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/pythonpath.dsv
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation-2.0.0-py3.10.egg-info
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation-2.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation-2.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation-2.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation-2.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/msg
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/msg/_goal_msg.py
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/msg/__init__.py
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/msg/_goal_msg_s.c
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/libqr_navigation__rosidl_generator_py.so
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/_qr_navigation_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/_qr_navigation_s.ep.rosidl_typesupport_c.c
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/__init__.py
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/_qr_navigation_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+Listing '/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation'...
+Compiling '/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/__init__.py'...
+Listing '/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/msg'...
+Compiling '/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/msg/__init__.py'...
+Compiling '/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/msg/_goal_msg.py'...
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages/qr_navigation/qr_navigation_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_generator_py.so
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/libqr_navigation__rosidl_generator_py.so" to ""
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/msg/GoalMsg.idl
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/msg/GoalMsg.msg
+-- Installing: /ros2_ws/install/qr_navigation/lib/qr_navigation/qr_navigation_node
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/qr_navigation/qr_navigation_node" to ""
+-- Installing: /ros2_ws/install/qr_navigation/lib/qr_navigation/battery_node
+-- Set runtime path of "/ros2_ws/install/qr_navigation/lib/qr_navigation/battery_node" to ""
+-- Installing: /ros2_ws/install/qr_navigation/lib/qr_navigation/path_publisher.py
+-- Installing: /ros2_ws/install/qr_navigation/lib/qr_navigation/map_to_qr.py
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation//launch
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation//launch/qr_navigation.launch.py
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation//launch/tag_map_server.launch.py
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation//config
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation//config/mapARAPL.yaml
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation//config/qr_navigation_params.yaml
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation//config/map.yaml
+-- Up-to-date: /ros2_ws/install/qr_navigation/include/
+-- Up-to-date: /ros2_ws/install/qr_navigation/include//qr_navigation
+-- Installing: /ros2_ws/install/qr_navigation/include//qr_navigation/rotation_controller.h
+-- Installing: /ros2_ws/install/qr_navigation/include//qr_navigation/qr_navigation.h
+-- Installing: /ros2_ws/install/qr_navigation/include//qr_navigation/pose_struct.h
+-- Installing: /ros2_ws/install/qr_navigation/include//qr_navigation/velocity_profile.h
+-- Installing: /ros2_ws/install/qr_navigation/include//qr_navigation/pure_pursuit.h
+-- Installing: /ros2_ws/install/qr_navigation/share/ament_index/resource_index/package_run_dependencies/qr_navigation
+-- Installing: /ros2_ws/install/qr_navigation/share/ament_index/resource_index/parent_prefix_path/qr_navigation
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/ament_prefix_path.sh
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/ament_prefix_path.dsv
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/path.sh
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/environment/path.dsv
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/local_setup.bash
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/local_setup.sh
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/local_setup.zsh
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/local_setup.dsv
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/package.dsv
+-- Installing: /ros2_ws/install/qr_navigation/share/ament_index/resource_index/packages/qr_navigation
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_generator_cExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_generator_cppExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_cExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_cppExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigation__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_generator_pyExport.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/export_qr_navigation__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/rosidl_cmake-extras.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigationConfig.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/cmake/qr_navigationConfig-version.cmake
+-- Installing: /ros2_ws/install/qr_navigation/share/qr_navigation/package.xml

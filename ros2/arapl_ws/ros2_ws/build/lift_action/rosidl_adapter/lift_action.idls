@@ -1,0 +1,6 @@
+/ros2_ws/build/lift_action/rosidl_adapter/lift_action:msg/LiftFeedback.idl
+/ros2_ws/build/lift_action/rosidl_adapter/lift_action:msg/LiftAction.idl
+/ros2_ws/build/lift_action/rosidl_adapter/lift_action:msg/UiInterface.idl
+/ros2_ws/build/lift_action/rosidl_adapter/lift_action:msg/HomingStatus.idl
+/ros2_ws/build/lift_action/rosidl_adapter/lift_action:msg/HomeSensor.idl
+/ros2_ws/build/lift_action/rosidl_adapter/lift_action:msg/ErrorStatus.idl

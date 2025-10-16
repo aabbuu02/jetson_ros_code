@@ -1,0 +1,14 @@
+{
+  "package_name": "graph_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/graph_msgs:msg/Property.msg",
+    "/ros2_ws/src/graph_msgs:msg/Vertex.msg",
+    "/ros2_ws/src/graph_msgs:msg/Edge.msg",
+    "/ros2_ws/src/graph_msgs:msg/GraphMetaData.msg",
+    "/ros2_ws/src/graph_msgs:msg/Graph.msg",
+    "/ros2_ws/src/graph_msgs:srv/GetGraph.srv",
+    "/ros2_ws/src/graph_msgs:srv/SaveGraph.srv",
+    "/ros2_ws/src/graph_msgs:srv/LoadGraph.srv",
+    "/ros2_ws/src/graph_msgs:srv/GetGraphPlan.srv"
+  ]
+}

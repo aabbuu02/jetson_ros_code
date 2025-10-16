@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="lowerLevelController" pkg="lower_level_controller" type="lowerLevelController">
+  <param name="leftSpeed" type="int" value="0" />
+  <param name="rightSpeed" type="int" value="0" />
+  <param name="leftDirection" type="int" value="0" />
+  <param name="rightDirection" type="int" value="0" />
+  <param name="brakeActivate" type="int" value="0" />
+  <param name="buzzerActivate" type="int" value="0" />
+  <param name="liftActivate" type="int" value="0" />
+</node>
+\endverbatim
+

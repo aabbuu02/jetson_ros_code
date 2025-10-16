@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypes="xsd"?>
+<package format="3">
+  <name>power_control</name>
+  <version>2.0.0</version>
+  <description>
+    ROS2 power control package for managing system and slave device power operations.
+    Supports master-slave architecture with poweroff and reboot functionality.
+  </description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <author email="your_email@example.com">Your Name</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_srvs</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>rcl_interfaces</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

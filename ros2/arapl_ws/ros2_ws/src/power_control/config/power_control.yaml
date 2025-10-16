@@ -1,0 +1,15 @@
+# ROS2 Power Control Configuration File
+power_control_device:
+  ros__parameters:
+    # Current system's settings
+    system_name: "nx"
+    is_system_master: true
+
+    # Power control settings
+    enable_system_power_control: true
+    enable_slave_power_control: false
+
+    # Slave systems' settings
+    # Provide a default value, even if empty, to avoid launch errors.
+    # If you have slave systems, list them here, e.g., ["slave1", "slave2"]
+    slave_system_names: [""] 

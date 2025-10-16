@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/graph_creator_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/graph_creator_rviz_plugin -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/graph_creator_rviz_plugin
+Invoked command in '/ros2_ws/build/graph_creator_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/graph_creator_rviz_plugin -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/graph_creator_rviz_plugin
+Invoking command in '/ros2_ws/build/graph_creator_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/graph_creator_rviz_plugin -- -j12 -l12
+Invoked command in '/ros2_ws/build/graph_creator_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/graph_creator_rviz_plugin -- -j12 -l12
+Invoking command in '/ros2_ws/build/graph_creator_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/graph_creator_rviz_plugin
+Invoked command in '/ros2_ws/build/graph_creator_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/graph_creator_rviz_plugin

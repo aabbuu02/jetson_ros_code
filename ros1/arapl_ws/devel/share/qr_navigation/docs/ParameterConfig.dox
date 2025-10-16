@@ -1,0 +1,23 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~forward_max_vel" : \b [double] max linear vel min: 0.05, default: 0.7, max: 0.8
+- \b "~reverse_max_vel" : \b [double] reverse_max_vel min: 0.05, default: 0.7, max: 0.8
+- \b "~homing_distance" : \b [double] distance to enable extractor homing  min: 0.05, default: 0.8, max: 2.0
+- \b "~acc_constant" : \b [double] acceleration parameter  min: 0.1, default: 0.1, max: 1.0
+- \b "~dec_constant" : \b [double] deacceleration parameters min: 0.1, default: 0.1, max: 1.0
+- \b "~inertia_constant" : \b [double] inertia of the robot to be consider min: 0.1, default: 0.5, max: 1.0
+- \b "~x_position_tolerance" : \b [double] position accuracy to be achived near goal  min: 0.005, default: 0.04, max: 0.1
+- \b "~x_angular_tolerance" : \b [double] angular accuracy to be achived near goal  min: 0.005, default: 0.04, max: 0.2
+- \b "~acceleration" : \b [double] acceleration min: 0.1, default: 0.5, max: 1.5
+- \b "~min_lookahead_dist" : \b [double] min_lookahead_dist min: 0.1, default: 0.5, max: 1.5
+- \b "~max_lookahead" : \b [double] max_lookahead min: 0.5, default: 1.0, max: 1.5
+- \b "~wheel_base" : \b [double] wheel_base min: 0.4, default: 0.5, max: 1.5
+- \b "~max_angular_vel" : \b [double] ,max_angular_vel min: 0.5, default: 0.2, max: 1.5
+- \b "~kla" : \b [double] kla parameter min: 1.0, default: 1.1, max: 2.0
+- \b "~charge_vel" : \b [double] charging linear velocity min: 0.05, default: 0.1, max: 1.0
+- \b "~dock_vel" : \b [double] docking linear velocity min: 0.05, default: 0.1, max: 1.0
+- \b "~inplace_max_rot_vel" : \b [double] inplace max rot velocity min: 0.0, default: 0.2, max: 2.0
+- \b "~control_gain" : \b [double] control gain min: 0.0, default: 0.7, max: 1.0
+

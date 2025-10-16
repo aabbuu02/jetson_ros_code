@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from graph_creator_msgs/srv/SaveGraph.srv
+// generated code does not contain a copyright notice
+
+
+module graph_creator_msgs {
+  module srv {
+    struct SaveGraph_Request {
+      string file_path;
+    };
+    struct SaveGraph_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/lift_action/local_setup.bash
+source;share/lift_action/local_setup.dsv
+source;share/lift_action/local_setup.sh
+source;share/lift_action/local_setup.zsh

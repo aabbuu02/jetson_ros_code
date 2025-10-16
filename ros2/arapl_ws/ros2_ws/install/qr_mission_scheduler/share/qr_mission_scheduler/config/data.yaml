@@ -1,0 +1,40 @@
+# ============================================================================
+# QR Mission Scheduler Configuration
+# ============================================================================
+
+mission_client:
+  ros__parameters:
+    # Data file paths (use absolute paths or ensure files are in correct location)
+    rack_data_path: "/ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/rack_data.txt"
+    conveyor_data_path: "/ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/conveyor_data.txt"
+    
+    # Starting configuration
+    starting_vertex: 1
+    picked_count: 0
+    max_bins: 9
+    
+    # Charging configuration
+    charge_destination: 7
+    
+    # Battery thresholds (percentage)
+    minimum_battery_threshold: 47.0
+    max_charge: 98
+
+mission_server:
+  ros__parameters:
+    # Battery thresholds (percentage)
+    minimum_battery_threshold: 48.0
+    max_charge: 98
+
+# ============================================================================
+# Path Planner Configuration (if graph map loading is needed)
+# ============================================================================
+global_path_graph_planner:
+  ros__parameters:
+    # GraphML map file path (used by the path planner service)
+    graph_map_file: "/ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/default.graphml"
+    
+    # Path planning parameters
+    planning_timeout: 10.0
+    path_resolution: 0.1
+    allow_reverse: true

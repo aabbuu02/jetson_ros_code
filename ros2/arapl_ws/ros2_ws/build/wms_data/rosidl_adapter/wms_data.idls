@@ -1,0 +1,3 @@
+/ros2_ws/build/wms_data/rosidl_adapter/wms_data:msg/WMSData.idl
+/ros2_ws/build/wms_data/rosidl_adapter/wms_data:msg/WMSTasks.idl
+/ros2_ws/build/wms_data/rosidl_adapter/wms_data:msg/Feedback.idl

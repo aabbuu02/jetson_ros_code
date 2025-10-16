@@ -1,0 +1,8 @@
+# Goal
+GoalMsg goal_type
+---
+# Result
+string success
+---
+# Feedback
+float64[] pose

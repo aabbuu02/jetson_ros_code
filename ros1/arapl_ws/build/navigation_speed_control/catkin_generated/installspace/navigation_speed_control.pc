@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/install
+
+Name: navigation_speed_control
+Description: Description of navigation_speed_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs anscer_msgs geometry_msgs dynamic_reconfigure

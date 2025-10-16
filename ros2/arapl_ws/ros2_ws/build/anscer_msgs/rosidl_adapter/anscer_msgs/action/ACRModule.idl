@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/ACRModule.action
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/ACRControl.idl"
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct ACRModule_Goal {
+      anscer_msgs::msg::ACRControl control_input;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct ACRModule_Result {
+      boolean is_success;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct ACRModule_Feedback {
+      boolean feedback;
+    };
+  };
+};

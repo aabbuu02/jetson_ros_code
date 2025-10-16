@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qr_navigation__py",
+		"source" : "/ros2_ws/build/qr_navigation/qr_navigation__py"
+	}
+}

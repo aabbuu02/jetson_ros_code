@@ -1,0 +1,139 @@
+[0.079s] Invoking command in '/ros2_ws/build/graph_creator_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/graph_creator_rviz_plugin -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/graph_creator_rviz_plugin
+[3.151s] -- The C compiler identification is GNU 11.4.0
+[3.151s] -- The CXX compiler identification is GNU 11.4.0
+[3.151s] -- Detecting C compiler ABI info
+[3.151s] -- Detecting C compiler ABI info - done
+[3.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.151s] -- Detecting C compile features
+[3.151s] -- Detecting C compile features - done
+[3.151s] -- Detecting CXX compiler ABI info
+[3.151s] -- Detecting CXX compiler ABI info - done
+[3.152s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.152s] -- Detecting CXX compile features
+[3.152s] -- Detecting CXX compile features - done
+[3.152s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.152s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.152s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.152s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.152s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.152s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.312s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.319s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.943s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.177s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.575s] -- Looking for pthread.h
+[5.263s] -- Looking for pthread.h - found
+[5.290s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.111s] -- Found Threads: TRUE  
+[6.552s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.720s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[6.778s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.821s] -- Found rviz_common: 11.2.20 (/opt/ros/humble/share/rviz_common/cmake)
+[6.995s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[7.027s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[7.032s] -- Found OGRE
+[7.032s] --   static     : OFF
+[7.032s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[7.032s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.032s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[7.032s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[7.032s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[7.032s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.033s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[7.033s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.033s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.033s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[7.033s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[7.034s] -- Could not find freeimage library
+[7.096s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[7.128s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[7.506s] -- Found X11: /usr/include   
+[7.525s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[8.172s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[8.172s] -- Looking for gethostbyname
+[9.021s] -- Looking for gethostbyname - found
+[9.021s] -- Looking for connect
+[9.803s] -- Looking for connect - found
+[9.804s] -- Looking for remove
+[10.497s] -- Looking for remove - found
+[10.498s] -- Looking for shmat
+[11.569s] -- Looking for shmat - found
+[11.569s] -- Looking for IceConnectionNumber in ICE
+[12.112s] -- Looking for IceConnectionNumber in ICE - found
+[13.151s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[13.378s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.378s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.705s] -- Found rviz_default_plugins: 11.2.20 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[14.099s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.660s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.663s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.663s] -- Configured cppcheck include dirs: /ros2_ws/src/graph_creator_rviz_plugin/include;$<BUILD_INTERFACE:/ros2_ws/src/graph_creator_rviz_plugin/include>
+[14.664s] -- Configured cppcheck exclude dirs and/or files: 
+[14.667s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.669s] -- Configured cpplint exclude dirs and/or files: 
+[14.685s] -- Added test 'lint_cmake' to check CMake code style
+[14.688s] -- Added test 'uncrustify' to check C / C++ code style
+[14.688s] -- Configured uncrustify additional arguments: 
+[14.690s] -- Added test 'xmllint' to check XML markup files
+[14.695s] -- Configuring done
+[15.076s] -- Generating done
+[15.108s] -- Build files have been written to: /ros2_ws/build/graph_creator_rviz_plugin
+[15.208s] Invoked command in '/ros2_ws/build/graph_creator_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/graph_creator_rviz_plugin -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/graph_creator_rviz_plugin
+[15.209s] Invoking command in '/ros2_ws/build/graph_creator_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/graph_creator_rviz_plugin -- -j12 -l12
+[38.168s] [ 11%] [34m[1mAutomatic MOC and UIC for target graph_creator_rviz_plugin[0m
+[38.169s] [ 11%] Built target graph_creator_rviz_plugin_autogen
+[38.169s] [ 22%] [32mBuilding CXX object CMakeFiles/graph_creator_rviz_plugin.dir/src/graph_creator_panel.cpp.o[0m
+[38.169s] [ 33%] [32mBuilding CXX object CMakeFiles/graph_creator_rviz_plugin.dir/src/double_spin_box_delegate.cpp.o[0m
+[38.169s] [ 44%] [32mBuilding CXX object CMakeFiles/graph_creator_rviz_plugin.dir/src/combo_box_delegate.cpp.o[0m
+[38.169s] [ 55%] [32mBuilding CXX object CMakeFiles/graph_creator_rviz_plugin.dir/src/properties_dialog_delegate.cpp.o[0m
+[38.169s] [ 66%] [32mBuilding CXX object CMakeFiles/graph_creator_rviz_plugin.dir/graph_creator_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[38.169s] [ 77%] [32mBuilding CXX object CMakeFiles/graph_creator_rviz_plugin.dir/src/tools/select_graph_elements_tool.cpp.o[0m
+[48.402s] [ 88%] [32mBuilding CXX object CMakeFiles/graph_creator_rviz_plugin.dir/src/tools/create_vertex_tool.cpp.o[0m
+[61.951s] [100%] [32m[1mLinking CXX shared library libgraph_creator_rviz_plugin.so[0m
+[69.347s] [100%] Built target graph_creator_rviz_plugin
+[69.368s] Invoked command in '/ros2_ws/build/graph_creator_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/graph_creator_rviz_plugin -- -j12 -l12
+[69.370s] Invoking command in '/ros2_ws/build/graph_creator_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/graph_creator_rviz_plugin
+[69.382s] -- Install configuration: ""
+[69.383s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/plugin_description.xml
+[69.390s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/lib/libgraph_creator_rviz_plugin.so
+[69.406s] -- Set runtime path of "/ros2_ws/install/graph_creator_rviz_plugin/lib/libgraph_creator_rviz_plugin.so" to ""
+[69.406s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin
+[69.406s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin
+[69.406s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/combo_box_delegate.hpp
+[69.406s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/graph_creator_panel.hpp
+[69.406s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/graph_creator_panel_ui.hpp
+[69.407s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/double_spin_box_delegate.hpp
+[69.407s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/tools
+[69.407s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/tools/create_vertex_tool.hpp
+[69.407s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/tools/select_graph_elements_tool.hpp
+[69.407s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/properties_dialog_delegate.hpp
+[69.407s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/include/graph_creator_rviz_plugin/graph_creator_rviz_plugin/properties_ui.hpp
+[69.408s] -- Up-to-date: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/plugin_description.xml
+[69.408s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/environment/library_path.sh
+[69.408s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/environment/library_path.dsv
+[69.408s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/graph_creator_rviz_plugin
+[69.409s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/graph_creator_rviz_plugin
+[69.409s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/environment/ament_prefix_path.sh
+[69.409s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/environment/ament_prefix_path.dsv
+[69.409s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/environment/path.sh
+[69.409s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/environment/path.dsv
+[69.409s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/local_setup.bash
+[69.410s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/local_setup.sh
+[69.410s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/local_setup.zsh
+[69.410s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/local_setup.dsv
+[69.410s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/package.dsv
+[69.410s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/ament_index/resource_index/packages/graph_creator_rviz_plugin
+[69.411s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/graph_creator_rviz_plugin
+[69.411s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/cmake/graph_creator_rviz_pluginExport.cmake
+[69.411s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/cmake/graph_creator_rviz_pluginExport-noconfig.cmake
+[69.411s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[69.412s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/cmake/ament_cmake_export_targets-extras.cmake
+[69.412s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.412s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/cmake/graph_creator_rviz_pluginConfig.cmake
+[69.412s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/cmake/graph_creator_rviz_pluginConfig-version.cmake
+[69.412s] -- Installing: /ros2_ws/install/graph_creator_rviz_plugin/share/graph_creator_rviz_plugin/package.xml
+[69.417s] Invoked command in '/ros2_ws/build/graph_creator_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/graph_creator_rviz_plugin

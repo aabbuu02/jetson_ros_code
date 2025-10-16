@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~leftSpeed" : \b [int] Left Motor RPM min: 0, default: 0, max: 3000
+- \b "~rightSpeed" : \b [int] Right Motor RPM  min: 0, default: 0, max: 3000
+- \b "~leftDirection" : \b [int] Left Motor Direction min: 0, default: 0, max: 1
+- \b "~rightDirection" : \b [int] Right Motor Direction  min: 0, default: 0, max: 1
+- \b "~brakeActivate" : \b [int] Activate brake min: 0, default: 0, max: 1
+- \b "~buzzerActivate" : \b [int] Activate buzzer  min: 0, default: 0, max: 1
+- \b "~liftActivate" : \b [int] Activate lift min: 0, default: 0, max: 1
+

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/SafetyParam.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct SafetyParam_Request {
+      float min_x;
+
+      float min_y;
+
+      float min_z;
+
+      float max_x;
+
+      float max_y;
+
+      float max_z;
+    };
+    struct SafetyParam_Response {
+      boolean status;
+    };
+  };
+};

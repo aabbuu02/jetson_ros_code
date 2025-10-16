@@ -1,0 +1,1 @@
+anscer_msgs/StaticLidars[] sensor

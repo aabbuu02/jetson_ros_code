@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/SafetySwitch.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct SafetySwitch_Request {
+      int8 safety_switch;
+    };
+    struct SafetySwitch_Response {
+      boolean status;
+    };
+  };
+};

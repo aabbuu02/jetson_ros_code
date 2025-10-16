@@ -1,0 +1,3 @@
+
+float32 mission_distance
+float32 total_distance

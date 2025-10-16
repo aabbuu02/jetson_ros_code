@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lift_action/msg/ErrorStatus.msg
+// generated code does not contain a copyright notice
+
+
+module lift_action {
+  module msg {
+    struct ErrorStatus {
+      boolean lifter_fault;
+
+      boolean extractor_fault;
+
+      boolean turn_table_fault;
+
+      boolean swing_arm_fault;
+
+      boolean emergency_pb_fault;
+
+      boolean swing_arm_sensor_zero_fault;
+
+      boolean swing_arm_sensor_ninety_fault;
+
+      boolean turntable_sensor_zero_fault;
+
+      boolean extractor_sensor_laser_fault;
+    };
+  };
+};

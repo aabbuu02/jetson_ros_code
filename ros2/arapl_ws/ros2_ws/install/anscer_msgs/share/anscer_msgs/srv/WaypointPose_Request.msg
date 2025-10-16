@@ -1,0 +1,4 @@
+bool save
+string waypoint_id
+geometry_msgs/PoseStamped waypoint_pose
+string waypoint_name

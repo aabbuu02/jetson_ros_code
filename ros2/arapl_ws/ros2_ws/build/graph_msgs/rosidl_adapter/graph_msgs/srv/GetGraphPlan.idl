@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from graph_msgs/srv/GetGraphPlan.srv
+// generated code does not contain a copyright notice
+
+#include "graph_msgs/msg/Vertex.idl"
+#include "nav_msgs/msg/Path.idl"
+
+module graph_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Source and destination IDs")
+    struct GetGraphPlan_Request {
+      uint32 source_id;
+
+      uint32 target_id;
+
+      boolean ignore_goal_orientation;
+
+      boolean ignore_path_orientation;
+    };
+    struct GetGraphPlan_Response {
+      @verbatim (language="comment", text=
+        "The vertices that are part of the plan")
+      sequence<graph_msgs::msg::Vertex> vertices_in_plan;
+
+      @verbatim (language="comment", text=
+        "The plan from the pre-defined graph curves")
+      nav_msgs::msg::Path plan;
+
+      @verbatim (language="comment", text=
+        "Total plan distance")
+      double plan_distance;
+
+      @verbatim (language="comment", text=
+        "Whether planning was success")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Messages related to planning")
+      string message;
+    };
+  };
+};

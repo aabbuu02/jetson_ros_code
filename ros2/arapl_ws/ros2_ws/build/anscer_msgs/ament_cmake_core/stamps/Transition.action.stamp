@@ -1,0 +1,8 @@
+#goal definition
+string map_name	
+---
+#result definition
+bool is_success
+---
+#feedback
+bool transition_feedback

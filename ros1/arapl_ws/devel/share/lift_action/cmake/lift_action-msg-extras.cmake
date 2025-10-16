@@ -1,0 +1,2 @@
+set(lift_action_MESSAGE_FILES "/home/nvidia/Desktop/arapl_ws/src/lift_action/msg/LiftFeedback.msg;/home/nvidia/Desktop/arapl_ws/src/lift_action/msg/LiftAction.msg;/home/nvidia/Desktop/arapl_ws/src/lift_action/msg/UI_Interface.msg;/home/nvidia/Desktop/arapl_ws/src/lift_action/msg/Homing_status.msg;/home/nvidia/Desktop/arapl_ws/src/lift_action/msg/Home_sensor.msg;/home/nvidia/Desktop/arapl_ws/src/lift_action/msg/ErrorStatus.msg")
+set(lift_action_SERVICE_FILES "")

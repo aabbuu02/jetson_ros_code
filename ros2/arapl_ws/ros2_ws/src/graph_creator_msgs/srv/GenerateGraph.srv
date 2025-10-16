@@ -1,0 +1,4 @@
+GraphGeneratorConfig generator_config
+---
+bool success
+string message

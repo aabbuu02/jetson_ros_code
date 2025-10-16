@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/MotorStatusFlags.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    struct MotorStatusFlags {
+      boolean serial_mode;
+
+      boolean pulse_mode;
+
+      boolean analog_mode;
+
+      boolean power_stage_off;
+
+      boolean stall_detected;
+
+      boolean at_limit;
+
+      boolean unused;
+
+      boolean micro_basic_script_running;
+
+      boolean motor_tuning_mode;
+    };
+  };
+};

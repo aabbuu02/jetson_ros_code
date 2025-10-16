@@ -1,0 +1,2 @@
+source;share/reader_modules/environment/ament_prefix_path.sh
+source;share/reader_modules/environment/path.sh

@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/power_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/power_control -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/power_control
+Invoked command in '/ros2_ws/build/power_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/power_control -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/power_control
+Invoking command in '/ros2_ws/build/power_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/power_control -- -j12 -l12
+Invoked command in '/ros2_ws/build/power_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/power_control -- -j12 -l12
+Invoking command in '/ros2_ws/build/power_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/power_control
+Invoked command in '/ros2_ws/build/power_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/power_control

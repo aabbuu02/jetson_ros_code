@@ -1,0 +1,7 @@
+# Source and destination IDs
+string goalType
+float64 source_id
+float64 target_id
+
+---
+string result

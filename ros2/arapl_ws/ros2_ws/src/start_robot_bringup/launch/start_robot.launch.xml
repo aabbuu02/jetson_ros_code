@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Include anscer_agv bringup launch file -->
+    <include file="$(find-pkg-share anscer_agv_bringup)/launch/start_anscer_agv_launch.py"/>
+    
+    <!-- Include rosbridge websocket launch file -->
+    <include file="$(find-pkg-share rosbridge_server)/launch/rosbridge_websocket_launch.py"/>
+</launch>

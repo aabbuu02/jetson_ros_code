@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/LogCleaning.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    module LogCleaning_Request_Constants {
+      const uint8 USE_TIME_AND_SIZE = 0;
+      const uint8 BASED_ON_TIME = 1;
+      const uint8 BASED_ON_SIZE = 2;
+    };
+    struct LogCleaning_Request {
+      float cleaning_hour;
+
+      float cleaning_size;
+
+      uint8 mode;
+    };
+    struct LogCleaning_Response {
+      string message;
+    };
+  };
+};

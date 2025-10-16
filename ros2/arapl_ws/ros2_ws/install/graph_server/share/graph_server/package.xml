@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>graph_server</name>
+  <version>1.0.0</version>
+  <description>ROS2 Graph Server - Loads and serves graph data for navigation</description>
+  
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Core ROS2 dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  
+  <!-- Custom message packages -->
+  <depend>graph_msgs</depend>
+  <depend>graph_creator</depend>
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

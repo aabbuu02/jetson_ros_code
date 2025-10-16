@@ -1,0 +1,9 @@
+bool lifter_fault
+bool extractor_fault
+bool turn_table_fault
+bool swing_arm_fault
+bool emergency_pb_fault
+bool swing_arm_sensor_zero_fault
+bool swing_arm_sensor_ninety_fault
+bool turntable_sensor_zero_fault
+bool extractor_sensor_laser_fault

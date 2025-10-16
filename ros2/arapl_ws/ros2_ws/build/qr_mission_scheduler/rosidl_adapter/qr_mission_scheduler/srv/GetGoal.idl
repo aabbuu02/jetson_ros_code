@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from qr_mission_scheduler/srv/GetGoal.srv
+// generated code does not contain a copyright notice
+
+
+module qr_mission_scheduler {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GetGoal_Request {
+      string goal_type;
+
+      double source_id;
+
+      double target_id;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct GetGoal_Response {
+      string result;
+    };
+  };
+};

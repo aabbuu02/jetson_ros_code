@@ -1,0 +1,8 @@
+#goal definition
+anscer_msgs/ACRControl control_input
+---
+#result definition
+bool is_success
+---
+#feedback
+bool feedback

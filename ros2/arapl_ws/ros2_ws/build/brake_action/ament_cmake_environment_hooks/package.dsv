@@ -1,0 +1,4 @@
+source;share/brake_action/local_setup.bash
+source;share/brake_action/local_setup.dsv
+source;share/brake_action/local_setup.sh
+source;share/brake_action/local_setup.zsh

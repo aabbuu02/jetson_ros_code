@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_creator_msgs/msg/SelectedGraphElements.msg
+// generated code does not contain a copyright notice
+
+
+module graph_creator_msgs {
+  module msg {
+    struct SelectedGraphElements {
+      sequence<string> all_vertices;
+
+      sequence<string> all_edges;
+    };
+  };
+};

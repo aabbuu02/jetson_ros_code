@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/install
+
+Name: power_control
+Description: Description of power_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

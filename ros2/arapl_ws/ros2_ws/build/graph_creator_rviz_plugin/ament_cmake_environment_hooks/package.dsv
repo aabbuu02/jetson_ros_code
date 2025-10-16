@@ -1,0 +1,4 @@
+source;share/graph_creator_rviz_plugin/local_setup.bash
+source;share/graph_creator_rviz_plugin/local_setup.dsv
+source;share/graph_creator_rviz_plugin/local_setup.sh
+source;share/graph_creator_rviz_plugin/local_setup.zsh

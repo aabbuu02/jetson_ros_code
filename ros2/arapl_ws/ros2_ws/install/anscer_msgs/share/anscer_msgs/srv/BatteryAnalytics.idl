@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/BatteryAnalytics.srv
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/BatteryDB.idl"
+
+module anscer_msgs {
+  module srv {
+    struct BatteryAnalytics_Request {
+      string start_date;
+
+      string end_date;
+    };
+    struct BatteryAnalytics_Response {
+      sequence<anscer_msgs::msg::BatteryDB> battery_db;
+    };
+  };
+};

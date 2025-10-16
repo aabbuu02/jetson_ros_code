@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_msgs/msg/Vertex.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "graph_msgs/msg/Property.idl"
+
+module graph_msgs {
+  module msg {
+    module Vertex_Constants {
+      const uint8 NORMAL = 0;
+      const uint8 PARK = 1;
+      const uint8 CHARGE = 2;
+      const uint8 CONTROL = 3;
+      const uint8 REPORT = 4;
+    };
+    @verbatim (language="comment", text=
+      "Vertex types")
+    struct Vertex {
+      uint32 id;
+
+      string name;
+
+      string alias;
+
+      uint8 type;
+
+      boolean ignore_orientation;
+
+      geometry_msgs::msg::Pose pose;
+
+      sequence<graph_msgs::msg::Property> properties;
+    };
+  };
+};

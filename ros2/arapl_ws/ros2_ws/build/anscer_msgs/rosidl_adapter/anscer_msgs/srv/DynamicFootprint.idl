@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/DynamicFootprint.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct DynamicFootprint_Request {
+      boolean update_footprint;
+    };
+    struct DynamicFootprint_Response {
+      boolean status;
+    };
+  };
+};

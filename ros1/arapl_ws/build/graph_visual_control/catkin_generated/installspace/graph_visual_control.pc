@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/install
+
+Name: graph_visual_control
+Description: Description of graph_visual_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs geometry_msgs graph_creator graph_control graph_msgs nav_msgs roscpp rospy tf2 tf2_ros interactive_markers visualization_msgs

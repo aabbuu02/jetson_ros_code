@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/robot_pose_publisher -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/robot_pose_publisher
+Invoked command in '/ros2_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/robot_pose_publisher -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/robot_pose_publisher
+Invoking command in '/ros2_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/robot_pose_publisher -- -j12 -l12
+Invoked command in '/ros2_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/robot_pose_publisher -- -j12 -l12
+Invoking command in '/ros2_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/robot_pose_publisher
+Invoked command in '/ros2_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/robot_pose_publisher

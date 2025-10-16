@@ -1,0 +1,4 @@
+source;share/graph_server/local_setup.bash
+source;share/graph_server/local_setup.dsv
+source;share/graph_server/local_setup.sh
+source;share/graph_server/local_setup.zsh

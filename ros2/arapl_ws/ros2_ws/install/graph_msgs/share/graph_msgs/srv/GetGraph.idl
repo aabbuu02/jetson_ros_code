@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from graph_msgs/srv/GetGraph.srv
+// generated code does not contain a copyright notice
+
+#include "graph_msgs/msg/Graph.idl"
+
+module graph_msgs {
+  module srv {
+    struct GetGraph_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    module GetGraph_Response_Constants {
+      const uint8 RESULT_GRAPH_VALID = 0;
+      const uint8 RESULT_GRAPH_INVALID = 1;
+    };
+    struct GetGraph_Response {
+      graph_msgs::msg::Graph graph;
+
+      uint8 result;
+    };
+  };
+};

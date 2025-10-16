@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/SafetyZone.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    struct SafetyZone {
+      int16 front_zone;
+
+      int16 rear_zone;
+    };
+  };
+};

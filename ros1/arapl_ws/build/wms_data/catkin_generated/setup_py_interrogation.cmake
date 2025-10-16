@@ -1,0 +1,7 @@
+set(wms_data_SETUP_PY_SETUP_MODULE "distutils.core")
+set(wms_data_SETUP_PY_VERSION "0.0.0")
+set(wms_data_SETUP_PY_SCRIPTS "")
+set(wms_data_SETUP_PY_PACKAGES "wms_data")
+set(wms_data_SETUP_PY_PACKAGE_DIRS "scripts/wms_data")
+set(wms_data_SETUP_PY_MODULES "")
+set(wms_data_SETUP_PY_MODULE_DIRS "")

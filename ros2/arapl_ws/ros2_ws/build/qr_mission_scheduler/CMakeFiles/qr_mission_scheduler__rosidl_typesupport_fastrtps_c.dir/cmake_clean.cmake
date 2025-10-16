@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/action/detail/mission_scheduler__type_support_c.cpp.o"
+  "CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/action/detail/mission_scheduler__type_support_c.cpp.o.d"
+  "CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/msg/detail/goal_msg__type_support_c.cpp.o"
+  "CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/msg/detail/goal_msg__type_support_c.cpp.o.d"
+  "CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/srv/detail/get_goal__type_support_c.cpp.o"
+  "CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qr_mission_scheduler/srv/detail/get_goal__type_support_c.cpp.o.d"
+  "libqr_mission_scheduler__rosidl_typesupport_fastrtps_c.pdb"
+  "libqr_mission_scheduler__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/qr_mission_scheduler/action/detail/mission_scheduler__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qr_mission_scheduler/action/detail/mission_scheduler__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/qr_mission_scheduler/msg/detail/goal_msg__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qr_mission_scheduler/msg/detail/goal_msg__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/qr_mission_scheduler/srv/detail/get_goal__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qr_mission_scheduler/srv/detail/get_goal__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qr_mission_scheduler__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

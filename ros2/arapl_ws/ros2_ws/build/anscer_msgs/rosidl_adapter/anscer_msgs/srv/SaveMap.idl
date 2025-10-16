@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/SaveMap.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct SaveMap_Request {
+      boolean save_map;
+
+      string filename;
+    };
+    struct SaveMap_Response {
+      boolean status;
+    };
+  };
+};

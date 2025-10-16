@@ -1,0 +1,4 @@
+# Request
+string goal_type
+float64 source_id
+float64 target_id

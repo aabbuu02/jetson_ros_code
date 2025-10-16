@@ -1,0 +1,331 @@
+// generated from rosidl_generator_py/resource/_idl_support.c.em
+// with input from graph_msgs:msg/Graph.idl
+// generated code does not contain a copyright notice
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+#include <Python.h>
+#include <stdbool.h>
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-function"
+#endif
+#include "numpy/ndarrayobject.h"
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+#include "rosidl_runtime_c/visibility_control.h"
+#include "graph_msgs/msg/detail/graph__struct.h"
+#include "graph_msgs/msg/detail/graph__functions.h"
+
+#include "rosidl_runtime_c/primitives_sequence.h"
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
+// Nested array functions includes
+#include "graph_msgs/msg/detail/edge__functions.h"
+#include "graph_msgs/msg/detail/property__functions.h"
+#include "graph_msgs/msg/detail/vertex__functions.h"
+// end nested array functions include
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
+bool graph_msgs__msg__graph_meta_data__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * graph_msgs__msg__graph_meta_data__convert_to_py(void * raw_ros_message);
+bool graph_msgs__msg__vertex__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * graph_msgs__msg__vertex__convert_to_py(void * raw_ros_message);
+bool graph_msgs__msg__edge__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * graph_msgs__msg__edge__convert_to_py(void * raw_ros_message);
+bool graph_msgs__msg__property__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * graph_msgs__msg__property__convert_to_py(void * raw_ros_message);
+
+ROSIDL_GENERATOR_C_EXPORT
+bool graph_msgs__msg__graph__convert_from_py(PyObject * _pymsg, void * _ros_message)
+{
+  // check that the passed message is of the expected Python class
+  {
+    char full_classname_dest[28];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
+    }
+    assert(strncmp("graph_msgs.msg._graph.Graph", full_classname_dest, 27) == 0);
+  }
+  graph_msgs__msg__Graph * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // meta_data
+    PyObject * field = PyObject_GetAttrString(_pymsg, "meta_data");
+    if (!field) {
+      return false;
+    }
+    if (!graph_msgs__msg__graph_meta_data__convert_from_py(field, &ros_message->meta_data)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // vertices
+    PyObject * field = PyObject_GetAttrString(_pymsg, "vertices");
+    if (!field) {
+      return false;
+    }
+    PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'vertices'");
+    if (!seq_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_ssize_t size = PySequence_Size(field);
+    if (-1 == size) {
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    if (!graph_msgs__msg__Vertex__Sequence__init(&(ros_message->vertices), size)) {
+      PyErr_SetString(PyExc_RuntimeError, "unable to create graph_msgs__msg__Vertex__Sequence ros_message");
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    graph_msgs__msg__Vertex * dest = ros_message->vertices.data;
+    for (Py_ssize_t i = 0; i < size; ++i) {
+      if (!graph_msgs__msg__vertex__convert_from_py(PySequence_Fast_GET_ITEM(seq_field, i), &dest[i])) {
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+    }
+    Py_DECREF(seq_field);
+    Py_DECREF(field);
+  }
+  {  // edges
+    PyObject * field = PyObject_GetAttrString(_pymsg, "edges");
+    if (!field) {
+      return false;
+    }
+    PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'edges'");
+    if (!seq_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_ssize_t size = PySequence_Size(field);
+    if (-1 == size) {
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    if (!graph_msgs__msg__Edge__Sequence__init(&(ros_message->edges), size)) {
+      PyErr_SetString(PyExc_RuntimeError, "unable to create graph_msgs__msg__Edge__Sequence ros_message");
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    graph_msgs__msg__Edge * dest = ros_message->edges.data;
+    for (Py_ssize_t i = 0; i < size; ++i) {
+      if (!graph_msgs__msg__edge__convert_from_py(PySequence_Fast_GET_ITEM(seq_field, i), &dest[i])) {
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+    }
+    Py_DECREF(seq_field);
+    Py_DECREF(field);
+  }
+  {  // properties
+    PyObject * field = PyObject_GetAttrString(_pymsg, "properties");
+    if (!field) {
+      return false;
+    }
+    PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'properties'");
+    if (!seq_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_ssize_t size = PySequence_Size(field);
+    if (-1 == size) {
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    if (!graph_msgs__msg__Property__Sequence__init(&(ros_message->properties), size)) {
+      PyErr_SetString(PyExc_RuntimeError, "unable to create graph_msgs__msg__Property__Sequence ros_message");
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    graph_msgs__msg__Property * dest = ros_message->properties.data;
+    for (Py_ssize_t i = 0; i < size; ++i) {
+      if (!graph_msgs__msg__property__convert_from_py(PySequence_Fast_GET_ITEM(seq_field, i), &dest[i])) {
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+    }
+    Py_DECREF(seq_field);
+    Py_DECREF(field);
+  }
+
+  return true;
+}
+
+ROSIDL_GENERATOR_C_EXPORT
+PyObject * graph_msgs__msg__graph__convert_to_py(void * raw_ros_message)
+{
+  /* NOTE(esteve): Call constructor of Graph */
+  PyObject * _pymessage = NULL;
+  {
+    PyObject * pymessage_module = PyImport_ImportModule("graph_msgs.msg._graph");
+    assert(pymessage_module);
+    PyObject * pymessage_class = PyObject_GetAttrString(pymessage_module, "Graph");
+    assert(pymessage_class);
+    Py_DECREF(pymessage_module);
+    _pymessage = PyObject_CallObject(pymessage_class, NULL);
+    Py_DECREF(pymessage_class);
+    if (!_pymessage) {
+      return NULL;
+    }
+  }
+  graph_msgs__msg__Graph * ros_message = (graph_msgs__msg__Graph *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // meta_data
+    PyObject * field = NULL;
+    field = graph_msgs__msg__graph_meta_data__convert_to_py(&ros_message->meta_data);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "meta_data", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // vertices
+    PyObject * field = NULL;
+    size_t size = ros_message->vertices.size;
+    field = PyList_New(size);
+    if (!field) {
+      return NULL;
+    }
+    graph_msgs__msg__Vertex * item;
+    for (size_t i = 0; i < size; ++i) {
+      item = &(ros_message->vertices.data[i]);
+      PyObject * pyitem = graph_msgs__msg__vertex__convert_to_py(item);
+      if (!pyitem) {
+        Py_DECREF(field);
+        return NULL;
+      }
+      int rc = PyList_SetItem(field, i, pyitem);
+      (void)rc;
+      assert(rc == 0);
+    }
+    assert(PySequence_Check(field));
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "vertices", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // edges
+    PyObject * field = NULL;
+    size_t size = ros_message->edges.size;
+    field = PyList_New(size);
+    if (!field) {
+      return NULL;
+    }
+    graph_msgs__msg__Edge * item;
+    for (size_t i = 0; i < size; ++i) {
+      item = &(ros_message->edges.data[i]);
+      PyObject * pyitem = graph_msgs__msg__edge__convert_to_py(item);
+      if (!pyitem) {
+        Py_DECREF(field);
+        return NULL;
+      }
+      int rc = PyList_SetItem(field, i, pyitem);
+      (void)rc;
+      assert(rc == 0);
+    }
+    assert(PySequence_Check(field));
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "edges", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // properties
+    PyObject * field = NULL;
+    size_t size = ros_message->properties.size;
+    field = PyList_New(size);
+    if (!field) {
+      return NULL;
+    }
+    graph_msgs__msg__Property * item;
+    for (size_t i = 0; i < size; ++i) {
+      item = &(ros_message->properties.data[i]);
+      PyObject * pyitem = graph_msgs__msg__property__convert_to_py(item);
+      if (!pyitem) {
+        Py_DECREF(field);
+        return NULL;
+      }
+      int rc = PyList_SetItem(field, i, pyitem);
+      (void)rc;
+      assert(rc == 0);
+    }
+    assert(PySequence_Check(field));
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "properties", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+
+  // ownership of _pymessage is transferred to the caller
+  return _pymessage;
+}

@@ -1,0 +1,6 @@
+msg/Feedback.idl
+msg/Feedback.msg
+msg/WMSData.idl
+msg/WMSData.msg
+msg/WMSTasks.idl
+msg/WMSTasks.msg

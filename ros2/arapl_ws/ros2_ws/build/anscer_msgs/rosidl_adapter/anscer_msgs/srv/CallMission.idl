@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/CallMission.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct CallMission_Request {
+      boolean initate;
+
+      string mission_name;
+
+      int16 loops;
+    };
+    struct CallMission_Response {
+      boolean initated;
+
+      string status;
+    };
+  };
+};

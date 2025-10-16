@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/Wait.action
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Wait_Goal {
+      int16 wait_time;
+
+      boolean wait_activate;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Wait_Result {
+      boolean is_success;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Wait_Feedback {
+      boolean wait_feedback;
+
+      int32 time_elapsed;
+    };
+  };
+};

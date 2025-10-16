@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/DeleteMap.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct DeleteMap_Request {
+      string filename;
+    };
+    struct DeleteMap_Response {
+      string map_name;
+
+      boolean is_deleted;
+    };
+  };
+};

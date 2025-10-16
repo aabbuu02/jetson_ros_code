@@ -1,0 +1,14 @@
+pgv_reader:
+  ros__parameters:
+    port_name: /dev/ttyUSB0
+    barcode_local_topic: barcode/local
+    barcode_global_topic: barcode/global
+    csv_file_name: HybridData.csv
+    baud_rate: 115200
+    angle_offset: 270.0  # in degrees
+    loop_rate: 50.0
+    
+    # Reconnection and error handling parameters
+    max_consecutive_errors: 10      # Number of errors before triggering reconnection
+    reconnect_delay: 2.0            # Seconds between reconnection attempts
+    max_reconnect_attempts: 5       # Max attempts before longer wait

@@ -1,0 +1,6 @@
+setup.py
+qr_mission_scheduler/__init__.py
+qr_mission_scheduler.egg-info/PKG-INFO
+qr_mission_scheduler.egg-info/SOURCES.txt
+qr_mission_scheduler.egg-info/dependency_links.txt
+qr_mission_scheduler.egg-info/top_level.txt

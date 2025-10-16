@@ -1,0 +1,3 @@
+
+bool initated
+string status

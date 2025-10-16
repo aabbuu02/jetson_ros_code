@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/Distance.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct Distance_Request {
+      boolean mission_reset;
+
+      boolean total_reset;
+    };
+    struct Distance_Response {
+      float mission_distance;
+
+      float total_distance;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/nvidia/Desktop/arapl_ws/src
+# Build directory: /home/nvidia/Desktop/arapl_ws/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("start_robot")
+subdirs("anscer_msgs")
+subdirs("graph_msgs")
+subdirs("graph_creator_msgs")
+subdirs("anscer_teleop")
+subdirs("brake_action")
+subdirs("emergency_handler")
+subdirs("lift_action")
+subdirs("navigation_speed_control")
+subdirs("reader_modules")
+subdirs("acr_robot_controller")
+subdirs("power_control")
+subdirs("tag_monitor")
+subdirs("graph_control")
+subdirs("qr_navigation")
+subdirs("robot_pose_publisher")
+subdirs("graph_creator")
+subdirs("global_path_graph")
+subdirs("global_path_graph_planner")
+subdirs("graph_server")
+subdirs("graph_visual_control")
+subdirs("twist_mux")
+subdirs("anscer_description")
+subdirs("graph_creator_rviz_plugin")
+subdirs("wms_data")
+subdirs("lower_level_controller")
+subdirs("anscer_agv_bringup")
+subdirs("qr_mission_scheduler")

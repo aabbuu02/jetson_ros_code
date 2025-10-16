@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/MissionInfo.msg
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/MissionData.idl"
+
+module anscer_msgs {
+  module msg {
+    struct MissionInfo {
+      sequence<anscer_msgs::msg::MissionData> mission_info;
+    };
+  };
+};

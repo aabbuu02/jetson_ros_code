@@ -1,0 +1,8 @@
+action/MissionScheduler.action
+action/MissionScheduler.idl
+msg/GoalMsg.idl
+msg/GoalMsg.msg
+srv/GetGoal.idl
+srv/GetGoal.srv
+srv/GetGoal_Request.msg
+srv/GetGoal_Response.msg

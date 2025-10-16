@@ -1,0 +1,23 @@
+qr_navigation_node:
+  ros__parameters:
+    # Velocity profile parameters
+    forward_max_vel: 0.5
+    reverse_max_vel: 0.3
+    acc_constant: 0.2
+    dec_constant: 0.2
+    inertia_constant: 0.8
+    acceleration: 0.2
+    
+    # Pure pursuit parameters
+    min_lookahead_dist: 0.4
+    max_lookahead: 1.0
+    wheel_base: 0.5
+    kla: 1.1
+    max_angular_vel: 0.4
+    
+    # Tolerance parameters
+    x_position_tolerance: 0.02
+    x_angular_tolerance: 0.05
+    
+    # Other parameters
+    homing_distance: 0.6

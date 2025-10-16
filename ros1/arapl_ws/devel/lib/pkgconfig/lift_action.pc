@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/devel
+
+Name: lift_action
+Description: Description of lift_action
+Version: 0.0.0
+Cflags: -I/home/nvidia/Desktop/arapl_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

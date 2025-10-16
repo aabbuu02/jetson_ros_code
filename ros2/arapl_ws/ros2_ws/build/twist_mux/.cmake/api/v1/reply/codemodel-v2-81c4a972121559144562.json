@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0e9339361114a0919065.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "twist_mux",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "twist_marker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twist_marker_node-51b7e67e35d2badeda1a.json",
+					"name" : "twist_marker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twist_mux_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twist_mux_lib-4253de12a32286007706.json",
+					"name" : "twist_mux_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twist_mux_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twist_mux_node-9fb8b39f1dd9fd366b62.json",
+					"name" : "twist_mux_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twist_mux_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twist_mux_uninstall-fe7deab378ca30405a72.json",
+					"name" : "twist_mux_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-308061cdfe9ea72a2cdf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/twist_mux",
+		"source" : "/ros2_ws/src/twist_mux"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

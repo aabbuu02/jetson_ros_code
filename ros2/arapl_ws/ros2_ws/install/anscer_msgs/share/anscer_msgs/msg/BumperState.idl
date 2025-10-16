@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/BumperState.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    struct BumperState {
+      int16 bumper_feedback;
+    };
+  };
+};

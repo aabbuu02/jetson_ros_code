@@ -1,0 +1,90 @@
+[0.045s] Invoking command in '/ros2_ws/build/tag_monitor': CMAKE_PREFIX_PATH=/ros2_ws/install/anscer_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/anscer_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /ros2_ws/src/tag_monitor -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/tag_monitor
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.231s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.378s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.379s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.384s] -- Detecting CXX compiler ABI info
+[0.518s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.530s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.827s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.046s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.134s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.146s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.163s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.304s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.311s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.475s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.608s] -- Looking for pthread.h
+[1.733s] -- Looking for pthread.h - found
+[1.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.858s] -- Found Threads: TRUE  
+[1.947s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.994s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.020s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.039s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.187s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.218s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.220s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.221s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.222s] -- Found anscer_msgs: 0.0.0 (/ros2_ws/install/anscer_msgs/share/anscer_msgs/cmake)
+[2.269s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.445s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.448s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.448s] -- Configured cppcheck include dirs: /ros2_ws/src/tag_monitor/include
+[2.448s] -- Configured cppcheck exclude dirs and/or files: 
+[2.455s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.455s] -- Configured cpplint exclude dirs and/or files: 
+[2.455s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.455s] -- Added test 'lint_cmake' to check CMake code style
+[2.456s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.457s] -- Added test 'uncrustify' to check C / C++ code style
+[2.457s] -- Configured uncrustify additional arguments: 
+[2.458s] -- Added test 'xmllint' to check XML markup files
+[2.462s] -- Configuring done
+[2.497s] -- Generating done
+[2.505s] -- Build files have been written to: /ros2_ws/build/tag_monitor
+[2.532s] Invoked command in '/ros2_ws/build/tag_monitor' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/anscer_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/anscer_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /ros2_ws/src/tag_monitor -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/tag_monitor
+[2.533s] Invoking command in '/ros2_ws/build/tag_monitor': CMAKE_PREFIX_PATH=/ros2_ws/install/anscer_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/anscer_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/tag_monitor -- -j12 -l12
+[2.631s] [ 66%] [32mBuilding CXX object CMakeFiles/tag_monitor_node.dir/src/tag_monitor.cpp.o[0m
+[2.632s] [ 66%] [32mBuilding CXX object CMakeFiles/tag_monitor_node.dir/src/tag_monitor_runner.cpp.o[0m
+[36.544s] [100%] [32m[1mLinking CXX executable tag_monitor_node[0m
+[38.446s] [100%] Built target tag_monitor_node
+[38.470s] Invoked command in '/ros2_ws/build/tag_monitor' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/anscer_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/anscer_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/tag_monitor -- -j12 -l12
+[38.473s] Invoking command in '/ros2_ws/build/tag_monitor': CMAKE_PREFIX_PATH=/ros2_ws/install/anscer_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/anscer_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/tag_monitor
+[38.485s] -- Install configuration: ""
+[38.485s] -- Installing: /ros2_ws/install/tag_monitor/lib/tag_monitor/tag_monitor_node
+[38.496s] -- Set runtime path of "/ros2_ws/install/tag_monitor/lib/tag_monitor/tag_monitor_node" to ""
+[38.497s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor//launch
+[38.497s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor//launch/tag_monitor.launch.py
+[38.504s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor//config
+[38.504s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor//config/tag_monitor.yaml
+[38.504s] -- Installing: /ros2_ws/install/tag_monitor/include
+[38.504s] -- Installing: /ros2_ws/install/tag_monitor/include/tag_monitor
+[38.504s] -- Installing: /ros2_ws/install/tag_monitor/include/tag_monitor/tag_monitor.hpp
+[38.504s] -- Installing: /ros2_ws/install/tag_monitor/share/ament_index/resource_index/package_run_dependencies/tag_monitor
+[38.505s] -- Installing: /ros2_ws/install/tag_monitor/share/ament_index/resource_index/parent_prefix_path/tag_monitor
+[38.505s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/environment/ament_prefix_path.sh
+[38.505s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/environment/ament_prefix_path.dsv
+[38.505s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/environment/path.sh
+[38.506s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/environment/path.dsv
+[38.506s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/local_setup.bash
+[38.506s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/local_setup.sh
+[38.506s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/local_setup.zsh
+[38.506s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/local_setup.dsv
+[38.506s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/package.dsv
+[38.507s] -- Installing: /ros2_ws/install/tag_monitor/share/ament_index/resource_index/packages/tag_monitor
+[38.507s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/cmake/tag_monitorConfig.cmake
+[38.507s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/cmake/tag_monitorConfig-version.cmake
+[38.507s] -- Installing: /ros2_ws/install/tag_monitor/share/tag_monitor/package.xml
+[38.511s] Invoked command in '/ros2_ws/build/tag_monitor' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/anscer_msgs:/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_description:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/anscer_msgs/lib:/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/tag_monitor

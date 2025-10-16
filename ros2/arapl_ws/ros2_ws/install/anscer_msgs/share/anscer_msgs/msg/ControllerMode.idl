@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/ControllerMode.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    module ControllerMode_Constants {
+      const uint8 DEFAULT_MOTION = 0;
+      const uint8 CHARGE_DOCK = 1;
+      const uint8 CHARGE_UNDOCK = 2;
+      const uint8 BARCODE_MOTION = 3;
+    };
+    struct ControllerMode {
+      int8 controller_mode;
+    };
+  };
+};

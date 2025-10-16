@@ -1,0 +1,2 @@
+set(wms_data_MESSAGE_FILES "/home/nvidia/Desktop/arapl_ws/src/wms_data/msg/WMSData.msg;/home/nvidia/Desktop/arapl_ws/src/wms_data/msg/Feedback.msg;/home/nvidia/Desktop/arapl_ws/src/wms_data/msg/WMSTasks.msg")
+set(wms_data_SERVICE_FILES "")

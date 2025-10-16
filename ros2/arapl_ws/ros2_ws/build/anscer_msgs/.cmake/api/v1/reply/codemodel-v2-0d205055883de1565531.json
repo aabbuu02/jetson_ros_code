@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3961c451f695c23ac9b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "anscer_msgs__py",
+					"jsonFile" : "directory-anscer_msgs__py-dda41310da6076e95796.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/ros2_ws/build/anscer_msgs/anscer_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "anscer_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_anscer_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_anscer_msgs_egg-6d3860367448ee184dae.json",
+					"name" : "ament_cmake_python_build_anscer_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_anscer_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_anscer_msgs-55079eb98af2edd0d3ca.json",
+					"name" : "ament_cmake_python_copy_anscer_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs-d056a5bc0c22a3e91e7a.json",
+					"name" : "anscer_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__cpp-c11fa92d2f9924a238af.json",
+					"name" : "anscer_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "anscer_msgs__py::@4ee9f1b5efc1a1e34dcd",
+					"jsonFile" : "target-anscer_msgs__py-4a0558726c5261fd4fd0.json",
+					"name" : "anscer_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_generator_c-1f167a3260b7ded47b68.json",
+					"name" : "anscer_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_generator_py-97af7ce81a227cda9b89.json",
+					"name" : "anscer_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_c-a6d6cb7a75db89136d7a.json",
+					"name" : "anscer_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_c__pyext-a52a998ff5c270d06451.json",
+					"name" : "anscer_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_cpp-8787c553679e6ad80de2.json",
+					"name" : "anscer_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_fastrtps_c-86f2988be1e2d69033bf.json",
+					"name" : "anscer_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_fastrtps_c__pyext-f1d3f0186bcbb4b9f89c.json",
+					"name" : "anscer_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_fastrtps_cpp-31ab165e667779e19f68.json",
+					"name" : "anscer_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_introspection_c-e76fb91f28564a953289.json",
+					"name" : "anscer_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_introspection_c__pyext-b5e1e41457bb845955c4.json",
+					"name" : "anscer_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs__rosidl_typesupport_introspection_cpp-de211c29f3eedc3f28cd.json",
+					"name" : "anscer_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anscer_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anscer_msgs_uninstall-a920112ae5a7813e13c8.json",
+					"name" : "anscer_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-04fef726a69b7aac5fe6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/anscer_msgs",
+		"source" : "/ros2_ws/src/anscer_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

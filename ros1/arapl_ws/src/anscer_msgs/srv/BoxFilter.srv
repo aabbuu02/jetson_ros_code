@@ -1,0 +1,13 @@
+bool filterEnable
+bool restoreDefault
+float64 minSafetyX
+float64 maxSafetyX
+float64 minSafetyY
+float64 maxSafetyY
+float64 minWarnX
+float64 maxWarnX
+float64 minWarnY
+float64 maxWarnY
+int64 debounce_time
+---
+int64 state

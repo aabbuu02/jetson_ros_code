@@ -1,0 +1,4 @@
+GraphCreatorMode graph_mode
+---
+bool success
+string message

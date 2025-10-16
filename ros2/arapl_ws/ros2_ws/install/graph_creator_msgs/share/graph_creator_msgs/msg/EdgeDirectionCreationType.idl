@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from graph_creator_msgs/msg/EdgeDirectionCreationType.msg
+// generated code does not contain a copyright notice
+
+
+module graph_creator_msgs {
+  module msg {
+    module EdgeDirectionCreationType_Constants {
+      const uint8 EDGE_DIRECTION_CREATION_TYPE_FORWARD = 0;
+      const uint8 EDGE_DIRECTION_CREATION_TYPE_REVERSE = 1;
+      const uint8 EDGE_DIRECTION_CREATION_TYPE_BIDIRECTIONAL = 2;
+    };
+    struct EdgeDirectionCreationType {
+      uint8 direction_type;
+    };
+  };
+};

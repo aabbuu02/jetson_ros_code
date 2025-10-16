@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rosbridge_server</name>
+  <version>2.0.0</version>
+  <description>
+    C++ ROS2 rosbridge WebSocket server implementing the rosbridge v2.0 protocol.
+    Provides JSON-based communication for web applications and remote clients.
+  </description>
+  
+  <maintainer email="your-email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+  
+  <url type="website">http://wiki.ros.org/rosbridge_server</url>
+  <url type="repository">https://github.com/RobotWebTools/rosbridge_suite</url>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>rosidl_default_runtime</depend>
+  <depend>rosidl_typesupport_cpp</depend>
+  <depend>rosidl_typesupport_introspection_cpp</depend>
+  <depend>libboost-dev</depend>
+  <depend>libboost-system-dev</depend>
+  <depend>libboost-thread-dev</depend>
+  <depend>libwebsocketpp-dev</depend>
+  <depend>nlohmann-json-dev</depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,4 @@
+source;share/wms_data/local_setup.bash
+source;share/wms_data/local_setup.dsv
+source;share/wms_data/local_setup.sh
+source;share/wms_data/local_setup.zsh

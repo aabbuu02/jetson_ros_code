@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/Move.action
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Move_Goal {
+      int32 source_id;
+
+      int32 target_id;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Move_Result {
+      boolean is_success;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Move_Feedback {
+      boolean move_feedback;
+    };
+  };
+};

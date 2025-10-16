@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/EditSequence.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct EditSequence_Request {
+      boolean save;
+
+      string waypoint_id;
+
+      string sequence_list;
+    };
+    struct EditSequence_Response {
+      boolean is_saved;
+
+      string status;
+    };
+  };
+};

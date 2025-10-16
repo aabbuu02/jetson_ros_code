@@ -1,0 +1,6 @@
+bool enable_vertex_snap_mode
+bool enable_edge_snap_mode
+bool enable_position_snap_mode
+bool enable_orientation_snap_mode
+float64 position_grid_size
+float64 orientation_angle

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/MissionStatus.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    struct MissionStatus {
+      string mission_id;
+
+      string task_id;
+    };
+  };
+};

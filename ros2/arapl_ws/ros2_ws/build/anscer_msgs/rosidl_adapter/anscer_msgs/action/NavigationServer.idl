@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/NavigationServer.action
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/MissionStatus.idl"
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct NavigationServer_Goal {
+      string source_location;
+
+      string source_process;
+
+      string destination_location;
+
+      string destination_process;
+
+      string default_location;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct NavigationServer_Result {
+      boolean goal_succeeded;
+
+      string status;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct NavigationServer_Feedback {
+      int16 completed;
+
+      anscer_msgs::msg::MissionStatus mission_status;
+
+      string status;
+
+      boolean warning;
+
+      string warning_msg;
+    };
+  };
+};

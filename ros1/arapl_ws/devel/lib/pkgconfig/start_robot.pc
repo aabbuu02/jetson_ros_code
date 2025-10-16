@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/devel
+
+Name: start_robot
+Description: Description of start_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

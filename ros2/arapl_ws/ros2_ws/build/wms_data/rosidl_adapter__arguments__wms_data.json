@@ -1,0 +1,8 @@
+{
+  "package_name": "wms_data",
+  "non_idl_tuples": [
+    "/ros2_ws/src/wms_data:msg/WMSData.msg",
+    "/ros2_ws/src/wms_data:msg/WMSTasks.msg",
+    "/ros2_ws/src/wms_data:msg/Feedback.msg"
+  ]
+}

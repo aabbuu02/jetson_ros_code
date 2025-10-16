@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/SaveDelay.srv
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/Delay.idl"
+
+module anscer_msgs {
+  module srv {
+    struct SaveDelay_Request {
+      boolean save;
+
+      anscer_msgs::msg::Delay delay;
+    };
+    struct SaveDelay_Response {
+      string status;
+
+      boolean is_saved;
+    };
+  };
+};

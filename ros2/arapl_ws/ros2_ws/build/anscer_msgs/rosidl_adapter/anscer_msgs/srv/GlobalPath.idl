@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/GlobalPath.srv
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/Paths.idl"
+
+module anscer_msgs {
+  module srv {
+    struct GlobalPath_Request {
+      boolean initate;
+    };
+    struct GlobalPath_Response {
+      anscer_msgs::msg::Paths global_path;
+    };
+  };
+};

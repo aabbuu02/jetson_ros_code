@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/MultiMap.action
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct MultiMap_Goal {
+      string transition_goal_pose;
+
+      string transition_map;
+
+      string transition_initial_pose;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct MultiMap_Result {
+      boolean results;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct MultiMap_Feedback {
+      int32 feedbacks;
+    };
+  };
+};

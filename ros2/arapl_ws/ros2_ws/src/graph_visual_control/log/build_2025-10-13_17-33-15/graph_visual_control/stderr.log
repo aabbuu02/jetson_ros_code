@@ -1,0 +1,16 @@
+[01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:83:64:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kstruct graph_msgs::msg::Graph[m[K’ does not name a type
+   83 | void GraphVizCtrl::graphCallback(const graph_msgs::msg::Graph::[01;31m[KSharedPtr[m[K graph_msg)
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:83:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid GraphVizCtrl::graphCallback(int)[m[K’
+   83 | void [01;31m[KGraphVizCtrl[m[K::graphCallback(const graph_msgs::msg::Graph::SharedPtr graph_msg)
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:248:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid GraphVizCtrl::graphCallback(std::shared_ptr<graph_msgs::msg::Graph>)[m[K’
+  248 |   void [01;36m[KgraphCallback[m[K(const std::shared_ptr<graph_msgs::msg::Graph> graph_msg);
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:231:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GraphVizCtrl[m[K’ defined here
+  231 | class [01;36m[KGraphVizCtrl[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/graph_viz_ctrl.dir/build.make:76: CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_viz_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

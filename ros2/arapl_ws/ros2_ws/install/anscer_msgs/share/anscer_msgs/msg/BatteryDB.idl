@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/BatteryDB.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    struct BatteryDB {
+      string timestamp;
+
+      float capacity;
+
+      float voltage;
+
+      float current;
+
+      float linear_velocity;
+
+      float angular_velocity;
+
+      int8 state_of_charge;
+    };
+  };
+};

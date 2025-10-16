@@ -1,0 +1,265 @@
+{
+	"info": {
+		"_postman_id": "aa355998-ad6c-47a6-8280-d61aaeb00ac0",
+		"name": "WMS API Node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "437640"
+	},
+	"item": [
+		{
+			"name": "GET WMS Pick Data New",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3333/getWMSPickDataNew",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"getWMSPickDataNew"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET WMS Pick Data New",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3333/getWMSPickDataNew",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"getWMSPickDataNew"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1975"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7b7-W/oafwlp13UjUtgO1l2IyARdBpw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Feb 2023 07:06:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Inst_Kid\": \"DE811269-7A8D-49A7-ACC2-EF75FDE6E289\",\n        \"Inst_Date\": \"2/13/2023 12:55\",\n        \"Inst_Priority\": \"15242\",\n        \"Inst_BatchNo\": \"1755\",\n        \"Inst_ItemCode\": \"10000093\",\n        \"Inst_RackNo\": \"1021\",\n        \"Inst_ShelfNo\": \"10\",\n        \"Inst_CoreNo\": \"\",\n        \"Inst_LevelNo\": \"\",\n        \"Inst_BinNo\": \"104\",\n        \"Inst_WholeBinNo\": \"102110104\",\n        \"Inst_PickPut\": \"1\",\n        \"Inst_IsCompleted\": \"0\",\n        \"Inst_EANCode\": \"10000093\",\n        \"Inst_PutawayBarcode\": \"12009221119\",\n        \"Inst_YearPart\": \"22\",\n        \"Inst_DatePart\": \"12009\",\n        \"Inst_RunningSrNo\": \"1119\",\n        \"Inst_BotShelfNo\": \"9\",\n        \"Inst_ToRackNo\": \"1092\",\n        \"Inst_ToCoreNo\": \"\",\n        \"Inst_ToShelfNo\": \"16\",\n        \"Inst_ToLevelNo\": \"\",\n        \"Inst_ToBinNo\": \"101\",\n        \"Inst_ToWholeBinNo\": \"109216101\",\n        \"Inst_ToPriority\": \"15242\",\n        \"Inst_ToIsCompleted\": \"0\",\n        \"Inst_IsSynced\": \"1\",\n        \"Inst_ToIsSynced\": \"1\",\n        \"Inst_PickZoneId\": \"78\",\n        \"Inst_PickZoneName\": \"Storage\",\n        \"Inst_IsReturnToInventory\": \"1\",\n        \"Inst_IsSkipped\": \"0\",\n        \"Inst_Remarks\": \"\",\n        \"Inst_SkippedOn\": \"NULL\",\n        \"Inst_IsIssueResolved\": \"NULL\",\n        \"Inst_IsSendForInstruction\": \"NULL\",\n        \"Inst_PickTime\": \"2/13/2023 13:08\",\n        \"Inst_DropTime\": \"2/13/2023 13:18\"\n    },\n    {\n        \"Inst_Kid\": \"3F8D5189-3573-4E8A-B1D6-DF490C27D189\",\n        \"Inst_Date\": \"2/13/2023 12:55\",\n        \"Inst_Priority\": \"15241\",\n        \"Inst_BatchNo\": \"1755\",\n        \"Inst_ItemCode\": \"10000073\",\n        \"Inst_RackNo\": \"1022\",\n        \"Inst_ShelfNo\": \"12\",\n        \"Inst_CoreNo\": \"\",\n        \"Inst_LevelNo\": \"\",\n        \"Inst_BinNo\": \"103\",\n        \"Inst_WholeBinNo\": \"102212103\",\n        \"Inst_PickPut\": \"1\",\n        \"Inst_IsCompleted\": \"0\",\n        \"Inst_EANCode\": \"10000073\",\n        \"Inst_PutawayBarcode\": \"12009221007\",\n        \"Inst_YearPart\": \"22\",\n        \"Inst_DatePart\": \"12009\",\n        \"Inst_RunningSrNo\": \"1007\",\n        \"Inst_BotShelfNo\": \"8\",\n        \"Inst_ToRackNo\": \"1092\",\n        \"Inst_ToCoreNo\": \"\",\n        \"Inst_ToShelfNo\": \"15\",\n        \"Inst_ToLevelNo\": \"\",\n        \"Inst_ToBinNo\": \"101\",\n        \"Inst_ToWholeBinNo\": \"109215101\",\n        \"Inst_ToPriority\": \"15241\",\n        \"Inst_ToIsCompleted\": \"0\",\n        \"Inst_IsSynced\": \"1\",\n        \"Inst_ToIsSynced\": \"1\",\n        \"Inst_PickZoneId\": \"78\",\n        \"Inst_PickZoneName\": \"Storage\",\n        \"Inst_IsReturnToInventory\": \"1\",\n        \"Inst_IsSkipped\": \"0\",\n        \"Inst_Remarks\": \"\",\n        \"Inst_SkippedOn\": \"NULL\",\n        \"Inst_IsIssueResolved\": \"NULL\",\n        \"Inst_IsSendForInstruction\": \"NULL\",\n        \"Inst_PickTime\": \"2/13/2023 13:07\",\n        \"Inst_DropTime\": \"2/13/2023 13:18\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "GET WMS Drop Data New",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3333/getWMSDropDataNew",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"getWMSDropDataNew"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET WMS Drop Data New",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3333/getWMSDropDataNew",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"getWMSDropDataNew"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1975"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7b7-tSuOgWqTFYUa18dilEO3MTnzY30\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Feb 2023 07:08:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Inst_Kid\": \"1717A74E-00BC-400C-973D-BB81404B7483\",\n        \"Inst_Date\": \"2/13/2023 12:55\",\n        \"Inst_Priority\": \"15240\",\n        \"Inst_BatchNo\": \"1755\",\n        \"Inst_ItemCode\": \"10000085\",\n        \"Inst_RackNo\": \"1021\",\n        \"Inst_ShelfNo\": \"12\",\n        \"Inst_CoreNo\": \"\",\n        \"Inst_LevelNo\": \"\",\n        \"Inst_BinNo\": \"103\",\n        \"Inst_WholeBinNo\": \"102112103\",\n        \"Inst_PickPut\": \"1\",\n        \"Inst_IsCompleted\": \"1\",\n        \"Inst_EANCode\": \"10000085\",\n        \"Inst_PutawayBarcode\": \"12009221116\",\n        \"Inst_YearPart\": \"22\",\n        \"Inst_DatePart\": \"12009\",\n        \"Inst_RunningSrNo\": \"1116\",\n        \"Inst_BotShelfNo\": \"7\",\n        \"Inst_ToRackNo\": \"1092\",\n        \"Inst_ToCoreNo\": \"\",\n        \"Inst_ToShelfNo\": \"14\",\n        \"Inst_ToLevelNo\": \"\",\n        \"Inst_ToBinNo\": \"101\",\n        \"Inst_ToWholeBinNo\": \"109214101\",\n        \"Inst_ToPriority\": \"15240\",\n        \"Inst_ToIsCompleted\": \"0\",\n        \"Inst_IsSynced\": \"1\",\n        \"Inst_ToIsSynced\": \"1\",\n        \"Inst_PickZoneId\": \"78\",\n        \"Inst_PickZoneName\": \"Storage\",\n        \"Inst_IsReturnToInventory\": \"1\",\n        \"Inst_IsSkipped\": \"0\",\n        \"Inst_Remarks\": \"\",\n        \"Inst_SkippedOn\": \"NULL\",\n        \"Inst_IsIssueResolved\": \"NULL\",\n        \"Inst_IsSendForInstruction\": \"NULL\",\n        \"Inst_PickTime\": \"2/13/2023 13:07\",\n        \"Inst_DropTime\": \"2/13/2023 13:17\"\n    },\n    {\n        \"Inst_Kid\": \"3C6315BA-7C8B-4DA4-81F7-22BAD88C590E\",\n        \"Inst_Date\": \"2/13/2023 12:55\",\n        \"Inst_Priority\": \"15239\",\n        \"Inst_BatchNo\": \"1755\",\n        \"Inst_ItemCode\": \"10000069\",\n        \"Inst_RackNo\": \"1022\",\n        \"Inst_ShelfNo\": \"11\",\n        \"Inst_CoreNo\": \"\",\n        \"Inst_LevelNo\": \"\",\n        \"Inst_BinNo\": \"103\",\n        \"Inst_WholeBinNo\": \"102211103\",\n        \"Inst_PickPut\": \"1\",\n        \"Inst_IsCompleted\": \"1\",\n        \"Inst_EANCode\": \"10000069\",\n        \"Inst_PutawayBarcode\": \"12009221091\",\n        \"Inst_YearPart\": \"22\",\n        \"Inst_DatePart\": \"12009\",\n        \"Inst_RunningSrNo\": \"1091\",\n        \"Inst_BotShelfNo\": \"6\",\n        \"Inst_ToRackNo\": \"1092\",\n        \"Inst_ToCoreNo\": \"\",\n        \"Inst_ToShelfNo\": \"13\",\n        \"Inst_ToLevelNo\": \"\",\n        \"Inst_ToBinNo\": \"101\",\n        \"Inst_ToWholeBinNo\": \"109213101\",\n        \"Inst_ToPriority\": \"15239\",\n        \"Inst_ToIsCompleted\": \"0\",\n        \"Inst_IsSynced\": \"1\",\n        \"Inst_ToIsSynced\": \"1\",\n        \"Inst_PickZoneId\": \"78\",\n        \"Inst_PickZoneName\": \"Storage\",\n        \"Inst_IsReturnToInventory\": \"1\",\n        \"Inst_IsSkipped\": \"0\",\n        \"Inst_Remarks\": \"\",\n        \"Inst_SkippedOn\": \"NULL\",\n        \"Inst_IsIssueResolved\": \"NULL\",\n        \"Inst_IsSendForInstruction\": \"NULL\",\n        \"Inst_PickTime\": \"2/13/2023 13:06\",\n        \"Inst_DropTime\": \"2/13/2023 13:17\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "UPDATE WMS Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Kid\": \"3F8D5189-3573-4E8A-B1D6-DF490C27D227\",\r\n    \"BotShelf\": \"1\",\r\n    \"Action\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/UpdateWMSData",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"UpdateWMSData"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "UPDATE WMS Data",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Kid\": \"1717A74E-00BC-400C-973D-BB81404B7483\",\r\n    \"BotShelf\": \"1\",\r\n    \"Action\": \"0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3333/UpdateWMSData",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"UpdateWMSData"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7-U6VofLJtxB8qtAM+l+E63v03QNY\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Feb 2023 07:26:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "success"
+				}
+			]
+		},
+		{
+			"name": "GET WMS Instructions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3333/getWMSInstructions",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"getWMSInstructions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Should Reset Instructions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3333/shouldResetInstructions",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"shouldResetInstructions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

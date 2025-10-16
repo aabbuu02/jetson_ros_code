@@ -1,0 +1,3 @@
+anscer_msgs/IndividualProhibition[] prohibition_zones
+---
+bool status

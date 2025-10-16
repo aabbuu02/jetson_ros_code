@@ -1,0 +1,37 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from graph_creator_msgs:msg/SnapPoseConfig.idl
+// generated code does not contain a copyright notice
+#ifndef GRAPH_CREATOR_MSGS__MSG__DETAIL__SNAP_POSE_CONFIG__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define GRAPH_CREATOR_MSGS__MSG__DETAIL__SNAP_POSE_CONFIG__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "graph_creator_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_graph_creator_msgs
+size_t get_serialized_size_graph_creator_msgs__msg__SnapPoseConfig(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_graph_creator_msgs
+size_t max_serialized_size_graph_creator_msgs__msg__SnapPoseConfig(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_graph_creator_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, graph_creator_msgs, msg, SnapPoseConfig)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // GRAPH_CREATOR_MSGS__MSG__DETAIL__SNAP_POSE_CONFIG__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-082c19238d702b2a29c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosbridge_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_protocol_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_protocol_lib-4ef04f21e6b7eb9426cb.json",
+					"name" : "rosbridge_protocol_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_server_uninstall-646cb8a990f6ab920090.json",
+					"name" : "rosbridge_server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_websocket::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_websocket-3153363764c8903d172d.json",
+					"name" : "rosbridge_websocket",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-539150c3bbf6cc4e1ed5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros2_ws/build/rosbridge_server",
+		"source" : "/ros2_ws/src/rosbridge_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

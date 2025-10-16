@@ -1,0 +1,2 @@
+set(wms_data_MESSAGE_FILES "msg/WMSData.msg;msg/Feedback.msg;msg/WMSTasks.msg")
+set(wms_data_SERVICE_FILES "")

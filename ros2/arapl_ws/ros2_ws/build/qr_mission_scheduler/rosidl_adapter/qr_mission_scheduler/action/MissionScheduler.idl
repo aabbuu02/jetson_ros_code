@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from qr_mission_scheduler/action/MissionScheduler.action
+// generated code does not contain a copyright notice
+
+#include "qr_mission_scheduler/msg/GoalMsg.idl"
+
+module qr_mission_scheduler {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MissionScheduler_Goal {
+      qr_mission_scheduler::msg::GoalMsg goal_type;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MissionScheduler_Result {
+      string success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MissionScheduler_Feedback {
+      sequence<double> pose;
+    };
+  };
+};

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/TripAnalytics.srv
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/MissionDB.idl"
+
+module anscer_msgs {
+  module srv {
+    struct TripAnalytics_Request {
+      string start_date;
+
+      string end_date;
+    };
+    struct TripAnalytics_Response {
+      sequence<anscer_msgs::msg::MissionDB> mission_db;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+#goal definition
+bool error_activate
+---
+#result definition
+bool is_success
+---
+#feedback
+bool error_feedback

@@ -1,0 +1,5 @@
+float64 vertex_sphere_scale
+float64 vertex_arrow_scale
+float64 control_pose_scale
+float64 edge_pose_spacing
+float64 bezier_resolution

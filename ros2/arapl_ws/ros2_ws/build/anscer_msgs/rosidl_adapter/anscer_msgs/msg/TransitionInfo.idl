@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/TransitionInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+
+module anscer_msgs {
+  module msg {
+    struct TransitionInfo {
+      string source;
+
+      string destination;
+
+      geometry_msgs::msg::PoseArray pose;
+    };
+  };
+};

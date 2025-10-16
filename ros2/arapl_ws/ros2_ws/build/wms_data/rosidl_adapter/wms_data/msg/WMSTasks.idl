@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wms_data/msg/WMSTasks.msg
+// generated code does not contain a copyright notice
+
+#include "wms_data/msg/WMSData.idl"
+
+module wms_data {
+  module msg {
+    struct WMSTasks {
+      sequence<wms_data::msg::WMSData> tasks;
+    };
+  };
+};

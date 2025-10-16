@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from anscer_msgs/msg/ACRControl.msg
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module msg {
+    module ACRControl_Constants {
+      const int32 PICKUP = 0;
+      const int32 DROPOFF = 1;
+    };
+    @verbatim (language="comment", text=
+      "mission status")
+    struct ACRControl {
+      int16 acr_shelf;
+
+      int16 target_shelf;
+
+      int16 acr_action;
+
+      int64 bar_code_number;
+
+      int64 whole_bin_number;
+    };
+  };
+};

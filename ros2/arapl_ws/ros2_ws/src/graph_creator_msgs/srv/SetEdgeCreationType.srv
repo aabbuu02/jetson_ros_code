@@ -1,0 +1,4 @@
+EdgeCreationType edge_creation_type
+---
+bool success
+string message

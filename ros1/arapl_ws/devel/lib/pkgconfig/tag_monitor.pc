@@ -1,0 +1,8 @@
+prefix=/home/nvidia/Desktop/arapl_ws/devel
+
+Name: tag_monitor
+Description: Description of tag_monitor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

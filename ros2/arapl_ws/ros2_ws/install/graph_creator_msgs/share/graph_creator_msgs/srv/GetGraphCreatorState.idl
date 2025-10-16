@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from graph_creator_msgs/srv/GetGraphCreatorState.srv
+// generated code does not contain a copyright notice
+
+#include "graph_creator_msgs/msg/GraphCreatorState.idl"
+
+module graph_creator_msgs {
+  module srv {
+    struct GetGraphCreatorState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetGraphCreatorState_Response {
+      graph_creator_msgs::msg::GraphCreatorState state;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

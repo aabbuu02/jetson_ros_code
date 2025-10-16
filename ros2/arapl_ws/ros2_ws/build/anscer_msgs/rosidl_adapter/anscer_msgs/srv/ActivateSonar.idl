@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/ActivateSonar.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct ActivateSonar_Request {
+      boolean enable;
+    };
+    struct ActivateSonar_Response {
+      boolean result;
+    };
+  };
+};

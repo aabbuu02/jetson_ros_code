@@ -1,0 +1,8 @@
+# generated from catkin/cmake/template/pkg.context.pc.in
+CATKIN_PACKAGE_PREFIX = ""
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/nvidia/Desktop/arapl_ws/devel/include;/home/nvidia/Desktop/arapl_ws/src/qr_mission_scheduler/include".split(';') if "/home/nvidia/Desktop/arapl_ws/devel/include;/home/nvidia/Desktop/arapl_ws/src/qr_mission_scheduler/include" != "" else []
+PROJECT_CATKIN_DEPENDS = "roscpp;rospy;std_msgs;actionlib;actionlib_msgs;message_runtime".replace(';', ' ')
+PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lqr_mission_scheduler".split(';') if "-lqr_mission_scheduler" != "" else []
+PROJECT_NAME = "qr_mission_scheduler"
+PROJECT_SPACE_DIR = "/home/nvidia/Desktop/arapl_ws/devel"
+PROJECT_VERSION = "0.0.0"

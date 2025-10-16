@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypes="xs:schema"?>
+<package format="3">
+  <name>graph_control</name>
+  <version>1.0.0</version>
+  <description>Graph control plugin system for ROS2</description>
+  
+  <maintainer email="user@todo.todo">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Core ROS2 dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>pluginlib</depend>
+  
+  <!-- Message dependencies -->
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>graph_msgs</depend>
+  
+  <!-- Action dependencies -->
+  <depend>action_msgs</depend>
+  <depend>nav2_msgs</depend>
+  
+  <!-- TF2 dependencies -->
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

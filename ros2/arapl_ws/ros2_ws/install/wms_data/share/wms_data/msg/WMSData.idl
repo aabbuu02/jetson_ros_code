@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wms_data/msg/WMSData.msg
+// generated code does not contain a copyright notice
+
+
+module wms_data {
+  module msg {
+    struct WMSData {
+      string unique_id;
+
+      string date;
+
+      int16 priority;
+
+      int16 rack;
+
+      int16 shelf;
+
+      int16 bin;
+
+      boolean action;
+
+      boolean status;
+
+      string ean_code;
+
+      string putaway_code;
+
+      int16 acr_shelf;
+
+      string whole_bin_no;
+
+      string core;
+
+      string level;
+
+      string year;
+
+      string date_data;
+
+      string serial_no;
+    };
+  };
+};

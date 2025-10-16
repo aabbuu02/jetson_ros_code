@@ -1,0 +1,4 @@
+EdgeDirectionCreationType edge_direction_creation_type
+---
+bool success
+string message

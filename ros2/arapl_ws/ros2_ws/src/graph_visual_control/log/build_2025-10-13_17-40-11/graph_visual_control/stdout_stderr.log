@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target graph_viz_ctrl[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o[0m
+In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:220:12:[m[K [01;31m[Kerror: [m[Kusing typedef-name ‘[01m[Kusing Graph = struct graph_msgs::msg::Graph_<std::allocator<void> >[m[K’ after ‘[01m[Kstruct[m[K’
+  220 |     struct [01;31m[KGraph[m[K {
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:7[m[K,
+                 from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:8[m[K,
+                 from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__struct.hpp:177:7:[m[K [01;36m[Knote: [m[K‘[01m[Kusing Graph = struct graph_msgs::msg::Graph_<std::allocator<void> >[m[K’ has a previous declaration here
+  177 | using [01;36m[KGraph[m[K =
+      |       [01;36m[K^~~~~[m[K
+In file included from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:224:12:[m[K [01;31m[Kerror: [m[Kusing typedef-name ‘[01m[Kusing Edge = struct graph_msgs::msg::Edge_<std::allocator<void> >[m[K’ after ‘[01m[Kstruct[m[K’
+  224 |     struct [01;31m[KEdge[m[K {
+      |            [01;31m[K^~~~[m[K
+In file included from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/graph__struct.hpp:26[m[K,
+                 from [01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/graph.hpp:7[m[K,
+                 from [01m[K/ros2_ws/src/graph_visual_control/include/graph_visual_control/graph_viz_ctrl.hpp:8[m[K,
+                 from [01m[K/ros2_ws/src/graph_visual_control/src/graph_viz_ctrl.cpp:1[m[K:
+[01m[K/ros2_ws/install/graph_msgs/include/graph_msgs/graph_msgs/msg/detail/edge__struct.hpp:338:7:[m[K [01;36m[Knote: [m[K‘[01m[Kusing Edge = struct graph_msgs::msg::Edge_<std::allocator<void> >[m[K’ has a previous declaration here
+  338 | using [01;36m[KEdge[m[K =
+      |       [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/graph_viz_ctrl.dir/build.make:76: CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_viz_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/GoToPose.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct GoToPose_Request {
+      boolean initate;
+
+      int16 level;
+    };
+    struct GoToPose_Response {
+      boolean status;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+rosbridge_websocket:
+  ros__parameters:
+    port: 9090
+    address: ""
+    ssl: false
+    certfile: ""
+    keyfile: ""
+    max_message_size: 10000000

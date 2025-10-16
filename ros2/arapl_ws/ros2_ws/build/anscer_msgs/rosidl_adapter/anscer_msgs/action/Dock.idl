@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from anscer_msgs/action/Dock.action
+// generated code does not contain a copyright notice
+
+#include "anscer_msgs/msg/DockInfo.idl"
+
+module anscer_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Dock_Goal {
+      boolean aruco_charging;
+
+      boolean reflector_charging;
+
+      boolean general_docking;
+
+      boolean vlmarker_charging;
+
+      boolean start_dock;
+
+      boolean start_undock;
+
+      int8 inplace_id;
+
+      float undock_distance;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Dock_Result {
+      boolean is_success;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Dock_Feedback {
+      anscer_msgs::msg::DockInfo dock_info;
+
+      float undock_distance_remaining;
+
+      boolean dock_found;
+
+      int8 controller_status;
+    };
+  };
+};

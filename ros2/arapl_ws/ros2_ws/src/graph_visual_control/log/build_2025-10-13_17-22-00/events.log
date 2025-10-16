@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000965] (graph_visual_control) JobQueued: {'identifier': 'graph_visual_control', 'dependencies': OrderedDict()}
+[0.001229] (graph_visual_control) JobStarted: {'identifier': 'graph_visual_control'}
+[0.018905] (graph_visual_control) JobProgress: {'identifier': 'graph_visual_control', 'progress': 'cmake'}
+[0.020086] (graph_visual_control) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/graph_visual_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/src/graph_visual_control/install/graph_visual_control'], 'cwd': '/ros2_ws/src/graph_visual_control/build/graph_visual_control', 'env': OrderedDict([('HOSTNAME', 'linux'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble'), ('PWD', '/ros2_ws/src/graph_visual_control/build/graph_visual_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/wms_data/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages:/ros2_ws/install/lift_action/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_creator_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/anscer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble')]), 'shell': False}
+[0.043165] (graph_visual_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099139] (-) TimerEvent: {}
+[0.199787] (-) TimerEvent: {}
+[0.242444] (graph_visual_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.259833] (graph_visual_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299887] (-) TimerEvent: {}
+[0.302191] (graph_visual_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.305247] (graph_visual_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.312653] (graph_visual_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.326518] (graph_visual_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.342990] (graph_visual_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.385382] (graph_visual_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.388250] (graph_visual_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399982] (-) TimerEvent: {}
+[0.500680] (-) TimerEvent: {}
+[0.536505] (graph_visual_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599482] (graph_visual_control) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.600756] (-) TimerEvent: {}
+[0.636888] (graph_visual_control) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.660076] (graph_visual_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.675717] (graph_visual_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.696739] (graph_visual_control) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.700869] (-) TimerEvent: {}
+[0.742608] (graph_visual_control) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[0.749768] (graph_visual_control) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.779237] (graph_visual_control) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.800963] (-) TimerEvent: {}
+[0.815062] (graph_visual_control) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.819213] (graph_visual_control) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.820857] (graph_visual_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.822811] (graph_visual_control) StdoutLine: {'line': b'-- Found graph_msgs: 1.0.0 (/ros2_ws/install/graph_msgs/share/graph_msgs/cmake)\n'}
+[0.850316] (graph_visual_control) StdoutLine: {'line': b'-- Found anscer_msgs: 0.0.0 (/ros2_ws/install/anscer_msgs/share/anscer_msgs/cmake)\n'}
+[0.892685] (graph_visual_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901067] (-) TimerEvent: {}
+[1.001515] (-) TimerEvent: {}
+[1.016357] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.025111] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.026467] (graph_visual_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ros2_ws/src/graph_visual_control/include\n'}
+[1.026646] (graph_visual_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.034534] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.034716] (graph_visual_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.035732] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.038103] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.039267] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.047413] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.047555] (graph_visual_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.048754] (graph_visual_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.050183] (graph_visual_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.091923] (graph_visual_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.101624] (-) TimerEvent: {}
+[1.108767] (graph_visual_control) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/src/graph_visual_control/build/graph_visual_control\n'}
+[1.135492] (graph_visual_control) CommandEnded: {'returncode': 0}
+[1.138661] (graph_visual_control) JobProgress: {'identifier': 'graph_visual_control', 'progress': 'build'}
+[1.139161] (graph_visual_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/src/graph_visual_control/build/graph_visual_control', '--', '-j12', '-l12'], 'cwd': '/ros2_ws/src/graph_visual_control/build/graph_visual_control', 'env': OrderedDict([('HOSTNAME', 'linux'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble'), ('PWD', '/ros2_ws/src/graph_visual_control/build/graph_visual_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/wms_data/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages:/ros2_ws/install/lift_action/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_creator_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/anscer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble')]), 'shell': False}
+[1.201775] (-) TimerEvent: {}
+[1.231579] (graph_visual_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/graph_viz_ctrl.dir/src/graph_viz_ctrl.cpp.o\x1b[0m\n'}
+[1.301922] (-) TimerEvent: {}
+[1.402733] (-) TimerEvent: {}
+[1.503428] (-) TimerEvent: {}
+[1.604106] (-) TimerEvent: {}
+[1.704787] (-) TimerEvent: {}
+[1.805462] (-) TimerEvent: {}
+[1.905985] (-) TimerEvent: {}
+[2.006388] (-) TimerEvent: {}
+[2.107073] (-) TimerEvent: {}
+[2.207771] (-) TimerEvent: {}
+[2.308667] (-) TimerEvent: {}
+[2.409476] (-) TimerEvent: {}
+[2.510033] (-) TimerEvent: {}
+[2.610763] (-) TimerEvent: {}
+[2.711538] (-) TimerEvent: {}
+[2.812215] (-) TimerEvent: {}
+[2.912860] (-) TimerEvent: {}
+[3.013373] (-) TimerEvent: {}
+[3.114278] (-) TimerEvent: {}
+[3.215042] (-) TimerEvent: {}
+[3.315717] (-) TimerEvent: {}
+[3.416377] (-) TimerEvent: {}
+[3.516848] (-) TimerEvent: {}
+[3.617514] (-) TimerEvent: {}
+[3.718177] (-) TimerEvent: {}
+[3.818817] (-) TimerEvent: {}
+[3.919350] (-) TimerEvent: {}
+[4.019929] (-) TimerEvent: {}
+[4.120549] (-) TimerEvent: {}
+[4.221293] (-) TimerEvent: {}
+[4.321975] (-) TimerEvent: {}
+[4.422639] (-) TimerEvent: {}
+[4.523190] (-) TimerEvent: {}
+[4.623887] (-) TimerEvent: {}
+[4.724505] (-) TimerEvent: {}
+[4.825082] (-) TimerEvent: {}
+[4.925698] (-) TimerEvent: {}
+[5.026243] (-) TimerEvent: {}
+[5.126799] (-) TimerEvent: {}
+[5.227490] (-) TimerEvent: {}
+[5.328389] (-) TimerEvent: {}
+[5.429036] (-) TimerEvent: {}
+[5.529887] (-) TimerEvent: {}
+[5.630615] (-) TimerEvent: {}
+[5.731286] (-) TimerEvent: {}
+[5.831946] (-) TimerEvent: {}
+[5.932395] (-) TimerEvent: {}
+[6.033010] (-) TimerEvent: {}
+[6.133529] (-) TimerEvent: {}
+[6.234191] (-) TimerEvent: {}
+[6.334844] (-) TimerEvent: {}
+[6.435502] (-) TimerEvent: {}
+[6.536204] (-) TimerEvent: {}
+[6.636979] (-) TimerEvent: {}
+[6.737743] (-) TimerEvent: {}
+[6.838411] (-) TimerEvent: {}
+[6.938924] (-) TimerEvent: {}
+[7.039458] (-) TimerEvent: {}
+[7.140057] (-) TimerEvent: {}
+[7.240636] (-) TimerEvent: {}
+[7.341165] (-) TimerEvent: {}
+[7.441775] (-) TimerEvent: {}
+[7.542306] (-) TimerEvent: {}
+[7.642828] (-) TimerEvent: {}
+[7.743517] (-) TimerEvent: {}
+[7.844212] (-) TimerEvent: {}
+[7.944919] (-) TimerEvent: {}
+[8.045468] (-) TimerEvent: {}
+[8.146033] (-) TimerEvent: {}
+[8.246685] (-) TimerEvent: {}
+[8.347355] (-) TimerEvent: {}
+[8.448051] (-) TimerEvent: {}
+[8.548803] (-) TimerEvent: {}
+[8.649661] (-) TimerEvent: {}
+[8.750357] (-) TimerEvent: {}
+[8.850992] (-) TimerEvent: {}
+[8.951713] (-) TimerEvent: {}
+[9.052347] (-) TimerEvent: {}
+[9.153073] (-) TimerEvent: {}
+[9.253842] (-) TimerEvent: {}
+[9.354530] (-) TimerEvent: {}
+[9.455054] (-) TimerEvent: {}
+[9.555729] (-) TimerEvent: {}
+[9.656383] (-) TimerEvent: {}
+[9.757224] (-) TimerEvent: {}
+[9.858147] (-) TimerEvent: {}
+[9.958720] (-) TimerEvent: {}
+[10.059296] (-) TimerEvent: {}
+[10.159948] (-) TimerEvent: {}
+[10.260536] (-) TimerEvent: {}
+[10.361228] (-) TimerEvent: {}
+[10.461733] (-) TimerEvent: {}
+[10.562350] (-) TimerEvent: {}
+[10.663173] (-) TimerEvent: {}
+[10.763898] (-) TimerEvent: {}
+[10.864564] (-) TimerEvent: {}
+[10.965033] (-) TimerEvent: {}
+[11.065558] (-) TimerEvent: {}
+[11.166089] (-) TimerEvent: {}
+[11.266597] (-) TimerEvent: {}
+[11.367259] (-) TimerEvent: {}
+[11.467769] (-) TimerEvent: {}
+[11.568452] (-) TimerEvent: {}
+[11.669119] (-) TimerEvent: {}
+[11.769807] (-) TimerEvent: {}
+[11.870463] (-) TimerEvent: {}
+[11.971003] (-) TimerEvent: {}
+[12.071642] (-) TimerEvent: {}
+[12.172408] (-) TimerEvent: {}
+[12.273288] (-) TimerEvent: {}
+[12.374038] (-) TimerEvent: {}
+[12.474539] (-) TimerEvent: {}
+[12.575111] (-) TimerEvent: {}
+[12.675943] (-) TimerEvent: {}
+[12.776646] (-) TimerEvent: {}
+[12.877288] (-) TimerEvent: {}
+[12.977929] (-) TimerEvent: {}
+[13.078580] (-) TimerEvent: {}
+[13.179054] (-) TimerEvent: {}
+[13.279694] (-) TimerEvent: {}
+[13.380335] (-) TimerEvent: {}
+[13.480834] (-) TimerEvent: {}
+[13.581518] (-) TimerEvent: {}
+[13.682163] (-) TimerEvent: {}
+[13.782807] (-) TimerEvent: {}
+[13.883284] (-) TimerEvent: {}
+[13.983768] (-) TimerEvent: {}
+[14.084321] (-) TimerEvent: {}
+[14.185340] (-) TimerEvent: {}
+[14.286223] (-) TimerEvent: {}
+[14.386966] (-) TimerEvent: {}
+[14.487670] (-) TimerEvent: {}
+[14.588438] (-) TimerEvent: {}
+[14.689309] (-) TimerEvent: {}
+[14.790030] (-) TimerEvent: {}
+[14.890727] (-) TimerEvent: {}
+[14.991240] (-) TimerEvent: {}
+[15.091920] (-) TimerEvent: {}
+[15.192595] (-) TimerEvent: {}
+[15.293364] (-) TimerEvent: {}
+[15.394170] (-) TimerEvent: {}
+[15.494864] (-) TimerEvent: {}
+[15.595526] (-) TimerEvent: {}
+[15.696173] (-) TimerEvent: {}
+[15.796836] (-) TimerEvent: {}
+[15.897498] (-) TimerEvent: {}
+[15.998148] (-) TimerEvent: {}
+[16.098628] (-) TimerEvent: {}
+[16.199414] (-) TimerEvent: {}
+[16.300160] (-) TimerEvent: {}
+[16.400950] (-) TimerEvent: {}
+[16.501495] (-) TimerEvent: {}
+[16.602016] (-) TimerEvent: {}
+[16.702778] (-) TimerEvent: {}
+[16.803465] (-) TimerEvent: {}
+[16.904106] (-) TimerEvent: {}
+[17.004608] (-) TimerEvent: {}
+[17.105170] (-) TimerEvent: {}
+[17.206147] (-) TimerEvent: {}
+[17.307056] (-) TimerEvent: {}
+[17.407635] (-) TimerEvent: {}
+[17.508323] (-) TimerEvent: {}
+[17.608991] (-) TimerEvent: {}
+[17.709670] (-) TimerEvent: {}
+[17.810311] (-) TimerEvent: {}
+[17.910965] (-) TimerEvent: {}
+[18.011618] (-) TimerEvent: {}
+[18.112105] (-) TimerEvent: {}
+[18.212781] (-) TimerEvent: {}
+[18.313287] (-) TimerEvent: {}
+[18.413780] (-) TimerEvent: {}
+[18.514371] (-) TimerEvent: {}
+[18.615099] (-) TimerEvent: {}
+[18.715956] (-) TimerEvent: {}
+[18.816694] (-) TimerEvent: {}
+[18.917417] (-) TimerEvent: {}
+[19.018079] (-) TimerEvent: {}
+[19.118644] (-) TimerEvent: {}
+[19.219368] (-) TimerEvent: {}
+[19.320128] (-) TimerEvent: {}
+[19.420810] (-) TimerEvent: {}
+[19.521475] (-) TimerEvent: {}
+[19.622134] (-) TimerEvent: {}
+[19.722629] (-) TimerEvent: {}
+[19.728276] (graph_visual_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable graph_viz_ctrl\x1b[0m\n'}
+[19.822992] (-) TimerEvent: {}
+[19.923835] (-) TimerEvent: {}
+[20.024584] (-) TimerEvent: {}
+[20.125115] (-) TimerEvent: {}
+[20.225750] (-) TimerEvent: {}
+[20.326517] (-) TimerEvent: {}
+[20.427387] (-) TimerEvent: {}
+[20.527941] (-) TimerEvent: {}
+[20.628659] (-) TimerEvent: {}
+[20.729274] (-) TimerEvent: {}
+[20.830465] (-) TimerEvent: {}
+[20.837068] (graph_visual_control) StdoutLine: {'line': b'[100%] Built target graph_viz_ctrl\n'}
+[20.863461] (graph_visual_control) CommandEnded: {'returncode': 0}
+[20.864760] (graph_visual_control) JobProgress: {'identifier': 'graph_visual_control', 'progress': 'install'}
+[20.878883] (graph_visual_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/src/graph_visual_control/build/graph_visual_control'], 'cwd': '/ros2_ws/src/graph_visual_control/build/graph_visual_control', 'env': OrderedDict([('HOSTNAME', 'linux'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/wms_data/lib:/ros2_ws/install/twist_mux/lib:/ros2_ws/install/rosbridge_server/lib:/ros2_ws/install/qr_navigation/lib:/ros2_ws/install/qr_mission_scheduler/lib:/ros2_ws/install/lift_action/lib:/ros2_ws/install/global_path_graph_planner/lib:/ros2_ws/install/global_path_graph/lib:/ros2_ws/install/graph_creator/lib:/ros2_ws/install/graph_creator_msgs/lib:/ros2_ws/install/graph_control/lib:/ros2_ws/install/graph_msgs/lib:/ros2_ws/install/graph_creator_rviz_plugin/lib:/ros2_ws/install/anscer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble'), ('PWD', '/ros2_ws/src/graph_visual_control/build/graph_visual_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/wms_data/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_navigation/local/lib/python3.10/dist-packages:/ros2_ws/install/qr_mission_scheduler/local/lib/python3.10/dist-packages:/ros2_ws/install/lift_action/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_creator_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/graph_msgs/local/lib/python3.10/dist-packages:/ros2_ws/install/anscer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/start_robot_bringup:/ros2_ws/install/anscer_agv_bringup:/ros2_ws/install/lower_level_controller:/ros2_ws/install/wms_data:/ros2_ws/install/twist_mux:/ros2_ws/install/tag_monitor:/ros2_ws/install/rosbridge_server:/ros2_ws/install/robot_pose_publisher:/ros2_ws/install/reader_modules:/ros2_ws/install/qr_navigation:/ros2_ws/install/qr_mission_scheduler:/ros2_ws/install/power_control:/ros2_ws/install/navigation_speed_control:/ros2_ws/install/lift_action:/ros2_ws/install/graph_visual_control:/ros2_ws/install/graph_server:/ros2_ws/install/global_path_graph_planner:/ros2_ws/install/global_path_graph:/ros2_ws/install/graph_creator:/ros2_ws/install/graph_creator_msgs:/ros2_ws/install/graph_control:/ros2_ws/install/graph_msgs:/ros2_ws/install/graph_creator_rviz_plugin:/ros2_ws/install/emergency_handler:/ros2_ws/install/brake_action:/ros2_ws/install/anscer_teleop:/ros2_ws/install/acr_robot_controller:/ros2_ws/install/anscer_msgs:/ros2_ws/install/anscer_description:/opt/ros/humble')]), 'shell': False}
+[20.891845] (graph_visual_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.892660] (graph_visual_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.893159] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/lib/graph_visual_control/graph_viz_ctrl\n'}
+[20.906550] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/ament_index/resource_index/package_run_dependencies/graph_visual_control\n'}
+[20.919837] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/ament_index/resource_index/parent_prefix_path/graph_visual_control\n'}
+[20.930443] (-) TimerEvent: {}
+[20.932432] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/environment/ament_prefix_path.sh\n'}
+[20.952815] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/environment/ament_prefix_path.dsv\n'}
+[20.968399] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/environment/path.sh\n'}
+[20.983001] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/environment/path.dsv\n'}
+[21.005385] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/local_setup.bash\n'}
+[21.021360] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/local_setup.sh\n'}
+[21.030609] (-) TimerEvent: {}
+[21.044736] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/local_setup.zsh\n'}
+[21.058665] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/local_setup.dsv\n'}
+[21.076564] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/package.dsv\n'}
+[21.095595] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/ament_index/resource_index/packages/graph_visual_control\n'}
+[21.112309] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/cmake/graph_visual_controlConfig.cmake\n'}
+[21.130700] (-) TimerEvent: {}
+[21.133399] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/cmake/graph_visual_controlConfig-version.cmake\n'}
+[21.152745] (graph_visual_control) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/package.xml\n'}
+[21.165724] (graph_visual_control) StdoutLine: {'line': b'-- Installing: /ros2_ws/src/graph_visual_control/install/graph_visual_control/include/graph_visual_control\n'}
+[21.166109] (graph_visual_control) StdoutLine: {'line': b'-- Installing: /ros2_ws/src/graph_visual_control/install/graph_visual_control/include/graph_visual_control/graph_visual_control\n'}
+[21.166455] (graph_visual_control) StdoutLine: {'line': b'-- Installing: /ros2_ws/src/graph_visual_control/install/graph_visual_control/include/graph_visual_control/graph_visual_control/graph_viz_ctrl.hpp\n'}
+[21.166999] (graph_visual_control) StdoutLine: {'line': b'-- Installing: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/launch\n'}
+[21.167309] (graph_visual_control) StdoutLine: {'line': b'-- Installing: /ros2_ws/src/graph_visual_control/install/graph_visual_control/share/graph_visual_control/launch/graph_visual_control.launch.py\n'}
+[21.174820] (graph_visual_control) CommandEnded: {'returncode': 0}
+[21.257996] (-) TimerEvent: {}
+[21.292849] (graph_visual_control) JobEnded: {'identifier': 'graph_visual_control', 'rc': 0}
+[21.294489] (-) EventReactorShutdown: {}

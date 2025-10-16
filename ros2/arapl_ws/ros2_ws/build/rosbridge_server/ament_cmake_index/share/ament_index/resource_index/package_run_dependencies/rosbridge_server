@@ -1,0 +1,1 @@
+rclcpp;rclcpp_components;std_msgs;geometry_msgs;sensor_msgs;nav_msgs;rosidl_default_runtime;rosidl_typesupport_cpp;rosidl_typesupport_introspection_cpp;libboost-dev;libboost-system-dev;libboost-thread-dev;libwebsocketpp-dev;nlohmann-json-dev;ament_lint_auto;ament_lint_common

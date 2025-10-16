@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anscer_msgs/srv/DeleteWaypoint.srv
+// generated code does not contain a copyright notice
+
+
+module anscer_msgs {
+  module srv {
+    struct DeleteWaypoint_Request {
+      boolean delete_wp;
+
+      int16 waypoint_order;
+
+      string waypoint_id;
+
+      string waypoint_type;
+    };
+    struct DeleteWaypoint_Response {
+      string status;
+
+      boolean is_deleted;
+    };
+  };
+};
