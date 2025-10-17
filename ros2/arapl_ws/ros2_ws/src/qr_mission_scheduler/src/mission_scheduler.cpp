@@ -45,7 +45,12 @@ MissionScheduler::MissionScheduler(const rclcpp::NodeOptions & options)
     std::bind(&MissionScheduler::handle_cancel, this, _1),
     std::bind(&MissionScheduler::handle_accepted, this, _1));
     
+  // Set robot as ready and healthy
+  robot_status_data_.data = true;
+  robot_status_pub_->publish(robot_status_data_);
+  
   RCLCPP_INFO(this->get_logger(), "Mission Scheduler Server initialized successfully");
+  RCLCPP_INFO(this->get_logger(), "Robot status set to READY and HEALTHY");
 }
 
 MissionScheduler::~MissionScheduler()
