@@ -159,6 +159,69 @@ void ModbusController::initializeParameters() {
         node_->declare_parameter("modbus_write.brake_command", 144);
     }
     
+    // PLC Control Registers (from ZEUS PLC analysis)
+    if (!node_->has_parameter("modbus_write.picking_ready_signal")) {
+        node_->declare_parameter("modbus_write.picking_ready_signal", 13);
+    }
+    if (!node_->has_parameter("modbus_write.picking_start_signal")) {
+        node_->declare_parameter("modbus_write.picking_start_signal", 14);
+    }
+    if (!node_->has_parameter("modbus_write.dropping_ready_signal")) {
+        node_->declare_parameter("modbus_write.dropping_ready_signal", 15);
+    }
+    if (!node_->has_parameter("modbus_write.dropping_start_signal")) {
+        node_->declare_parameter("modbus_write.dropping_start_signal", 16);
+    }
+    if (!node_->has_parameter("modbus_write.robot_running_signal")) {
+        node_->declare_parameter("modbus_write.robot_running_signal", 41);
+    }
+    if (!node_->has_parameter("modbus_write.all_acr_fault_reset")) {
+        node_->declare_parameter("modbus_write.all_acr_fault_reset", 43);
+    }
+    if (!node_->has_parameter("modbus_write.charging_signal")) {
+        node_->declare_parameter("modbus_write.charging_signal", 71);
+    }
+    
+    // Position Control Registers
+    if (!node_->has_parameter("modbus_write.picking_tt_0_deg")) {
+        node_->declare_parameter("modbus_write.picking_tt_0_deg", 1);
+    }
+    if (!node_->has_parameter("modbus_write.picking_tt_90_deg")) {
+        node_->declare_parameter("modbus_write.picking_tt_90_deg", 2);
+    }
+    if (!node_->has_parameter("modbus_write.picking_tt_180_deg")) {
+        node_->declare_parameter("modbus_write.picking_tt_180_deg", 3);
+    }
+    
+    // Floor Selection Registers
+    if (!node_->has_parameter("modbus_write.picking_floor1")) {
+        node_->declare_parameter("modbus_write.picking_floor1", 4);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor2")) {
+        node_->declare_parameter("modbus_write.picking_floor2", 5);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor3")) {
+        node_->declare_parameter("modbus_write.picking_floor3", 6);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor4")) {
+        node_->declare_parameter("modbus_write.picking_floor4", 7);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor5")) {
+        node_->declare_parameter("modbus_write.picking_floor5", 8);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor6")) {
+        node_->declare_parameter("modbus_write.picking_floor6", 9);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor7")) {
+        node_->declare_parameter("modbus_write.picking_floor7", 10);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor8")) {
+        node_->declare_parameter("modbus_write.picking_floor8", 11);
+    }
+    if (!node_->has_parameter("modbus_write.picking_floor9")) {
+        node_->declare_parameter("modbus_write.picking_floor9", 12);
+    }
+    
     // Get parameters
     m_ip_address_ = node_->get_parameter("ip_address").as_string();
     m_modbus_port_ = node_->get_parameter("port").as_int();
@@ -186,6 +249,31 @@ void ModbusController::initializeParameters() {
     m_homing_distance_pin_ = node_->get_parameter("modbus_write.homing_commmand").as_int();
     m_charge_pin_ = node_->get_parameter("modbus_write.charge_pin").as_int();
     m_brake_cmd_pin_ = node_->get_parameter("modbus_write.brake_command").as_int();
+    
+    // Get PLC Control Register parameters
+    m_picking_ready_signal_pin_ = node_->get_parameter("modbus_write.picking_ready_signal").as_int();
+    m_picking_start_signal_pin_ = node_->get_parameter("modbus_write.picking_start_signal").as_int();
+    m_dropping_ready_signal_pin_ = node_->get_parameter("modbus_write.dropping_ready_signal").as_int();
+    m_dropping_start_signal_pin_ = node_->get_parameter("modbus_write.dropping_start_signal").as_int();
+    m_robot_running_signal_pin_ = node_->get_parameter("modbus_write.robot_running_signal").as_int();
+    m_all_acr_fault_reset_pin_ = node_->get_parameter("modbus_write.all_acr_fault_reset").as_int();
+    m_charging_signal_pin_ = node_->get_parameter("modbus_write.charging_signal").as_int();
+    
+    // Get Position Control Register parameters
+    m_picking_tt_0_deg_pin_ = node_->get_parameter("modbus_write.picking_tt_0_deg").as_int();
+    m_picking_tt_90_deg_pin_ = node_->get_parameter("modbus_write.picking_tt_90_deg").as_int();
+    m_picking_tt_180_deg_pin_ = node_->get_parameter("modbus_write.picking_tt_180_deg").as_int();
+    
+    // Get Floor Selection Register parameters
+    m_picking_floor1_pin_ = node_->get_parameter("modbus_write.picking_floor1").as_int();
+    m_picking_floor2_pin_ = node_->get_parameter("modbus_write.picking_floor2").as_int();
+    m_picking_floor3_pin_ = node_->get_parameter("modbus_write.picking_floor3").as_int();
+    m_picking_floor4_pin_ = node_->get_parameter("modbus_write.picking_floor4").as_int();
+    m_picking_floor5_pin_ = node_->get_parameter("modbus_write.picking_floor5").as_int();
+    m_picking_floor6_pin_ = node_->get_parameter("modbus_write.picking_floor6").as_int();
+    m_picking_floor7_pin_ = node_->get_parameter("modbus_write.picking_floor7").as_int();
+    m_picking_floor8_pin_ = node_->get_parameter("modbus_write.picking_floor8").as_int();
+    m_picking_floor9_pin_ = node_->get_parameter("modbus_write.picking_floor9").as_int();
 }
 
 uint32_t ModbusController::convertDoubleInt(uint16_t low, uint16_t high) {
@@ -345,6 +433,12 @@ void ModbusController::initializeRobotReadyState() {
     // Initialize write register data
     std::fill(write_reg_data_, write_reg_data_ + WRITEREGISTERNUMBER, 0);
     
+    // CRITICAL: Set robot ready signals for white LED (healthy status)
+    // These are the key registers that control the robot's health LED
+    write_reg_data_[m_picking_ready_signal_pin_ - STARTINGINDEX] = 1;    // Register 13
+    write_reg_data_[m_dropping_ready_signal_pin_ - STARTINGINDEX] = 1;   // Register 15
+    write_reg_data_[m_robot_running_signal_pin_ - STARTINGINDEX] = 1;    // Register 41
+    
     // Set mission confirmation to indicate robot is ready
     write_reg_data_[m_mission_confirmation_command_pin_ - STARTINGINDEX] = 1;
     write_reg_data_[m_mission_task_pin_ - STARTINGINDEX] = 0;  // No task
@@ -352,6 +446,7 @@ void ModbusController::initializeRobotReadyState() {
     // Write initial state to PLC
     if (m_modbus_device_.writeData(STARTINGINDEX, WRITEREGISTERNUMBER, write_reg_data_)) {
         RCLCPP_INFO(node_->get_logger(), "Robot initialized in ready state - White LED should be on");
+        RCLCPP_INFO(node_->get_logger(), "PICKING_READY=1, DROPPING_READY=1, ROBOT_RUNNING=1");
     } else {
         RCLCPP_ERROR(node_->get_logger(), "Failed to initialize robot ready state");
     }

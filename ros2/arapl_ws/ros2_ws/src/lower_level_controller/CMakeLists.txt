@@ -40,6 +40,11 @@ add_executable(${PROJECT_NAME}_node
   src/Client.cpp
 )
 
+# Add robot health service executable
+add_executable(robot_health_service
+  src/robot_health_service.cpp
+)
+
 # Specify dependencies
 set(dependencies
   rclcpp
@@ -67,6 +72,7 @@ target_link_libraries(${PROJECT_NAME}_node
 # Install targets
 install(TARGETS
   ${PROJECT_NAME}_node
+  robot_health_service
   DESTINATION lib/${PROJECT_NAME}
 )
 
