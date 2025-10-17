@@ -1,9 +1,10 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, LogInfo
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 import os
+import yaml
 
 
 def generate_launch_description():
@@ -15,6 +16,38 @@ def generate_launch_description():
     roboteq_config = os.path.join(pkg_share, 'config', 'roboteq_configuration.yaml')
     odrive_config = os.path.join(pkg_share, 'config', 'odrive_configuration.yaml')
     rainbow_config = os.path.join(pkg_share, 'config', 'rainbow_configuration.yaml')
+    
+    # Load and display parameters like ROS1
+    def load_and_display_params(config_file, prefix=""):
+        try:
+            with open(config_file, 'r') as file:
+                params = yaml.safe_load(file)
+                if params:
+                    for key, value in params.items():
+                        if isinstance(value, dict):
+                            for subkey, subvalue in value.items():
+                                LogInfo(msg=f" * {prefix}{key}/{subkey}: {subvalue}")
+                        else:
+                            LogInfo(msg=f" * {prefix}{key}: {value}")
+        except Exception as e:
+            LogInfo(msg=f"Could not load parameters from {config_file}: {e}")
+    
+    # Display parameters for each config file
+    LogInfo(msg="SUMMARY")
+    LogInfo(msg="========")
+    LogInfo(msg="")
+    LogInfo(msg="PARAMETERS")
+    load_and_display_params(lower_level_config, "/lower_level_controller/")
+    load_and_display_params(modbus_config, "/lower_level_controller/")
+    load_and_display_params(roboteq_config, "/lower_level_controller/")
+    load_and_display_params(odrive_config, "/lower_level_controller/")
+    load_and_display_params(rainbow_config, "/lower_level_controller/")
+    LogInfo(msg="")
+    LogInfo(msg="NODES")
+    LogInfo(msg="  /")
+    LogInfo(msg="    lower_level_controller (lower_level_controller/lower_level_controller_node)")
+    LogInfo(msg="    odom_to_map (tf2_ros/static_transform_publisher)")
+    LogInfo(msg="")
 
 
     # Static TF publisher (odom to map)

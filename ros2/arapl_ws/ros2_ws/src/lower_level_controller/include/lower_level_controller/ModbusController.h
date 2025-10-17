@@ -43,6 +43,7 @@ private:
     /* Member Functions */
     void initialize();
     void initializeParameters();
+    void initializeRobotReadyState();
     uint32_t convertDoubleInt(uint16_t low, uint16_t high);
     void distGoalCallback(const std_msgs::msg::Float32::SharedPtr distMsg);
     void chargeCallback(const std_msgs::msg::Int32::SharedPtr msg);
@@ -64,6 +65,31 @@ private:
     int m_buffer_feedback_pin_;
     int m_bot_shelf_pin_;
     int m_charge_pin_;
+    
+    // PLC Control Registers (from ZEUS PLC analysis)
+    int m_picking_ready_signal_pin_;
+    int m_picking_start_signal_pin_;
+    int m_dropping_ready_signal_pin_;
+    int m_dropping_start_signal_pin_;
+    int m_robot_running_signal_pin_;
+    int m_all_acr_fault_reset_pin_;
+    int m_charging_signal_pin_;
+    
+    // Position Control Registers
+    int m_picking_tt_0_deg_pin_;
+    int m_picking_tt_90_deg_pin_;
+    int m_picking_tt_180_deg_pin_;
+    
+    // Floor Selection Registers
+    int m_picking_floor1_pin_;
+    int m_picking_floor2_pin_;
+    int m_picking_floor3_pin_;
+    int m_picking_floor4_pin_;
+    int m_picking_floor5_pin_;
+    int m_picking_floor6_pin_;
+    int m_picking_floor7_pin_;
+    int m_picking_floor8_pin_;
+    int m_picking_floor9_pin_;
     
     bool m_charge_ = false;
     int m_charge_number_ = 0;

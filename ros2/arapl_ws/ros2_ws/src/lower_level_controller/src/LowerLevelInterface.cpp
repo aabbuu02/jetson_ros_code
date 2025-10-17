@@ -15,14 +15,28 @@ LowerLevelInterface::LowerLevelInterface(std::shared_ptr<rclcpp::Node> node) : n
 }
 
 void LowerLevelInterface::initializeParameters() {
-    // Declare parameters only if not already declared
-    if (!node_->has_parameter("controller_type")) {
-        node_->declare_parameter("controller_type", 1);
-    }
-    if (!node_->has_parameter("publish_tf")) {
-        node_->declare_parameter("publish_tf", true);
-    }
+    // Declare all required parameters
+    node_->declare_parameter("controller_type", 1);
+    node_->declare_parameter("publish_tf", false);
+    node_->declare_parameter("odom_frame", std::string("odom_frame"));
+    node_->declare_parameter("base_frame", std::string("base_footprint"));
+    node_->declare_parameter("cmd_topic", std::string("cmd_vel"));
+    node_->declare_parameter("debug_cmd_topic", std::string("debug/cmd_vel"));
+    node_->declare_parameter("odom_topic", std::string("odom_"));
+    node_->declare_parameter("emergency_stop_topic", std::string("e_stop"));
+    node_->declare_parameter("barcode_topic", std::string("barcode/global"));
     
+    // Robot parameters
+    node_->declare_parameter("robot.wheel_seperation", 0.90);
+    node_->declare_parameter("robot.wheel_radius", 0.101);
+    node_->declare_parameter("robot.TPR", 16384.0);  // Declare as double
+    node_->declare_parameter("robot.linear_vel_limit", 1.0);
+    node_->declare_parameter("robot.angular_vel_limit", 1.0);
+    node_->declare_parameter("robot.linear_acc_limit", 100.2);
+    node_->declare_parameter("robot.linear_decc_limit", 100.2);
+    node_->declare_parameter("robot.gearRatio", 9.0);  // Declare as double
+    
+    // Get parameter values
     m_controller_type_ = node_->get_parameter("controller_type").as_int();
     m_publish_tf_ = node_->get_parameter("publish_tf").as_bool();
     

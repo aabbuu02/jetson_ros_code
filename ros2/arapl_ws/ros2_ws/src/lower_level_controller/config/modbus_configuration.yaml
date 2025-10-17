@@ -8,26 +8,86 @@ lower_level_controller:
       right_motor_encoder: 4
       battery_voltage: 9
       battery_percentage: 10
-      power_off: 16  # 15
+      power_off: 16
       mission_feedback: 17
       buffer_feedback: 67
       bot_shelfno: 67
       emergency_feedback: 17
+      
+      # PLC Status Registers (from ZEUS PLC analysis)
+      robot_running_fb: 41
+      all_acr_fault: 42
+      emg_stop_fault: 45
+      lifter_drive_fault: 47
+      tt_drive_fault: 49
+      extractor_drive_fault: 51
+      swing_arm_drive_fault: 53
+      lifter_home_sensor: 65
+      tt_home_sensor: 67
+      extractor_home_sensor: 69
     
     modbus_write:
       time_stamp_update: 100
-      left_motor_command: 102  # Register index with left motor feedback
+      left_motor_command: 102
       right_motor_command: 103
       buzzer_command: 107
       pick_location: 115
       pick_orientation: 114
       drop_location: 117
       drop_orientation: 116
-      mission_confirmation: 141  # 105
-      tast_command: 142  # pick or drop pin
+      mission_confirmation: 141
+      tast_command: 142
       brake_command: 144
       charge_pin: 145
       homing_commmand: 143
+      
+      # PLC Control Registers (from ZEUS PLC analysis)
+      picking_ready_signal: 13      # CRITICAL: Robot ready for picking
+      picking_start_signal: 14      # Start picking operation
+      dropping_ready_signal: 15     # CRITICAL: Robot ready for dropping  
+      dropping_start_signal: 16     # Start dropping operation
+      robot_running_signal: 41      # Robot running status
+      all_acr_fault_reset: 43       # Reset all faults
+      charging_signal: 71           # Charging control
+      
+      # Position Control Registers
+      picking_tt_0_deg: 1           # Turntable 0° position
+      picking_tt_90_deg: 2          # Turntable 90° position
+      picking_tt_180_deg: 3         # Turntable 180° position
+      dropping_tt_0_deg: 17         # Dropping turntable 0°
+      dropping_tt_90_deg: 18        # Dropping turntable 90°
+      dropping_tt_180_deg: 19       # Dropping turntable 180°
+      
+      # Floor Selection Registers (1-9)
+      picking_floor1: 4
+      picking_floor2: 5
+      picking_floor3: 6
+      picking_floor4: 7
+      picking_floor5: 8
+      picking_floor6: 9
+      picking_floor7: 10
+      picking_floor8: 11
+      picking_floor9: 12
+      
+      dropping_pick_floor1: 20
+      dropping_pick_floor2: 21
+      dropping_pick_floor3: 22
+      dropping_pick_floor4: 23
+      dropping_pick_floor5: 24
+      dropping_pick_floor6: 25
+      dropping_pick_floor7: 26
+      dropping_pick_floor8: 27
+      dropping_pick_floor9: 28
+      
+      dropping_place_floor1: 29
+      dropping_place_floor2: 30
+      dropping_place_floor3: 31
+      dropping_place_floor4: 32
+      dropping_place_floor5: 33
+      dropping_place_floor6: 34
+      dropping_place_floor7: 35
+      dropping_place_floor8: 36
+      dropping_place_floor9: 37
     
     ip_address: "192.168.1.125"
     port: 502

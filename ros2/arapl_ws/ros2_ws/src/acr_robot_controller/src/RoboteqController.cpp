@@ -66,7 +66,7 @@ void RoboteqController::readCommands(readParameters &readParam)
                             "Failed to read encoder values");
     }
     
-    RCLCPP_DEBUG_STREAM(node_->get_logger(), "LEFT " << m_leftEncoderReading << " RIGHT " << m_rightEncoderReading);
+    RCLCPP_INFO_STREAM(node_->get_logger(), "LEFT " << m_leftEncoderReading << " Right : " << m_rightEncoderReading);
     
     int leftSpeed = m_roboteqDevice.GetValue(_ABSPEED, 2, m_leftSpeed);
     int rightSpeed = m_roboteqDevice.GetValue(_ABSPEED, 1, m_rightSpeed);

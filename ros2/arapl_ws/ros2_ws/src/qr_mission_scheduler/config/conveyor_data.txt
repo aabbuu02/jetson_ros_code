@@ -1,0 +1,10 @@
+# Conveyor Data File
+# Format: conveyor_id,x,y,theta,status
+# This file contains conveyor locations and status information
+
+# Example conveyor entries (adjust coordinates as needed)
+1,10.0,5.0,0.0,active
+2,15.0,5.0,0.0,active
+3,20.0,5.0,0.0,active
+4,25.0,5.0,0.0,active
+5,30.0,5.0,0.0,active

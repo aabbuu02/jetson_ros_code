@@ -13,7 +13,14 @@ class RoboteqController : public AHighLevelController
 {
 public:
     RoboteqController(std::shared_ptr<rclcpp::Node> node);
-    virtual ~RoboteqController() {}
+    virtual ~RoboteqController() 
+    {
+        // Properly disconnect from Roboteq device on shutdown
+        if (m_roboteqDevice.IsConnected()) {
+            RCLCPP_INFO(node_->get_logger(), "Disconnecting from Roboteq device...");
+            m_roboteqDevice.Disconnect();
+        }
+    }
     
     rclcpp::Publisher<anscer_msgs::msg::MotorDiagnosticsArray>::SharedPtr motorPub;
     
