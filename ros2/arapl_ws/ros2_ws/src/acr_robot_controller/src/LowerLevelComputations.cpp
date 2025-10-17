@@ -160,7 +160,8 @@ void LowerLevelComputations::computeOdometry(uint32_t deltaTime, const readParam
     tf2::Quaternion q;
     q.setRPY(0, 0, m_theta);
     
-    odom.header.stamp = node_->now();
+    // Use system time for consistent time source
+    odom.header.stamp = rclcpp::Time(Utilities::millis() * 1000000, RCL_SYSTEM_TIME);
     odom.header.frame_id = m_odomFrame;
     odom.child_frame_id = m_baseFrame;
     

@@ -8,7 +8,8 @@ RosClass::RosClass(std::shared_ptr<rclcpp::Node> node)
     
     initializeParameters();
     
-    m_cmdVelPrevUpdateTime = node_->now();
+    // Use system time instead of ROS time to avoid time source conflicts
+    m_cmdVelPrevUpdateTime = rclcpp::Time(Utilities::millis() * 1000000, RCL_SYSTEM_TIME);
     
     cmdVelSub = node_->create_subscription<geometry_msgs::msg::Twist>(
         m_cmdVelTopic, 1, 
@@ -51,7 +52,8 @@ void RosClass::initializeParameters()
 void RosClass::cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
 {
     m_cmdVel = *msg;
-    m_cmdVelPrevUpdateTime = node_->now();
+    // Use system time instead of ROS time to avoid time source conflicts
+    m_cmdVelPrevUpdateTime = rclcpp::Time(Utilities::millis() * 1000000, RCL_SYSTEM_TIME);
 }
 
 void RosClass::eStopCallback(const std_msgs::msg::Bool::SharedPtr msg)
@@ -62,7 +64,10 @@ void RosClass::eStopCallback(const std_msgs::msg::Bool::SharedPtr msg)
 geometry_msgs::msg::Twist RosClass::getCommandVelocity()
 {
     bool resetVel = false;
-    rclcpp::Duration elapsedTime = node_->now() - m_cmdVelPrevUpdateTime;
+    
+    // Use system time for consistent time source
+    rclcpp::Time currentTime(Utilities::millis() * 1000000, RCL_SYSTEM_TIME);
+    rclcpp::Duration elapsedTime = currentTime - m_cmdVelPrevUpdateTime;
     
     if(elapsedTime.seconds() >= m_cmdVelResetTimeout) 
         resetVel = true;
@@ -90,7 +95,8 @@ void RosClass::updateTF(const nav_msgs::msg::Odometry &odom)
 {
     geometry_msgs::msg::TransformStamped transformStamped;
     
-    transformStamped.header.stamp = node_->now();
+    // Use system time for consistent time source
+    transformStamped.header.stamp = rclcpp::Time(Utilities::millis() * 1000000, RCL_SYSTEM_TIME);
     transformStamped.header.frame_id = "/odom_frame";
     transformStamped.child_frame_id = "/base_footprint";
     
@@ -112,7 +118,8 @@ void RosClass::sendReadParameters(const readParameters &parameterValue)
             parameterValue.m_roboteqDiagnosticsFeedback.motor_diagnostics;
         
         sensor_msgs::msg::BatteryState batteryMsg;
-        batteryMsg.header.stamp = node_->now();
+        // Use system time for consistent time source
+        batteryMsg.header.stamp = rclcpp::Time(Utilities::millis() * 1000000, RCL_SYSTEM_TIME);
         batteryMsg.charge = 100.0f;
         batteryMsg.capacity = 120.0f;
         batteryMsg.design_capacity = 120.0f;

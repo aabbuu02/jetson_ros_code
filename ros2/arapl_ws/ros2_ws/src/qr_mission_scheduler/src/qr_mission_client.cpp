@@ -15,7 +15,7 @@ MissionClient::MissionClient(const rclcpp::NodeOptions & options)
   this->declare_parameter("picked_count", 0);
   this->declare_parameter("charge_destination", 0);
   this->declare_parameter("rack_data_path", "/home/user/ros2_ws/rack_data.txt");
-  this->declare_parameter("conveyor_data_path", "/ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/conveyor_data.txt");
+  this->declare_parameter("conveyor_data_path", "/ros2_ws/install/qr_mission_scheduler/share/qr_mission_scheduler/config/conveyer_data.txt");
   
   maximum_pick_size_ = this->get_parameter("max_bins").as_int();
   source_ = this->get_parameter("starting_vertex").as_int();
