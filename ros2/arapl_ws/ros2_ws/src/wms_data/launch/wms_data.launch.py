@@ -2,7 +2,7 @@
 
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import DeclareLaunchArgument
+from launch.actions import DeclareLaunchArgument, ExecuteProcess
 from launch.substitutions import LaunchConfiguration
 from launch.conditions import IfCondition, UnlessCondition
 from ament_index_python.packages import get_package_share_directory
@@ -54,9 +54,17 @@ def generate_launch_description():
         parameters=[LaunchConfiguration('config_file')]
     )
     
+    # WMS Flask Server
+    wms_server = ExecuteProcess(
+        cmd=['python3', os.path.join(pkg_share, '..', '..', '..', 'src', 'wms_server.py')],
+        name='wms_server',
+        output='screen'
+    )
+    
     return LaunchDescription([
         use_soap_arg,
         config_file_arg,
+        wms_server,
         wms_database_node,
         wms_database_server_node,
         wms_logger_node

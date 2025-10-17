@@ -94,10 +94,7 @@ bool GraphServer::loadGraphFromFile(const std::string &filename, graph_msgs::msg
     return false;
   }
 
-  // TODO: Implement actual GraphML parsing here
-  // For now, create a simple placeholder implementation
-  // You'll need to integrate with your graph_creator library properly
-  
+  // Basic GraphML parsing implementation
   RCLCPP_INFO(this->get_logger(), "Loading graph from: %s", filename.c_str());
   
   // Set header
@@ -106,12 +103,99 @@ bool GraphServer::loadGraphFromFile(const std::string &filename, graph_msgs::msg
   
   // Set metadata
   graph.meta_data.graph_name = fs::path(filename).stem().string();
-  graph.meta_data.graph_type = graph_msgs::msg::GraphMetaData::UNDIRECTED;
-  graph.meta_data.number_of_vertices = 0;
-  graph.meta_data.number_of_edges = 0;
+  graph.meta_data.graph_type = graph_msgs::msg::GraphMetaData::DIRECTED;
   
-  RCLCPP_WARN(this->get_logger(), 
-             "Graph parsing not fully implemented. Please integrate graph_creator properly.");
+  std::ifstream file(filename);
+  if (!file.is_open())
+  {
+    RCLCPP_ERROR(this->get_logger(), "Could not open graph file: %s", filename.c_str());
+    return false;
+  }
+  
+  std::string line;
+  std::vector<graph_msgs::msg::Node> nodes;
+  std::vector<graph_msgs::msg::Edge> edges;
+  
+  while (std::getline(file, line))
+  {
+    // Parse nodes
+    if (line.find("<node id=") != std::string::npos)
+    {
+      // Extract node ID
+      size_t start = line.find("id=\"") + 4;
+      size_t end = line.find("\"", start);
+      if (start != std::string::npos && end != std::string::npos)
+      {
+        std::string node_id = line.substr(start, end - start);
+        
+        // Look for pose data
+        std::getline(file, line); // name
+        std::getline(file, line); // alias
+        std::getline(file, line); // type
+        std::getline(file, line); // ignore.orientation
+        std::getline(file, line); // pose
+        
+        if (line.find("pose>") != std::string::npos)
+        {
+          size_t pose_start = line.find("pose>") + 5;
+          size_t pose_end = line.find("</data>", pose_start);
+          if (pose_start != std::string::npos && pose_end != std::string::npos)
+          {
+            std::string pose_str = line.substr(pose_start, pose_end - pose_start);
+            std::istringstream pose_stream(pose_str);
+            
+            graph_msgs::msg::Node node;
+            node.id = std::stoi(node_id);
+            
+            // Parse pose: x y z qx qy qz qw
+            double x, y, z, qx, qy, qz, qw;
+            if (pose_stream >> x >> y >> z >> qx >> qy >> qz >> qw)
+            {
+              node.pose.position.x = x;
+              node.pose.position.y = y;
+              node.pose.position.z = z;
+              node.pose.orientation.x = qx;
+              node.pose.orientation.y = qy;
+              node.pose.orientation.z = qz;
+              node.pose.orientation.w = qw;
+            }
+            
+            nodes.push_back(node);
+          }
+        }
+      }
+    }
+    
+    // Parse edges
+    if (line.find("<edge source=") != std::string::npos)
+    {
+      size_t source_start = line.find("source=\"") + 8;
+      size_t source_end = line.find("\"", source_start);
+      size_t target_start = line.find("target=\"") + 8;
+      size_t target_end = line.find("\"", target_start);
+      
+      if (source_start != std::string::npos && source_end != std::string::npos &&
+          target_start != std::string::npos && target_end != std::string::npos)
+      {
+        graph_msgs::msg::Edge edge;
+        edge.source = std::stoi(line.substr(source_start, source_end - source_start));
+        edge.target = std::stoi(line.substr(target_start, target_end - target_start));
+        edge.weight = 1.0; // Default weight
+        edges.push_back(edge);
+      }
+    }
+  }
+  
+  file.close();
+  
+  // Set the parsed data
+  graph.nodes = nodes;
+  graph.edges = edges;
+  graph.meta_data.number_of_vertices = nodes.size();
+  graph.meta_data.number_of_edges = edges.size();
+  
+  RCLCPP_INFO(this->get_logger(), "Successfully parsed graph with %zu nodes and %zu edges", 
+              nodes.size(), edges.size());
   
   return true;
 }

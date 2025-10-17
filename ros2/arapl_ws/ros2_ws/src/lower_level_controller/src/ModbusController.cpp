@@ -36,6 +36,9 @@ void ModbusController::initialize() {
             "Failed to establish Modbus connection! Check device and network.");
     } else {
         RCLCPP_INFO(node_->get_logger(), "Modbus connection initialized successfully");
+        
+        // Initialize robot in ready state
+        initializeRobotReadyState();
     }
 }
 
@@ -326,6 +329,32 @@ void ModbusController::readCommands(readParameters &readParam) {
     
     RCLCPP_DEBUG_STREAM(node_->get_logger(), "Left Encoder: " << readParam.m_leftMotorEncoder <<
         " Right Encoder: " << readParam.m_rightMotorEncoder);
+}
+
+void ModbusController::initializeRobotReadyState() {
+    RCLCPP_INFO(node_->get_logger(), "Initializing robot in ready state...");
+    
+    // Set initial values for robot ready state
+    m_mission_completed_ = true;  // Robot is ready
+    m_mission_updated_ = false;   // No mission in progress
+    m_top_module_initiated_ = false;  // No top module active
+    m_buffer_feedback_ = 0;       // No buffer feedback
+    m_charge_number_ = 0;         // Not charging
+    m_homing_distance_ = 0;       // Not homing
+    
+    // Initialize write register data
+    std::fill(write_reg_data_, write_reg_data_ + WRITEREGISTERNUMBER, 0);
+    
+    // Set mission confirmation to indicate robot is ready
+    write_reg_data_[m_mission_confirmation_command_pin_ - STARTINGINDEX] = 1;
+    write_reg_data_[m_mission_task_pin_ - STARTINGINDEX] = 0;  // No task
+    
+    // Write initial state to PLC
+    if (m_modbus_device_.writeData(STARTINGINDEX, WRITEREGISTERNUMBER, write_reg_data_)) {
+        RCLCPP_INFO(node_->get_logger(), "Robot initialized in ready state - White LED should be on");
+    } else {
+        RCLCPP_ERROR(node_->get_logger(), "Failed to initialize robot ready state");
+    }
 }
 
 int32_t ModbusController::readEncoder(int encoder_num) {

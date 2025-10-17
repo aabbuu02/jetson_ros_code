@@ -43,6 +43,7 @@ private:
     /* Member Functions */
     void initialize();
     void initializeParameters();
+    void initializeRobotReadyState();
     uint32_t convertDoubleInt(uint16_t low, uint16_t high);
     void distGoalCallback(const std_msgs::msg::Float32::SharedPtr distMsg);
     void chargeCallback(const std_msgs::msg::Int32::SharedPtr msg);
